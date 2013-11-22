@@ -1,98 +1,90 @@
-<script language="Javascript">
-<!--
-function Serie1Link() {
-document.getElementById('Serie1').style.display = 'block'
-document.getElementById('Serie3').style.display = 'none'
-
-document.getElementById('Serie1').className = 'bmwLinksSelecOn'
-document.getElementById('Serie3').className = 'bmwLinksSelecOff'
-}
-function Serie3Link() {
-document.getElementById('Serie1').style.display = 'none'
-document.getElementById('Serie3').style.display = 'block'
-
-document.getElementById('Serie1').className = 'bmwLinksSelecOff'
-document.getElementById('Serie3').className = 'bmwLinksSelecOn'
-}
-
-//-->
-</script>
-<link href="style.css" rel="stylesheet" type="text/css" />
 <?php
-	if(isset($_REQUEST['id'])){$id=$_REQUEST['id'];}else{$id='';}
-	$serie1=mysql_query("SELECT * FROM nuevos WHERE serie='Serie 1' ORDER BY serie");
-	$serie3=mysql_query("SELECT * FROM nuevos WHERE serie='Serie 3' ORDER BY serie");
+	$id=$_REQUEST['id'];
+	$nissan=mysql_query("SELECT * FROM nuevos WHERE marca='Nissan' ORDER BY modelo");
 	if(isset($id) && !empty($id)) 
 	{
 		$modelo=mysql_query("SELECT * FROM nuevos WHERE id='$id'");	
 	} 
 	else 
 	{
-		$modelo=mysql_query("SELECT * FROM nuevos WHERE marca='Bmw' ORDER BY RAND() LIMIT 0,1");
+		$modelo=mysql_query("SELECT * FROM nuevos WHERE marca='Nissan' ORDER BY RAND() LIMIT 0,1");
 	}
 ?>
-<script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="triumph.css" rel="stylesheet" type="text/css" />
+
 <div id="medio">
-  <div class="seccionesFloat"><img src="img/brdlinea.png" width="98" height="31" hspace="23" align="right" /><strong>BMW</strong></div>
-  <div id="bmwVideo<?php if($id=="") {} else { echo "2"; }?>"><div id="bmwLogo"><img src="img/bmw.png" alt="BMW" width="103" height="91" hspace="20" align="right" /><br />
-      DEJATE LLEVAR<br />
-    POR TUS SENTIMIENTOS</div>
-    <?php if($id=="") { ?>
-    <object data="swf/video.swf" type="application/x-shockwave-flash" width="320" height="180" hspace="100" vspace="20">
-      <param name="movie" value="swf/video.swf" />
-      <param name="wmode" value="transparent" />
-      <img src="img/videodemo.jpg" alt="Flash Player no disponible" width="375" height="211" hspace="100" vspace="20"/>
-    </object>
-    <?php } else {  } ?>
+ 	<div id="triumph_header">
+    	<p>	GO YOUR OWN WAY </p>
+        
+        <ul>
+        	<li><a href="#">Bonneville</a></li>
+            <li><a href="#">Bonneville T100</a></li>
+            <li><a href="#">Scrambler</a></li>
+            <li><a href="#">Thruxton</a></li>
+            <li><a href="#">Tiger 800 XC</a></li>
+            <li><a href="#">Tiger Explorer XC</a></li>
+        </ul> 
+    </div> 
     
-  </div>
-  <div id="bmwLinks">
-    <div class="bmwLinksTitulo" id="sSerie1">SERIES</div>
-    <div class="bmwLinksSelecOff" id="sSerie1"><a href="#" onMouseOver="Serie1Link()">Serie 1</a></div>
-    <div class="bmwLinksSelecOff" id="sSerie3"><a href="#" onMouseOver="Serie3Link()">Serie 3</a></div>
-  </div>
-  <div id="bmwSubLinks">
-    <div style="display:none" id="Serie1">
-      <?php while ($row=mysql_fetch_array ($serie1)) {?>
-      <a href="?mod=<?php echo $mod; ?>&amp;id=<?php echo $row['id']; ?>"><?php echo $row['modelo']; ?></a>
-      <?php } ?>
-    </div>
-    <div style="display:none" id="Serie3">
-      <?php while ($row=mysql_fetch_array ($serie3)) {?>
-      <a href="?mod=<?php echo $mod; ?>&amp;id=<?php echo $row['id']; ?>"><?php echo $row['modelo']; ?></a>
-      <?php } ?>
-    </div>
-  </div>
-  <?php while ($row=mysql_fetch_array ($modelo)) {?>
-  <div id="bmwModelo"><?php echo $row['marca']; ?> <?php echo $row['serie']; ?> <?php echo $row['modelo']; ?></div>
-  <div id="bmwFoto"><img src="fotos/nuevos/thumbs/<?php echo $row['foto']; ?>" align="right" /></div>
-  <div id="bmwCaracteristicas">
-    <h1>Caracter&Iacute;sticas</h1>
-    <?php echo $row['caracteristicas']; ?> <br />
-    <br />
-    <a href="contacto/index.php?imail=ventas@hiltonmotors.com.uy&amp;asunto=Consulta por NUEVO Modelo <?php echo $row['modelo']; ?>" rel="facebox"><img src="img/btnConsulte.png" alt="Consulta" width="80" height="30" border="0" /></a></div>
-  <div id="bmwDetalle">
-    <h1>INFORMACI&Oacute;N DETALLADA</h1>
-    <?php echo $row['detalle']; $idlink = $row['id'];?> </div>  <?php if ($row['versiones']!==''): ?>
-  <div class="versiones_titulo">VERSIONES:</div>
-  <div id="versiones">
-  <?php 
-  $versiones = explode(";",$row['versiones']);  
-  $versiones_cant = count($versiones);
   
-  for ($i = 0; $i < $versiones_cant; $i++)
-  {
-	  $vers = explode(",",$versiones[$i]);
-	  echo '<div class="version">'.$vers[0].'</div><div class="precio">U$S '.$vers[1].'</div>';
-  }
-  ?>
-  </div> 
-  <?php endif;?>
-   
-  <div class="versiones_titulo">GALERÍA:</div>
-  <?php } ?>
-  <?php $galeria=mysql_query("SELECT * FROM fotos WHERE idlink='$idlink' and tipo='nuevos'");	 ?>
-  <?php while ($row=mysql_fetch_array ($galeria)) {?>
-  <div class="bmwMiniFoto"><a href="fotos/nuevos/<?php echo $row['foto']; ?>" rel="lightbox-"><img src="fotos/nuevos/thumbs/<?php echo $row['foto']; ?>" alt="miniFoto" height="85" width="130" border="0" /></a></div>
-  <?php } ?>
-</div>
+    <div class="triumph_menu" id="Bonneville_overview">
+      
+   		<ul>
+        	<li><a href="#" class="active">Vista General</a></li>
+            <li><a href="#">Características</a></li>
+            <li><a href="#">Especificaciones</a></li>         
+        </ul>
+        
+    </div>
+    
+    <div class="triumph_content">
+    
+    	<div id="left_box">
+        	<img src="img/marcas/Triumph/my14_bonneville_black_f3q_0.jpg" width="100%" />
+        </div>
+        
+        <div id="right_box">
+        	<h1>
+            	Bonneville
+            </h1>
+            
+            <p>
+            	Nuevo modelo. Nuevas sensaciones.
+				La moto definitiva para el aficionado a los grandes viajes. 
+                Manejo preciso. El viaje no termina cuando acaba la carretera. 
+				Nuevo motor de 1215cc, con cardan, por supuesto. 
+				Una Triumph para conquistar el mundo. 
+            </p>
+            
+            <div class="botones">
+            	<a id="ficha_tecnica" href="#"> </a>
+                <a id="consulte" href="#"> </a> 
+            </div>
+            
+        </div> <!-- /rightbox -->
+    <div class="clear"></div>
+    </div> <!-- /content -->
+    
+    <div id="triumph_gallery">
+    
+    	<a href="img/marcas/Triumph/Bonneville_01.jpg" rel="lightbox-"> 
+        <img src="img/marcas/Triumph/Bonneville_01.jpg" width="230" border="0" alt="Motocicleta Boneville"/>
+        </a>
+        
+        <a href="img/marcas/Triumph/Bonneville_02.jpg" rel="lightbox-"> 
+        <img src="img/marcas/Triumph/Bonneville_02.jpg" width="230" border="0" alt="Motocicleta Boneville"/>
+        </a>
+            	<a href="img/marcas/Triumph/Bonneville_03.jpg" rel="lightbox-"> 
+        <img src="img/marcas/Triumph/Bonneville_03.jpg" width="230" border="0" alt="Motocicleta Boneville"/>
+        </a>
+        
+        <a href="img/marcas/Triumph/Bonneville_04.jpg" rel="lightbox-"> 
+        <img src="img/marcas/Triumph/Bonneville_04.jpg" width="230" border="0" alt="Motocicleta Boneville"/>
+        </a>
+           
+        <div class="clear" style="float:none;"></div>
+    </div>    
+    
+</div><!--#medio-->

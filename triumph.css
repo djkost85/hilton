@@ -1,0 +1,296 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700);
+
+/***********************************************/
+/********* V I S T A   G E N E R A L ***********/
+/***********************************************/
+
+/*HEADER*/
+.clear{clear:both;}
+
+#triumph_header{
+	width:100%;
+	height:120px;
+	background-color:black;
+	background-image:url(img/Triumph.png);
+	background-repeat:no-repeat;
+	background-position: 15px 15px;
+	color:#fff;
+	font-size:11px;
+}
+
+#triumph_header p{
+	margin-left:160px;
+	padding-top:25px;
+	margin-bottom:20px;
+}
+
+#triumph_header ul{
+	border-top: 1px solid #fff;
+	padding-top:15px;
+	
+}
+
+#triumph_header ul li{
+	list-style:none;
+	text-transform:uppercase;
+	float:left;
+	margin-right:25px;
+}
+
+#triumph_header a{
+	text-decoration:none;
+	color:#fff;
+}
+
+#triumph_header a:hover{ color:#09C; }
+
+/* cierre HEADER*/
+
+
+/*MENU*/
+
+.triumph_menu{
+	width:100%;
+	height:310px;
+	background-repeat:no-repeat;
+	position:relative;
+}
+
+.triumph_menu h1{
+	font-family: 'Roboto', sans-serif;
+	font-size:45px;
+	font-weight:300;
+	text-transform:uppercase;
+	color:#fff;
+	text-align:right;
+	padding:100px 50px 0 0;
+}
+
+.triumph_menu ul{
+	position:absolute;
+	bottom:0;
+	left:50%;
+	width:490px;
+	padding:0;
+	margin:0 0 0 -240px;
+}
+
+.triumph_menu ul li{
+	list-style:none;
+	float:left;	
+	margin-right:3px;
+}
+
+.triumph_menu ul li a{
+	display:block;
+	width:160px;
+	height:35px;
+	line-height:35px;
+	background-color:black;
+	text-decoration:none;
+	font-size:15px;
+	color:#fff;
+	text-align:center;
+}
+
+.triumph_menu ul li a.active {
+	background-color:white;
+	color:#000;
+}
+
+.triumph_menu ul li a:hover{ background-color:white; color:#000;}
+
+#Bonneville_overview{ background-image:url(img/marcas/Triumph/Bonneville_Overview-.jpg);}
+
+/* cierre MENU*/
+
+
+
+/*CONTENT*/
+
+.triumph_content { margin:0 auto; margin-bottom:20px;}
+
+.triumph_content #left_box{
+	float:left;
+	width:470px;
+	height:400px;
+	overflow:hidden;
+	background-color:#FFF;
+}
+
+.triumph_content #right_box{
+	float:left;
+	height:330px;
+	width:400px;
+	background-color:#f3f3f3;	
+	padding:35px;
+	position:relative;
+}
+
+.triumph_content #right_box h1{
+	color:#262626;
+	font-size:15px;
+	margin:0 0 10px 0;
+}
+
+.triumph_content #right_box p{
+	font-size:15px;
+	margin:0;
+}
+
+.triumph_content #right_box .botones {
+	position:absolute;
+	bottom:27px;
+}
+
+.botones #ficha_tecnica{
+	float:left;
+	width:90px;
+	height:35px;
+	background-image:url(img/ficha_tecnica.png);
+}
+.botones #ficha_tecnica:hover {background-image:url(img/ficha_tecnica_hover.png);}
+.botones #ficha_tecnica:active {background-image:url(img/ficha_tecnica_press.png);}
+
+.botones #consulte{
+	float:left;
+	width:90px;
+	height:35px;
+	background-image:url(img/consulte.png);
+}
+.botones #consulte:hover{background-image:url(img/consulte_hover.png);}
+.botones #consulte:active{background-image:url(img/consulte_press.png);}
+
+/* cierre CONTENT*/
+
+
+/* triumph GALLERY*/
+
+#triumph_gallery {
+		width:920px;
+		/*height:153px;*/
+		border:10px solid #e2e2e2;
+		background-color: #e2e2e2;
+}
+/*cierre GALLERY*/
+
+#triumph_gallery *{
+	padding:0;
+	margin:0;
+	display:block;
+	text-decoration:none;
+	border:0;
+	float:left;
+	
+}
+/*cierre GALLERY*/
+
+/****************************************************/
+/********* 	C A R A C T E R I S T I C A S ***********/
+/****************************************************/
+
+
+.triumph_content table {
+	width:760px;
+	border-spacing:15px;
+	margin:0 auto;
+	margin-top:15px;
+}
+
+.triumph_content table  #caracteristicas{
+	width:250px;
+}
+
+.triumph_content table td {
+	text-align:left;
+	font-size:11px;
+	vertical-align:top;
+}
+
+.triumph_content table h2 {
+	font-size: 15px;
+}
+
+
+.triumph_content table .foto {
+	width:100px;
+	height:100px;
+}
+
+
+
+/*******************************************************/
+/********* 	E S P E C I F I C A C I O N E S  ***********/
+/*******************************************************/
+
+.motorcyclesIntroText h1 {font-size:15px; width:830px; margin:0 auto; margin-top:15px;}
+
+#motorcycleSpecTable {
+    width: 830px;
+	border-spacing:0;
+	
+}
+#motorcycleSpecTable th
+{
+    background: #000;
+    color: #fff;
+    padding: 5px;
+    font-size: 11px;
+	text-align:left;
+}
+#motorcycleSpecTable td 
+{
+    padding: 5px;
+    vertical-align: top;
+    font-size: 11px;
+    font-weight: normal;
+}
+#motorcycleSpecTable .borderBtm
+{
+    border-bottom: 1px solid #000;
+}
+#motorcycleSpecTable .borderRight 
+{
+    border-right: 1px solid #000;
+}
+#motorcycleSpecTable .leftCol
+{
+    width: 30%;
+}
+#motorcycleSpecTable .leftColShortSpec
+{
+    width: 40%;
+}
+.motorcycleFullSpecTable 
+{
+    margin-bottom: 20px;
+}
+.motorcycleShortSpecTable
+{
+    margin-bottom: 5px;
+}
+#motorcycleSpecTable .compTitle 
+{
+    width: 14%;
+}
+#motorcycleSpecTable  .result 
+{
+    width: 24%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

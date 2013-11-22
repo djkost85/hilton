@@ -97,7 +97,7 @@ document.getElementById('bannerflotante').style.display = 'none'
   
   <div id="menuPrincipal">
     <a href="?mod=acercadenosotros">Acerca de nosotros</a>
-    <a href="?mod=bmw">BMW</a> <a href="?mod=nissan">Nissan</a>
+    <a href="?mod=bmw">Bmw</a> <a href="?mod=nissan">Nissan</a>
     <a href="?mod=ducati">Ducati</a>
   </div>
     
