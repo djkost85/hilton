@@ -1,0 +1,1024 @@
+@charset "utf-8";
+body {
+	margin: 0px;
+	background-image: url(img/fondoCabezal.png);
+	background-repeat: repeat-x;
+	background-position: top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+#contenedor {
+	width: 940px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+}
+#medio {
+	float: left;
+	width: 940px;
+}
+#menuSuperiorInicio {
+	float: left;
+	height: 19px;
+	width: 470px;
+	font-size: 120%;
+	color: #FFFFFF;
+	padding-top: 3px;
+}
+#menuSuperiorInicio a{
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+#menuSuperiorInicio a:hover{
+	color: #999999;
+
+}
+#menuSuperiorContacto {
+	float: left;
+	height: 19px;
+	width: 470px;
+	padding-top: 3px;
+	text-align: right;
+	font-size: 120%;
+}
+#menuSuperiorContacto a{
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+#menuSuperiorContacto a:hover{
+	color: #999999;
+
+}
+#logoHilton {
+	float: left;
+	height: 101px;
+	width: 323px;
+	background-image: url(img/logo.png);
+	background-repeat: no-repeat;
+	background-position: 15px 36px;
+}
+#menu1 {
+	float: left;
+	width: 170px;
+	height: 101px;
+}
+#menu2 {
+	float: left;
+	width: 170px;
+	height: 101px;
+}
+#menuPrincipal {
+	float: left;
+	width: 427px;
+	height: 101px;
+	padding-left: 20px;
+}
+#menuPrincipal a{
+	font-size: 130%;
+	text-decoration: none;
+	color: #5E5E5E;
+	padding-left: 22px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #C8C8C8;
+	margin-left: 23px;
+	float: left;
+	margin-top: 43px;
+}
+#menuPrincipal a:hover{
+	color: #0343AB;
+}
+#menuPrincipal2 {
+	float: left;
+	width: 170px;
+	height: 65px;
+}
+#menuPrincipal2 a{
+	font-size: 130%;
+	text-decoration: none;
+	color: #5E5E5E;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #C8C8C8;
+	float: left;
+	margin-top: 43px;
+	padding-left: 20px;
+}
+#menuPrincipal2 a:hover{
+	color: #0343AB;
+}
+#menuSubrubro {
+	width: 148px;
+	float: left;
+	height: 36px;
+	padding-left: 22px;
+	text-align: left;
+}
+#menuSubrubro a{
+	color: #666666;
+	font-size: 110%;
+	width: 110px;
+	text-decoration: none;
+
+}
+#menuSubrubro a:hover{
+	color: #0343AB;
+}
+#fotoPrincipal {
+	float: left;
+	height: 397px;
+	width: 940px;
+}
+.marcas {
+	float: left;
+	height: 328px;
+	width: 313px;
+	background-image: url(img/fondoMarcas.jpg);
+}
+.marcasTitulo {
+	float: left;
+	height: 29px;
+	width: 303px;
+	font-size: 180%;
+	padding-top: 30px;
+	padding-left: 10px;
+	color: #585858;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.marcasFoto {
+	float: left;
+	height: 168px;
+	width: 303px;
+	padding-top: 16px;
+	padding-left: 10px;
+}
+.marcasTexto {
+	float: left;
+	height: 83px;
+	width: 283px;
+	color: #FFFFFF;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 2px;
+}
+.marcasTexto a{
+	font-size: 120%;
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+.marcasTexto a:hover{
+	color: #999999;
+
+}
+#facebook {
+	float: left;
+	height: 320px;
+	width: 200px;
+	padding-top: 9px;
+	padding-left: 7px;
+}
+
+#noticias {
+	float: left;
+	height: 289px;
+	width: 415px;
+	padding: 20px;
+}
+#noticias h1{
+	font-size: 350%;
+	color: #333333;
+	line-height: 35px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+
+}
+#noticias h2{
+	font-size: 200%;
+	color: #666666;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+#noticias_titulos_foto{
+	float: left;
+	height: 150px;
+
+}
+#noticias_copete{
+	font-size: 110%;
+	line-height: 20px;
+	float: left;
+	width: 415px;
+	height: 90px;
+	margin-top: 10px;
+}
+#noticias_btn a{
+	background-image: url(img/ampliar.png);
+	height: 24px;
+	width: 69px;
+	font-size: 140%;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	line-height: 24px;
+	float: right;
+}
+#noticias_btn a:hover{
+	background-position: 0px 24px;
+}
+#historial {
+	float: left;
+	height: 289px;
+	width: 238px;
+	padding: 20px;
+	overflow: auto;
+}
+#historial ul{
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+
+}
+#historial li{
+	list-style-type: square;
+	font-size: 110%;
+	line-height: 30px;
+}
+#historial a{
+	font-size: 110%;
+	color:#333333;
+}
+#historial a:hover{
+	color:#003399;
+}
+#venta {
+	float: left;
+	width: 940px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#venta_autos {
+	float: left;
+	width: 470px;
+}
+#venta_motos {
+	float: left;
+	width: 469px;
+	border-left-width: 1px;
+	border-left-style: dotted;
+	border-left-color: #999999;
+}
+.ventaLink a{
+	background-image: url(img/ampliar2.png);
+	float: right;
+	height: 24px;
+	width: 146px;
+	font-size: 110%;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	line-height: 24px;
+	margin-top: 5px;
+	margin-right: 15px;
+}
+.ventaLink a:hover{
+	background-position: 0px 24px;
+
+}
+.productos{
+	float: left;
+	width: 204px;
+	height: 170px;
+	margin: 15px;
+}
+.productos_1{
+	float: left;
+	width: 120px;
+	height: 20px;
+	font-size: 120%;
+}
+.productos_a{
+	float: left;
+	width: 150px;
+	height: 20px;
+	font-size: 120%;
+}
+.productos_b{
+	float: left;
+	width: 45px;
+	height: 20px;
+	text-align: right;
+}
+.productos_2 a{
+	text-decoration: none;
+	color: #0066CC;
+}
+.productos_2 a:hover{
+	color: #666666;
+}
+.productos_foto{
+	float: left;
+	width: 205px;
+	height: 130px;
+	text-align: center;
+}
+.secciones {
+	font-size: 240%;
+	color: #585858;
+	height: 30px;
+	width: 100%;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	margin-bottom: 15px;
+	border-bottom-color: #C3C3C3;
+}
+.seccionesFloat {
+	font-size: 220%;
+	color: #6C6C6C;
+	height: 30px;
+	width: 940px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #C3C3C3;
+	float: left;
+}
+.seccionesFloat a{
+	color: #585858;
+	text-decoration: none;
+	margin-left: 15px;
+}
+.seccionesFloat a:hover{
+	color: #0033FF;
+}
+#pie {
+	height: 120px;
+	width: 100%;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #909090;
+	float: left;
+	font-size: 120%;
+	color: #535353;
+	font-weight: bold;
+}
+#pieMenu {
+	height: 30px;
+	width: 940px;
+	background-repeat: repeat-x;
+	background-position: bottom;
+	float: left;
+	text-align: center;
+	margin-top: 30px;
+	font-size: 110%;
+	color: #545454;
+}
+#pieMenu a{
+	color: #535353;
+	letter-spacing: 1px;
+	text-decoration: none;
+
+}
+#pieMenu a:hover{
+	color: #8E8E8E;
+
+}
+#bmwNoticias {
+	float: left;
+	height: 300px;
+	width: 534px;
+	padding-top: 23px;
+	padding-right: 20px;
+}
+#bmwNoticias h1{
+	font-size: 350%;
+	color: #333333;
+	line-height: 30px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+
+}
+#bmwNoticias h2{
+	font-size: 200%;
+	color: #666666;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+#bmwLogo {
+	float: left;
+	height: 111px;
+	width: 386px;
+	font-size: 180%;
+	font-weight: bold;
+	color: #333333;
+	text-align: right;
+	position: absolute;
+	z-index: 100;
+	margin-left: 554px;
+}
+#bmwVideo {
+	width: 939px;
+	float: left;
+	margin-bottom: 20px;
+	position: relative;
+	background-image: url(img/fnd_bmw.jpg);
+	background-repeat: no-repeat;
+}
+#bmwVideo2 {
+	width: 939px;
+	float: left;
+	margin-bottom: 20px;
+	position: relative;
+	height: 80px;
+}
+
+#bmwModelo {
+	font-size: 200%;
+	color: #666666;
+	height: 23px;
+	width: 940px;
+	float: left;
+	padding-top: 15px;
+}
+#bmwLinks {
+	font-size: 240%;
+	color: #585858;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #C3C3C3;
+	float: left;
+	height: 25px;
+	width: 940px;
+	float: left;
+	padding-top: 5px;
+	margin-bottom: 5px;
+}
+.bmwLinksTitulo {
+	color: #585858;
+	float: left;	
+}
+.bmwLinksSelecOff a{
+	color: #585858;
+	float: left;
+	margin-left: 20px;
+	text-decoration: none;
+}
+.bmwLinksSelecOff a:hover{
+	color: #0066CC;
+}
+.bmwLinksSelecOn a{
+	color: #0066CC;
+	float: left;
+	margin-left: 20px;
+	text-decoration: none;
+}
+#bmwSubLinks {
+	font-size: 180%;
+	color: #585858;
+	float: left;
+	height: 20px;
+	width: 940px;
+	float: left;
+	margin-bottom: 5px;
+}
+#bmwSubLinks a{
+	color: #4E4E4E;
+	margin-right: 10px;
+	text-decoration: none;
+}
+#bmwSubLinks a:hover{
+	color: #0066CC;
+}
+#bmwFoto {
+	height: 251px;
+	width: 940px;
+	float: left;
+}
+#bmwCaracteristicas {
+	height: 270px;
+	width: 469px;
+	float: left;
+	font-size: 110%;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCCCCC;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+#bmwCaracteristicas h1{
+	text-transform: uppercase;
+	font-size: 140%;
+	font-weight: bold;
+	color: #535353;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+
+}
+#bmwDetalle {
+	height: 251px;
+	width: 450px;
+	float: left;
+	padding-left: 20px;
+	overflow: auto;
+	font-size: 110%;
+}
+#bmwDetalle h1{
+	text-transform: uppercase;
+	font-size: 140%;
+	font-weight: bold;
+	color: #535353;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+}
+#bmwDetalle ul{
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+
+}
+#bmwDetalle li{
+	list-style-type: square;
+	font-size: 110%;
+	line-height: 20px;
+
+}
+.bmwMiniFoto a{
+	height: 85px;
+	width: 130px;
+	float: left;
+	padding: 6px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.bmwMiniFoto a:hover{
+	background-color: #BABABA;
+}
+#ducatiTitulo{
+	height: 53px;
+	width: 746px;
+	float: left;
+	background-image: url(img/ducati_titulo.png);
+}
+#ducatiLogo{
+	height: 151px;
+	width: 194px;
+	float: left;
+	background-image: url(img/ducati_logo.png);
+}
+#ducatiCabezal{
+	height: 151px;
+	width: 746px;
+	float: left;
+	background-image: url(img/ducati_fondo_menu.png);
+	background-position: 0px 53px;
+}
+#ducatiMenu{
+	height: 98px;
+	width: 746px;
+	float: left;
+}
+#ducatiLinks{
+	height: 18px;
+	width: 727px;
+	float: left;
+	font-size: 160%;
+	font-weight: bold;
+	padding-left: 19px;
+	padding-top: 20px;
+}
+#ducatiLinks a{
+	text-decoration: none;
+	margin-right: 25px;
+}
+#ducatiLinks a:hover{
+	color: #CC0000;
+
+}
+.ducatiLinksSelecOff a{
+	color: #FFFFFF;
+	float: left;	
+}
+.ducatiLinksSelecOn a{
+	color: #CC0000;
+	float: left;	
+}
+#ducatiSubLinks{
+	height: 45px;
+	width: 727px;
+	float: left;
+	padding-left: 19px;
+	color: #FFFFFF;
+	padding-top: 15px;
+	font-size: 120%;
+	font-weight: bold;
+}
+#ducatiSubLinks a{
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-right: 10px;
+
+}
+#ducatiSubLinks a:hover{
+	color: #CC0000;
+
+}
+#ducatiFotoFondo{
+	height: 437px;
+	width: 898px;
+	float: left;
+	background-image: url(img/ducatiFondoFotos.jpg);
+	padding-right: 21px;
+	padding-left: 21px;
+}
+#ducatiCaracteristicas{
+	height: 377px;
+	width: 303px;
+	float: right;
+	background-image: url(img/ducati_fondo_transparente.png);
+	padding: 30px;
+	color: #BEBEBE;
+	font-size: 110%;
+	line-height: 18px;
+}
+#ducatiCaracteristicas h1{
+	margin: 0px;
+	font-size: 300%;
+	color: #FFFFFF;
+
+}
+#ducatiCaracteristicas h2{
+	color: #C80C00;
+	font-size: 160%;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+
+}
+#ducatiGaleria{
+	width: 940px;
+	float: left;
+	background-color: #050505;
+}
+.ducatiMiniFoto a{
+	height: 85px;
+	width: 130px;
+	float: left;
+	padding: 6px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.ducatiMiniFoto a:hover{
+	background-color: #990000;
+}
+#ducatiNoticias{
+	height: 240px;
+	width: 468px;
+	float: left;
+	background-color: #050505;
+	padding: 20px;
+	color: #D2D2D2;
+	font-size: 110%;
+	line-height: 18px;
+}
+#ducatiNoticias h1{
+	color: #990000;
+	font-size: 240%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	line-height: 28px;
+
+}
+#ducatiNoticias h2{
+	font-size: 200%;
+	font-weight: normal;
+	color: #990000;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+#ducatiNoticiasBtn a{
+	background-image: url(img/ampliarDucati.png);
+	float: right;
+	height: 24px;
+	width: 69px;
+	font-size: 140%;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	line-height: 24px;
+	margin-top: 5px;
+}
+#ducatiNoticiasBtn a:hover{
+	background-position: 0px 24px;
+}
+#ducatiHistorial{
+	height: 240px;
+	width: 392px;
+	float: left;
+	background-color: #050505;
+	color: #E8E8E8;
+	padding: 20px;
+}
+#ducatiHistorial ul{
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 18px;
+}
+#ducatiHistorial li{
+	list-style-type: square;
+	font-size: 110%;
+	line-height: 30px;
+	list-style-image: url(img/square.png);
+}
+#ducatiHistorial a{
+	color: #E8E8E8;
+	text-decoration:none;
+}
+#ducatiHistorial a{
+	color: #990000;
+}
+#ducatiPie{
+	height: 15px;
+	width: 940px;
+	float: left;
+	background-image: url(img/ducatiPie.jpg);
+}
+#nissanTitulo{
+	height: 41px;
+	width: 940px;
+	float: left;
+	background-image: url(img/nissanLogo.png);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+#nissanPrincipal{
+	height: 167px;
+	width: 940px;
+	float: left;
+	background-image: url(img/nissanPrincipal2.jpg);
+	color: #FFFFFF;
+}
+#nissanPrincipal h1{
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	font-size: 300%;
+
+}
+#nissanPrincipal h2{
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+#nissanPrincipalBtn a{
+	background-image: url(img/ampliarNissan.png);
+	float: left;
+	height: 24px;
+	width: 69px;
+	font-size: 140%;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	line-height: 24px;
+	margin-top: 5px;
+}
+#nissanPrincipalBtn a:hover{
+	background-position: 0px 24px;
+}
+#nissanMenu{
+	float: left;
+	height: 33px;
+	width: 928px;
+	background-color: #545454;
+	padding-top: 10px;
+	padding-left: 12px;
+	margin-top: 1px;
+}
+#nissanMenu a{
+	font-size: 180%;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+	margin-right: 20px;
+
+}#nissanMenu a:hover{
+	color: #FF6600;
+
+}
+#nissanMenu{
+	float: left;
+	height: 33px;
+	width: 928px;
+	background-color: #545454;
+	padding-top: 10px;
+	padding-left: 12px;
+}
+#nissanFotoPrincipal{
+	float: left;
+	height: 298px;
+	width: 940px;
+
+}
+#indice {
+	float: left;
+	height: 20px;
+	width: 940px;
+	text-align: center;
+	font-size: 120%;
+	font-weight: bold;
+	color: #333333;
+}
+#indice a{
+	text-decoration: none;
+	color: #333333;
+}
+#indice a:hover{
+	color: #003399;
+	text-decoration: none;
+}
+.texto {
+	font-size: 120%;
+	margin: 20px;
+}
+#usadosTitulo {
+	float: left;
+	height: 25px;
+	width: 660px;
+	font-size: 180%;
+}
+#usadosTexto {
+	float: left;
+	width: 618px;
+	font-size: 120%;
+	border: 1px solid #C0C0C0;
+	padding: 20px;
+}
+#usadosTexto a{
+	text-decoration: none;
+	font-size: 90%;
+	color: #535353;
+	border: 1px solid #D3D3D3;
+	padding: 5px;
+	background-color: #E4E4E4;
+}
+#usadosTexto a:hover{
+	text-decoration: none;
+	font-size: 90%;
+	color: #535353;
+	border: 1px solid #D3D3D3;
+	padding: 5px;
+	background-color: #CFCFCF;
+}
+#usadosFoto {
+	float: right;
+	width: 200px;
+	font-size: 120%;
+	border: 1px solid #C0C0C0;
+	padding: 5px;
+	margin-top: 25px;
+}
+#usadosGaleria {
+	float: left;
+	width: 858px;
+	font-size: 120%;
+	border: 1px solid #C0C0C0;
+	padding: 20px;
+	margin-top: 25px;
+}
+#usadosGaleria a{
+	border: 2px solid #939393;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	margin-top: 5px;
+
+}
+#usadosGaleria a:hover{
+	border-top-color: #0066FF;
+	border-right-color: #0066FF;
+	border-bottom-color: #0066FF;
+	border-left-color: #0066FF;
+
+}
+#acercadenosotros {
+	font-size: 120%;
+	color: #3F3F3F;
+}
+#acercadenosotros h1{
+	font-size: 120%;
+	color: #006AAA;
+}
+#acercadenosotros ul{
+	font-size: 120%;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#acercadenosotros li{
+	font-size: 90%;
+	line-height: 18px;
+}
+/*.bannerflotante {
+	height: 494px;
+	width: 100%;
+	position: fixed;
+	top: 50px;
+	z-index: 200;
+	background-image: url(img/banner_brd.png);
+	background-repeat: no-repeat;
+	margin-right: auto;
+	margin-left: auto;
+	background-position: center;*/
+}
+/*.bannerflotante_img {
+	height: 494px;
+	width: 943px;
+	background-image: url(img/itau_nissan.jpg);
+	text-align: right;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 22px;
+	background-repeat: no-repeat;
+	background-position: center center;*/
+}
+.versiones_titulo {
+	background-color: #959595;
+	float: left;
+	width: 920px;
+	margin-top: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	color: #FFF;
+	font-size: 12px;
+	font-weight: bold;
+}
+#versiones {
+	background-color: #E9E9E9;
+	float: left;
+	width: 920px;
+	height: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+#versiones .version{
+	float: left;
+	width: 170px;
+	font-size: 14px;
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #808080;
+	color: #555555;
+	height: 20px;
+	padding-top: 4px;
+}
+#versiones .precio{
+	width: 118px;
+	float: left;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #808080;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin-right: 10px;
+	height: 19px;
+	background-color: #818181;
+	padding-top: 5px;
+
+}

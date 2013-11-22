@@ -1,0 +1,444 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"backg",
+				"background-color:   (property)"
+			],
+			[
+				"margin-",
+				"margin-right:   (property)"
+			],
+			[
+				"back",
+				"background-size:   (property)"
+			],
+			[
+				"a",
+				"bga	background-attachment"
+			],
+			[
+				"fan",
+				"font-variant"
+			],
+			[
+				"s",
+				"sombra	sombra"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"co",
+				"color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 381.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"snip",
+				"Snippet: Get Elements"
+			]
+		],
+		"width": 732.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/hiltonmotors/admin/nuevos/guardar.php",
+		"/C/xampp/htdocs/hiltonmotors/bmw.php",
+		"/C/xampp/htdocs/hiltonmotors/ducati.php",
+		"/C/xampp/htdocs/hiltonmotors/nissan.php",
+		"/C/xampp/htdocs/hiltonmotors/admin/nuevos/nuevo.php",
+		"/C/xampp/htdocs/hiltonmotors/admin/nuevos/eliminar.php",
+		"/C/xampp/htdocs/hiltonmotors/lista.php",
+		"/C/xampp/htdocs/hiltonmotors/admin/nuevos/modificar.php",
+		"/C/xampp/htdocs/hiltonmotors/admin/usados/actualizar.php",
+		"/C/xampp/htdocs/hiltonmotors/admin/usados/guardar.php",
+		"/C/xampp/htdocs/hiltonmotors/admin/usados/modificar.php",
+		"/C/xampp/htdocs/hiltonmotors/usado.php",
+		"/C/xampp/htdocs/hiltonmotors/admin/nuevos/actualizar.php",
+		"/C/xampp/htdocs/hiltonmotors/principal.php",
+		"/C/xampp/htdocs/hiltonmotors/principalRespaldo.php",
+		"/C/xampp/htdocs/hiltonmotors/usados.php",
+		"/C/xampp/htdocs/hiltonmotors/usados_motos.php",
+		"/C/xampp/htdocs/hiltonmotors/admin/usados/index.php",
+		"/C/xampp/htdocs/hiltonmotors/admin/nuevos/fotos.php",
+		"/C/xampp/htdocs/hiltonmotors/admin/usados/borrar_foto.php",
+		"/C/xampp/htdocs/hiltonmotors/index.php",
+		"/C/xampp/htdocs/hiltonmotors/admin/nuevos/guardar_foto.php",
+		"/C/xampp/htdocs/hiltonmotors/admin/usados/guardar_foto.php",
+		"/C/xampp/htdocs/hiltonmotors/admin/nuevos/borrar_foto.php",
+		"/C/xampp/htdocs/hiltonmotors/admin/usados/agregar_foto.php",
+		"/C/xampp/htdocs/hiltonmotors/admin/usados/fotos.php",
+		"/C/xampp/htdocs/hiltonmotors/contacto/contacto.php",
+		"/C/xampp/htdocs/hiltonmotors/contacto/index.php",
+		"/C/xampp/htdocs/hiltonmotors/noticia.php",
+		"/C/xampp/htdocs/hiltonmotors/paginator.inc.php",
+		"/C/xampp/htdocs/hiltonmotors/php.ini",
+		"/C/xampp/htdocs/hiltonmotors/admin/noticias/actualizar.php",
+		"/C/xampp/htdocs/hiltonmotors/admin/noticias/modificar.php",
+		"/C/xampp/htdocs/hiltonmotors/admin/nuevos/agregar_foto.php",
+		"/C/xampp/htdocs/hiltonmotors/admin/menu.html",
+		"/C/xampp/htdocs/hiltonmotors/admin/nuevos/index.php",
+		"/C/xampp/htdocs/hiltonmotors/admin/noticias/index.php",
+		"/C/xampp/htdocs/hiltonmotors/admin/.htaccess",
+		"/C/Users/Miki Vg/Downloads/hiltonmo_motors (1).sql",
+		"/C/xampp/htdocs/hiltonmotors/admin/conectarse.php",
+		"/C/xampp/htdocs/barrancas/_inc/conexion.php",
+		"/C/xampp/htdocs/WEBSITE.STAGING/EVENTS/Digital-Disruption-API/download-presentations.html",
+		"/C/xampp/htdocs/WEBSITE.STAGING/EVENTS/Digital-Disruption-API/download_presentations.html",
+		"/C/xampp/htdocs/WEBSITE.STAGING/EVENTS/Digital-Disruption-API/css/menu.css",
+		"/C/xampp/htdocs/WEBSITE.STAGING/EVENTS/Digital-Disruption-API/css/main.css",
+		"/C/Users/Miki Vg/Documents/GitHub/WEBSITE.STAGING/EVENTS/Digital-Disruption-API/css/main.css",
+		"/C/Users/Miki Vg/Documents/GitHub/WEBSITE.STAGING/EVENTS/Digital-Disruption-API/footer.html",
+		"/C/Users/Miki Vg/Documents/GitHub/WEBSITE.STAGING/EVENTS/Digital-Disruption-API/index.html",
+		"/C/Users/Miki Vg/Documents/GitHub/WEBSITE.STAGING/EVENTS/Digital-Disruption-API/menu.html",
+		"/C/xampp/htdocs/donbaez/index.php",
+		"/C/xampp/htdocs/donbaez/js/codigo.js",
+		"/C/xampp/htdocs/donbaez/home.php",
+		"/C/Users/Miki Vg/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/C/xampp/htdocs/donbaez/js/galeria.js",
+		"/C/xampp/htdocs/donbaez/css/galeria.css",
+		"/C/Users/Miki Vg/Documents/GitHub/WEBSITE.STAGING/PUBLIC/TRAINING/js/developed-code.js",
+		"/C/xampp/htdocs/donbaez/index.html",
+		"/C/xampp/htdocs/donbaez/home.html",
+		"/C/xampp/htdocs/donbaez/conexion.php",
+		"/C/Users/Miki Vg/Downloads/montelan_donbaez.sql",
+		"/C/xampp/htdocs/circuit/js/custom.js",
+		"/C/xampp/htdocs/circuit/login-cliente.php",
+		"/C/xampp/htdocs/circuit/css/style.css",
+		"/C/xampp/htdocs/circuit/css/bootstrap-responsive.min.css",
+		"/C/xampp/htdocs/circuit/pie.php",
+		"/C/xampp/htdocs/circuit/menu.php",
+		"/C/Users/Miki Vg/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/Users/Miki Vg/AppData/Roaming/Sublime Text 3/Packages/Minifier/Minifier.sublime-settings",
+		"/C/Users/Miki Vg/AppData/Roaming/Sublime Text 3/Packages/User/Minifier.sublime-settings",
+		"/C/xampp/htdocs/circuit/ftp",
+		"/C/xampp/htdocs/circuit/css/lesstry.less",
+		"/C/xampp/htdocs/circuit/js/less.js",
+		"/C/xampp/htdocs/circuit/carrito.php",
+		"/C/xampp/htdocs/circuit/index.php",
+		"/C/xampp/htdocs/circuit/js/1.js",
+		"/C/xampp/htdocs/circuit/js/1",
+		"/C/xampp/htdocs/circuit/recibo-de-compra.php",
+		"/C/xampp/htdocs/circuit/drop.html",
+		"/C/xampp/htdocs/circuit/como-comprar.php",
+		"/C/xampp/htdocs/circuit/js/comprar.php",
+		"/C/xampp/htdocs/circuit/recibofinal.php",
+		"/C/xampp/htdocs/circuit/circuit.sublime-project",
+		"/C/Users/Miki Vg/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Miki Vg/AppData/Roaming/Sublime Text 3/Packages/AutoFileName/autofilename.sublime-settings",
+		"/C/xampp/htdocs/circuit/img/icon-maps.png",
+		"/C/xampp/htdocs/circuit/img/bgk-intro.png",
+		"/C/Users/Miki Vg/AppData/Roaming/Sublime Text 3/Packages/User/img.sublime-snippet",
+		"/C/Users/Miki Vg/AppData/Roaming/Sublime Text 3/Packages/User/crearHtml.sublime-snippet",
+		"/C/Users/Miki Vg/AppData/Roaming/Sublime Text 3/Packages/User/ready.sublime-snippet",
+		"/C/Users/Miki Vg/AppData/Roaming/Sublime Text 3/Packages/User/jquery.sublime-snippet",
+		"/C/Users/Miki Vg/AppData/Roaming/Sublime Text 3/Packages/User/redoneado.sublime-snippet",
+		"/C/Users/Miki Vg/AppData/Roaming/Sublime Text 3/Packages/User/transition.sublime-snippet",
+		"/C/Users/Miki Vg/AppData/Roaming/Sublime Text 3/Packages/User/favicon.sublime-snippet",
+		"/C/Users/Miki Vg/AppData/Roaming/Sublime Text 3/Packages/User/sombra.sublime-snippet",
+		"/C/xampp/htdocs/circuit/css/galeria.css",
+		"/C/xampp/htdocs/circuit/css/compras.css",
+		"/C/xampp/htdocs/circuit/busqueda.php",
+		"/C/xampp/htdocs/circuit/cambioCaracteres.php",
+		"/C/Users/Miki Vg/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/CHANGELOG",
+		"/C/xampp/htdocs/circuit/js/jquery-ui-1.8.21.custom.min.js",
+		"/C/xampp/htdocs/circuit/js/login.php",
+		"/C/Users/Miki Vg/AppData/Roaming/Sublime Text 3/Packages/DocBlockr/Base File.sublime-settings",
+		"/C/Users/Miki Vg/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/xampp/htdocs/circuit/admin/menu.php",
+		"/C/Users/Miki Vg/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Miki Vg/AppData/Roaming/Sublime Text 3/Packages/User/Plain text.sublime-settings",
+		"/C/xampp/htdocs/circuit/carritoCompras.php",
+		"/C/xampp/htdocs/circuit/home.php",
+		"/C/xampp/htdocs/circuit/carrito-de-compra.php"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\hiltonmotors",
+			"<project>",
+			"C:\\xampp\\htdocs\\hiltonmotors",
+			"C:\\xampp\\htdocs\\donbaez",
+			"<project>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"cambi",
+			"[versiones]",
+			"[detalle]",
+			"[caracteristicas]",
+			"[serie]",
+			"[informacion]",
+			"[precio]",
+			"[marca]",
+			"[ano]",
+			"[modelo]",
+			"cambiar()",
+			"[carpeta]",
+			"$row[carpeta]",
+			"$row[marca]",
+			"$row[modelo]",
+			"$row[precio]",
+			"$_POST[ambientes];",
+			"$_POST[barrios];",
+			"$_REQUEST['id']'id']",
+			"$_REQUEST['id']id]",
+			"$_REQUEST[",
+			"$_REQUEST[id]",
+			"$_REQUEST[",
+			"$row[foto]",
+			"$row[id]",
+			"$row[",
+			"carpe",
+			"incl",
+			"incli",
+			"carpe",
+			"eNo1jU0KwjAUhIXu3inmACE0aevi7UIIrZA/k2hP4MKNG1fe3lRwVsPHx4wrJRWGVbAa3kWGgoZS\nVFvHA1H41KtnLHKRk6ZbLUhVwKwuNoG769L+fMFuJQXXrVFOI+VgGHPvs1SUt3x4ItVjpZMz9kuM\njbyJK+Pxpt8BDad/vsSlH7Y=",
+			"$_REQUEST['mod']",
+			"hiltonmo_admin",
+			"color lay",
+			"download",
+			"downloas",
+			"download-content",
+			"dow-content",
+			"register-content",
+			"wid",
+			"ps_container",
+			"ps_image_wrapper",
+			"ps_imge",
+			".log .row img",
+			"new",
+			"-->",
+			"place.png",
+			"FORMAS DE PAGO:",
+			"mail(",
+			"56456464",
+			".",
+			".menu"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"['versiones']",
+			"['detalle']",
+			"['caracteristicas']",
+			"['serie']",
+			"['informacion']",
+			"['precio']",
+			"['marca']",
+			"['ano']",
+			"['modelo']",
+			"['carpeta']",
+			"$row['carpeta']",
+			"$row['marca']",
+			"$row['modelo']",
+			"$row['precio']",
+			"$_POST['ambientes'];",
+			"$_POST['barrios'];",
+			"$_REQUEST['id']",
+			"$row['foto']",
+			"$row['id']"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 40.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"project": "hilton.sublime-project",
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"home",
+				"home.php"
+			],
+			[
+				"cus",
+				"js\\custom.js"
+			],
+			[
+				"logi",
+				"login-cliente.php"
+			],
+			[
+				"cust",
+				"js\\custom.js"
+			],
+			[
+				"sty",
+				"css\\style.css"
+			],
+			[
+				"respo",
+				"css\\bootstrap-responsive.min.css"
+			],
+			[
+				"menu",
+				"menu.php"
+			],
+			[
+				"reci",
+				"recibofinal.php"
+			],
+			[
+				"comprar",
+				"js\\comprar.php"
+			],
+			[
+				"compra",
+				"js\\comprar.php"
+			],
+			[
+				"",
+				"carrito.php"
+			],
+			[
+				"inde",
+				"index.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 390.0,
+		"selected_items":
+		[
+			[
+				"",
+				"zIndex"
+			]
+		],
+		"width": 501.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 271.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
