@@ -34,11 +34,11 @@ else{$mod="";}
 </script>
 <script type="text/javascript"> 
 // link for shortcut icon
-HtmlLink hlinkIcon = new HtmlLink();
-hlinkIcon.Attributes.Add("href", this.ResolveUrl("~/favicon.ico"));
-hlinkIcon.Attributes.Add("rel", "SHORTCUT ICON");
-hlinkIcon.Attributes.Add("ID", @"LinkIcon1");
-this.Header.Controls.Add(hlinkIcon);
+//HtmlLink hlinkIcon = new HtmlLink();
+//hlinkIcon.Attributes.Add("href", this.ResolveUrl("~/favicon.ico"));
+//hlinkIcon.Attributes.Add("rel", "SHORTCUT ICON");
+//hlinkIcon.Attributes.Add("ID", @"LinkIcon1");
+//this.Header.Controls.Add(hlinkIcon);
 </script>
 
 <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -86,6 +86,7 @@ document.getElementById('bannerflotante').style.display = 'none'
   <div id="menuSuperiorInicio"><a href="?mod=principal">Inicio</a>
     <?php if ($mod=="") { echo ""; }?>
     <?php if ($mod=="bmw") { echo " / Bmw"; }?>
+    <?php if ($mod=="triumph") { echo " / Triumph"; }?>
     <?php if ($mod=="nissan") { echo " / Nissan"; }?>
     <?php if ($mod=="ducati") { echo " / Ducati"; }?>
     <?php if ($mod=="acercadenosotros") { echo " / Acerca de nosotros"; }?>
@@ -97,7 +98,7 @@ document.getElementById('bannerflotante').style.display = 'none'
   
   <div id="menuPrincipal">
     <a href="?mod=acercadenosotros">Acerca de nosotros</a>
-    <a href="?mod=bmw">Bmw</a> <a href="?mod=nissan">Nissan</a>
+    <a href="?mod=triumph">Triumph</a> <a href="?mod=nissan">Nissan</a>
     <a href="?mod=ducati">Ducati</a>
   </div>
     

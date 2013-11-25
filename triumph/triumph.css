@@ -14,7 +14,7 @@
 	width:100%;
 	height:120px;
 	background-color:black;
-	background-image:url(img/Triumph.png);
+	background-image:url(../img/triumph.png);
 	background-repeat:no-repeat;
 	background-position: 15px 15px;
 	color:#fff;
@@ -105,29 +105,29 @@
 .triumph_menu ul li a:hover{ background-color:white; color:#000;}
 
 /*imagen principal*/
-#Bonneville_overview{ background-image:url(img/marcas/Triumph/Boneville/Bonneville_Overview-.jpg);}
-#Bonneville_features{ background-image:url(img/marcas/Triumph/Boneville/Bonneville_Overview-.jpg);}
-#Bonneville_specs{ background-image:url(img/marcas/Triumph/Boneville/Bonneville_Spec.jpg);}
+#bonneville_overview{ background-image:url(../img/marcas/triumph/bonneville/bonneville_overview-.jpg);}
+#bonneville_features{ background-image:url(../img/marcas/triumph/bonneville/bonneville_overview-.jpg);}
+#bonneville_specs{ background-image:url(../img/marcas/triumph/bonneville/bonneville_spec.jpg);}
 
-#bonnevillet100_overview{ background-image:url(img/marcas/Triumph/bonevillet100/bonevilleT100overview.jpg);}
-#bonnevillet100_features{ background-image:url(img/marcas/Triumph/bonevillet100/bonevilleT100features.jpg);}
-#bonnevillet100_specs{ background-image:url(img/marcas/Triumph/bonevillet100/bonevilleT100specs.jpg);}
+#bonnevillet100_overview{ background-image:url(../img/marcas/triumph/bonnevillet100/bonnevillet100overview.jpg);}
+#bonnevillet100_features{ background-image:url(../img/marcas/triumph/bonnevillet100/bonnevillet100features.jpg);}
+#bonnevillet100_specs{ background-image:url(../img/marcas/triumph/bonnevillet100/bonnevillet100specs.jpg);}
 
-#scrambler_overview{ background-image:url(img/marcas/Triumph/scrambler/Scrambler_Overview.jpg);}
-#scrambler_features{ background-image:url(img/marcas/Triumph/scrambler/Scrambler_Features.jpg);}
-#scrambler_specs{ background-image:url(img/marcas/Triumph/scrambler/Scrambler_Specs.jpg);}
+#scrambler_overview{ background-image:url(../img/marcas/triumph/scrambler/scrambler_overview.jpg);}
+#scrambler_features{ background-image:url(../img/marcas/triumph/scrambler/scrambler_features.jpg);}
+#scrambler_specs{ background-image:url(../img/marcas/triumph/scrambler/scrambler_specs.jpg);}
 
-#thruxton_overview{ background-image:url(img/marcas/Triumph/Thruxton/thruxton_overview.jpg);}
-#thruxton_features{ background-image:url(img/marcas/Triumph/Thruxton/thruxton_features.jpg);}
-#thruxton_specs{ background-image:url(img/marcas/Triumph/Thruxton/thruxton_specs.jpg);}
+#thruxton_overview{ background-image:url(../img/marcas/triumph/thruxton/thruxton_overview.jpg);}
+#thruxton_features{ background-image:url(../img/marcas/triumph/thruxton/thruxton_features.jpg);}
+#thruxton_specs{ background-image:url(../img/marcas/triumph/thruxton/thruxton_specs.jpg);}
 
-#tiger800_overview{ background-image:url(img/marcas/Triumph/Tiger800/tiger800xc_overview.jpg);}
-#tiger800_features{ background-image:url(img/marcas/Triumph/Tiger800/tiger800xc_features.jpg);}
-#tiger800_specs{ background-image:url(img/marcas/Triumph/Tiger800/tiger800xc_specs.jpg);}
+#tiger800_overview{ background-image:url(../img/marcas/triumph/tiger800/tiger800xc_overview.jpg);}
+#tiger800_features{ background-image:url(../img/marcas/triumph/tiger800/tiger800xc_features.jpg);}
+#tiger800_specs{ background-image:url(../img/marcas/triumph/tiger800/tiger800xc_specs.jpg);}
 
-#tigerexplorerxc_overview{ background-image:url(img/marcas/Triumph/Tiger_explorer/tigerexplorer_overview.jpg);}
-#tigerexplorerxc_features{ background-image:url(img/marcas/Triumph/Tiger_explorer/tigerexplorer_features.jpg);}
-#tigerexplorerxc_specs{ background-image:url(img/marcas/Triumph/Tiger_explorer/tigerexplorer_specs.jpg);}
+#tigerexplorerxc_overview{ background-image:url(../img/marcas/triumph/tiger_explorer/tigerexplorer_overview.jpg);}
+#tigerexplorerxc_features{ background-image:url(../img/marcas/triumph/tiger_explorer/tigerexplorer_features.jpg);}
+#tigerexplorerxc_specs{ background-image:url(../img/marcas/triumph/tiger_explorer/tigerexplorer_specs.jpg);}
 
 
 /* cierre MENU*/
@@ -175,19 +175,19 @@
 	float:left;
 	width:90px;
 	height:35px;
-	background-image:url(img/ficha_tecnica.png);
+	background-image:url(../img/ficha_tecnica.png);
 }
-.botones #ficha_tecnica:hover {background-image:url(img/Boneville/ficha_tecnica_hover.png);}
-.botones #ficha_tecnica:active {background-image:url(img/Boneville/ficha_tecnica_press.png);}
+.botones #ficha_tecnica:hover {background-image:url(../img/bonneville/ficha_tecnica_hover.png);}
+.botones #ficha_tecnica:active {background-image:url(../img/bonneville/ficha_tecnica_press.png);}
 
 .botones #consulte{
 	float:left;
 	width:90px;
 	height:35px;
-	background-image:url(img/consulte.png);
+	background-image:url(../img/consulte.png);
 }
-.botones #consulte:hover{background-image:url(img/Boneville/consulte_hover.png);}
-.botones #consulte:active{background-image:url(img/Boneville/consulte_press.png);}
+.botones #consulte:hover{background-image:url(../img/bonneville/consulte_hover.png);}
+.botones #consulte:active{background-image:url(../img/bonneville/consulte_press.png);}
 
 /* cierre CONTENT*/
 
@@ -253,12 +253,12 @@
 
 .motorcyclesIntroText h1 {font-size:15px; width:830px; margin:0 auto; margin-top:15px;}
 
-#motorcycleSpecTable {
+#motorcyclespecTable {
     width: 830px;
 	border-spacing:0;
 	
 }
-#motorcycleSpecTable th
+#motorcyclespecTable th
 {
     background: #000;
     color: #fff;
@@ -266,48 +266,50 @@
     font-size: 11px;
 	text-align:left;
 }
-#motorcycleSpecTable td 
+#motorcyclespecTable td 
 {
     padding: 5px;
     vertical-align: top;
     font-size: 11px;
     font-weight: normal;
 }
-#motorcycleSpecTable .borderBtm
+#motorcyclespecTable .borderBtm
 {
     border-bottom: 1px solid #000;
 }
-#motorcycleSpecTable .borderRight 
+#motorcyclespecTable .borderRight 
 {
     border-right: 1px solid #000;
 }
-#motorcycleSpecTable .leftCol
+#motorcyclespecTable .leftCol
 {
     width: 30%;
 }
-#motorcycleSpecTable .leftColShortSpec
+#motorcyclespecTable .leftColShortspec
 {
     width: 40%;
 }
-.motorcycleFullSpecTable 
+.motorcycleFullspecTable 
 {
     margin-bottom: 20px;
 }
-.motorcycleShortSpecTable
+.motorcycleShortspecTable
 {
     margin-bottom: 5px;
 }
-#motorcycleSpecTable .compTitle 
+#motorcyclespecTable .compTitle 
 {
     width: 14%;
 }
-#motorcycleSpecTable  .result 
+#motorcyclespecTable  .result 
 {
     width: 24%
 }
 
 
-
+.color {
+	color:#09F !important;
+}
 
 
 
