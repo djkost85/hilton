@@ -29,7 +29,7 @@
     </div> 
     
   
-    <div class="triumph_menu" id="Bonneville_specs">
+    <div class="triumph_menu" id="scrambler_specs">
       
    		<ul>
         	<li><a href="#">Vista General</a></li>
@@ -52,19 +52,22 @@
                         <th colspan="3">Engine and Transmission</th>
                         </tr>
                         <tr>
-                        <td class="leftCol borderBtm borderRight" colspan="2">Type</td><td class="borderBtm">Air-cooled, DOHC, parallel-twin, 360º firing interval</td>
+                        <td class="leftCol borderBtm borderRight" colspan="2">Type</td>
+                        <td class="borderBtm">Aircooled, DOHC, paralleltwin, 270º firing interval</td>
                         </tr>
                         <tr>
                         <td class="leftCol borderBtm borderRight" colspan="2">Capacity</td><td class="borderBtm">865cc</td>
                         </tr>
                         <tr>
-                        <td class="leftCol borderBtm borderRight" colspan="2">Bore/Stroke</td><td class="borderBtm">90 x 68mm</td>
+                        <td class="leftCol borderBtm borderRight" colspan="2">Bore/Stroke</td>
+                        <td class="borderBtm">90mm</td>
                         </tr>
                         <tr>
                         <td class="leftCol borderBtm borderRight" colspan="2">Fuel System</td><td class="borderBtm">Multipoint sequential electronic fuel injection with SAI</td>
                         </tr>
                         <tr>
-                        <td class="leftCol borderBtm borderRight" colspan="2">Exhaust</td><td class="borderBtm">Stainless steel headers, twin chromed silencers.</td>
+                        <td class="leftCol borderBtm borderRight" colspan="2">Exhaust</td>
+                        <td class="borderBtm">High level stainless steel headers with twin chromed silencers.</td>
                         </tr>
                         <tr>
                         <td class="leftCol borderBtm borderRight" colspan="2">Final Drive</td><td class="borderBtm">X ring chain</td>
@@ -128,37 +131,39 @@
                         <th colspan="3">Dimensions and Capacities</th>
                         </tr>
                         <tr>
-                        <td class="leftCol borderBtm borderRight" colspan="2">Length</td><td class="borderBtm">2230mm (87.7in) &nbsp; </td>
+                        <td class="leftCol borderBtm borderRight" colspan="2">Length</td><td class="borderBtm"><div id="stcpDiv">2213mm</div></td>
                         </tr>
                         <tr>
-                        <td class="leftCol borderBtm borderRight" colspan="2">Width (handlebars)</td><td class="borderBtm">740mm (29.1in) &nbsp; &nbsp; &nbsp;</td>
+                        <td class="leftCol borderBtm borderRight" colspan="2">Width (handlebars)</td><td class="borderBtm"><div id="stcpDiv2">860</div></td>
                         </tr>
                         <tr>
-                        <td class="leftCol borderBtm borderRight" colspan="2">Height without mirrors</td><td class="borderBtm">1100mm (43.3in) &nbsp; &nbsp;</td>
+                        <td class="leftCol borderBtm borderRight" colspan="2">Height without mirrors</td><td class="borderBtm"><div id="stcpDiv3">1202mm</div></td>
                         </tr>
                         <tr>
-                        <td class="leftCol borderBtm borderRight" colspan="2">Seat Height</td><td class="borderBtm">775mm (30.5in)</td>
+                        <td class="leftCol borderBtm borderRight" colspan="2">Seat Height</td><td class="borderBtm"><div id="stcpDiv4">825mm</div></td>
                         </tr>
                         <tr>
-                        <td class="leftCol borderBtm borderRight" colspan="2">Wheelbase</td><td class="borderBtm">1500mm (59.0in) &nbsp;</td>
+                        <td class="leftCol borderBtm borderRight" colspan="2">Wheelbase</td><td class="borderBtm"><div id="stcpDiv5">1500mm</div></td>
                         </tr>
                         <tr>
-                        <td class="leftCol borderBtm borderRight" colspan="2">Rake/Trail</td><td class="borderBtm">28º/110mm    &nbsp; </td>
+                        <td class="leftCol borderBtm borderRight" colspan="2">Rake/Trail</td><td class="borderBtm"><div id="stcpDiv6">27.8º/105mm
+                          <div id="stcpDiv7"></div>
+                        </div></td>
                         </tr>
                         <tr>
-                        <td class="leftCol borderBtm borderRight" colspan="2">Fuel Tank Capacity / Efficiency</td><td class="borderBtm">16 litres (4.2 US gals) &nbsp;</td>
+                        <td class="leftCol borderBtm borderRight" colspan="2">Fuel Tank Capacity / Efficiency</td><td class="borderBtm"><div id="stcpDiv8">4.2us gallon</div></td>
                         </tr>
                         <tr>
-                        <td class="leftCol borderBtm borderRight" colspan="2">Wet Weight (ready to ride)</td><td class="borderBtm">230 kg (506 lbs) &nbsp;</td>
+                        <td class="leftCol borderBtm borderRight" colspan="2">Wet Weight (ready to ride)</td><td class="borderBtm"><div id="stcpDiv9">230 kilo</div></td>
                         </tr>
                         <tr>
                         <th colspan="3">Performance (measured at crankshaft to 95/1/EC)</th>
                         </tr>
                         <tr>
-                        <td class="leftCol borderBtm borderRight" colspan="2">Maximum Power</td><td class="borderBtm">68PS / 67bhp / 50kW @ 7500rpm</td>
+                        <td class="leftCol borderBtm borderRight" colspan="2">Maximum Power</td><td class="borderBtm">59PS @ 6800</td>
                         </tr>
                         <tr>
-                        <td class="leftCol borderBtm borderRight" colspan="2">Maximum Torque</td><td class="borderBtm">68Nm / 50 ft.lbs @ 5800rpm &nbsp; &nbsp;</td>
+                        <td class="leftCol borderBtm borderRight" colspan="2">Maximum Torque</td><td class="borderBtm">68NM @ 4750</td>
                         </tr>
                         <tr>
                         <td class="leftCol borderBtm borderRight" colspan="2">Fuel Efficiency</td><td class="borderBtm">43 MPG City / 57 MPG Highway  *Estimated from fuel economy tests on a sample motorcycle conducted under ideal laboratory conditions. Actual mileage may vary based upon personal riding habits, weather, vehicle condition, and other factors.</td>
@@ -167,7 +172,7 @@
                         <th colspan="3">Price</th>
                         </tr>
                         <tr>
-                        <td class="leftCol borderBtm borderRight" colspan="2">MSRP</td><td class="borderBtm">$9,199*Price is MSRP, and excludes tax, title, license, options, handling, pre-delivery, and destination charges.  Specifications and MSRP are subject to change without notice.  Actual price determined by dealer.</td>
+                        <td class="leftCol borderBtm borderRight" colspan="2">MSRP</td><td class="borderBtm">&nbsp;</td>
                         </tr>
                         </tbody>
 

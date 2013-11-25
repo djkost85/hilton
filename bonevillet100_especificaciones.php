@@ -29,7 +29,7 @@
     </div> 
     
   
-    <div class="triumph_menu" id="Bonneville_specs">
+    <div class="triumph_menu" id="bonnevilleT100_specs">
       
    		<ul>
         	<li><a href="#">Vista General</a></li>
@@ -48,7 +48,8 @@
                                     </div>
                             
                 <table class="motorcycleFullSpecTable" id="motorcycleSpecTable">
-                        <tbody><tr>
+                        <tbody>
+                        <tr>
                         <th colspan="3">Engine and Transmission</th>
                         </tr>
                         <tr>
@@ -131,7 +132,8 @@
                         <td class="leftCol borderBtm borderRight" colspan="2">Length</td><td class="borderBtm">2230mm (87.7in) &nbsp; </td>
                         </tr>
                         <tr>
-                        <td class="leftCol borderBtm borderRight" colspan="2">Width (handlebars)</td><td class="borderBtm">740mm (29.1in) &nbsp; &nbsp; &nbsp;</td>
+                        <td class="leftCol borderBtm borderRight" colspan="2">Width (handlebars)</td>
+                        <td class="borderBtm">840mm (33in) &nbsp; &nbsp; &nbsp;</td>
                         </tr>
                         <tr>
                         <td class="leftCol borderBtm borderRight" colspan="2">Height without mirrors</td><td class="borderBtm">1100mm (43.3in) &nbsp; &nbsp;</td>
@@ -149,7 +151,8 @@
                         <td class="leftCol borderBtm borderRight" colspan="2">Fuel Tank Capacity / Efficiency</td><td class="borderBtm">16 litres (4.2 US gals) &nbsp;</td>
                         </tr>
                         <tr>
-                        <td class="leftCol borderBtm borderRight" colspan="2">Wet Weight (ready to ride)</td><td class="borderBtm">230 kg (506 lbs) &nbsp;</td>
+                        <td class="leftCol borderBtm borderRight" colspan="2">Wet Weight (ready to ride)</td>
+                        <td class="borderBtm">225 kg (496 lbs) &nbsp;</td>
                         </tr>
                         <tr>
                         <th colspan="3">Performance (measured at crankshaft to 95/1/EC)</th>

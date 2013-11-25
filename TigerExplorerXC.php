@@ -29,7 +29,7 @@
     </div> 
     
   
-    <div class="triumph_menu" id="Bonneville_overview">
+    <div class="triumph_menu" id="tigerexplorerxc_overview">
       
    		<ul>
         	<li><a href="#" class="active">Vista General</a></li>
@@ -42,12 +42,12 @@
     <div class="triumph_content">
     
     	<div id="left_box">
-        	<img src="img/marcas/Triumph/Boneville/my14_bonneville_black_f3q_0.jpg" width="100%" />
+        	<img src="img/marcas/Triumph/Tiger_Explorer/Triumph_tiger_explorer_ xc.jpg" width="100%" />
         </div>
         
         <div id="right_box">
         	<h1>
-            	Bonneville
+            	Tiger 800 XC
             </h1>
             
             <p>
@@ -69,19 +69,20 @@
     
     <div id="triumph_gallery">
     
-    	<a href="img/marcas/Triumph/Boneville/Bonneville_01.jpg" rel="lightbox-"> 
-        <img src="img/marcas/Triumph/Boneville/Bonneville_01.jpg" width="230" border="0" alt="Motocicleta Boneville"/>
+    	<a href="img/marcas/Triumph/Tiger_Explorer/TigerExplorerxc_01.jpg" rel="lightbox-"> 
+        <img src="img/marcas/Triumph/Tiger_Explorer/TigerExplorerxc_01.jpg" width="230" border="0" alt="Motocicleta Tiger Explorer XC"/>
         </a>
         
-        <a href="img/marcas/Triumph/Boneville/Bonneville_02.jpg" rel="lightbox-"> 
-        <img src="img/marcas/Triumph/Boneville/Bonneville_02.jpg" width="230" border="0" alt="Motocicleta Boneville"/>
-        </a>
-            	<a href="img/marcas/Triumph/Boneville/Bonneville_03.jpg" rel="lightbox-"> 
-        <img src="img/marcas/Triumph/Boneville/Bonneville_03.jpg" width="230" border="0" alt="Motocicleta Boneville"/>
+        <a href="img/marcas/Triumph/Tiger_Explorer/TigerExplorerxc_02.jpg"> 
+        <img src="img/marcas/Triumph/Tiger_Explorer/TigerExplorerxc_02.jpg" width="230" border="0" alt="Motocicleta Tiger Explorer XC"/>
         </a>
         
-        <a href="img/marcas/Triumph/Boneville/Bonneville_04.jpg" rel="lightbox-"> 
-        <img src="img/marcas/Triumph/Boneville/Bonneville_04.jpg" width="230" border="0" alt="Motocicleta Boneville"/>
+        <a href="img/marcas/Triumph/Tiger_Explorer/TigerExplorerxc_03.jpg"> 
+        <img src="img/marcas/Triumph/Tiger_Explorer/TigerExplorerxc_03.jpg" width="230" border="0" alt="Motocicleta Tiger Explorer XC"/>
+        </a>
+        
+        <a href="img/marcas/Triumph/Tiger_Explorer/TigerExplorerxc_04.jpg"> 
+        <img src="img/marcas/Triumph/Tiger_Explorer/TigerExplorerxc_04.jpg" width="230" border="0" alt="Motocicleta Tiger Explorer XC"/>
         </a>
            
         <div class="clear" style="float:none;"></div>

@@ -57,6 +57,7 @@
 	height:310px;
 	background-repeat:no-repeat;
 	position:relative;
+	background-size:100%;
 }
 
 .triumph_menu h1{
@@ -103,7 +104,31 @@
 
 .triumph_menu ul li a:hover{ background-color:white; color:#000;}
 
-#Bonneville_overview{ background-image:url(img/marcas/Triumph/Bonneville_Overview-.jpg);}
+/*imagen principal*/
+#Bonneville_overview{ background-image:url(img/marcas/Triumph/Boneville/Bonneville_Overview-.jpg);}
+#Bonneville_features{ background-image:url(img/marcas/Triumph/Boneville/Bonneville_Overview-.jpg);}
+#Bonneville_specs{ background-image:url(img/marcas/Triumph/Boneville/Bonneville_Spec.jpg);}
+
+#bonnevillet100_overview{ background-image:url(img/marcas/Triumph/bonevillet100/bonevilleT100overview.jpg);}
+#bonnevillet100_features{ background-image:url(img/marcas/Triumph/bonevillet100/bonevilleT100features.jpg);}
+#bonnevillet100_specs{ background-image:url(img/marcas/Triumph/bonevillet100/bonevilleT100specs.jpg);}
+
+#scrambler_overview{ background-image:url(img/marcas/Triumph/scrambler/Scrambler_Overview.jpg);}
+#scrambler_features{ background-image:url(img/marcas/Triumph/scrambler/Scrambler_Features.jpg);}
+#scrambler_specs{ background-image:url(img/marcas/Triumph/scrambler/Scrambler_Specs.jpg);}
+
+#thruxton_overview{ background-image:url(img/marcas/Triumph/Thruxton/thruxton_overview.jpg);}
+#thruxton_features{ background-image:url(img/marcas/Triumph/Thruxton/thruxton_features.jpg);}
+#thruxton_specs{ background-image:url(img/marcas/Triumph/Thruxton/thruxton_specs.jpg);}
+
+#tiger800_overview{ background-image:url(img/marcas/Triumph/Tiger800/tiger800xc_overview.jpg);}
+#tiger800_features{ background-image:url(img/marcas/Triumph/Tiger800/tiger800xc_features.jpg);}
+#tiger800_specs{ background-image:url(img/marcas/Triumph/Tiger800/tiger800xc_specs.jpg);}
+
+#tigerexplorerxc_overview{ background-image:url(img/marcas/Triumph/Tiger_explorer/tigerexplorer_overview.jpg);}
+#tigerexplorerxc_features{ background-image:url(img/marcas/Triumph/Tiger_explorer/tigerexplorer_features.jpg);}
+#tigerexplorerxc_specs{ background-image:url(img/marcas/Triumph/Tiger_explorer/tigerexplorer_specs.jpg);}
+
 
 /* cierre MENU*/
 
@@ -152,8 +177,8 @@
 	height:35px;
 	background-image:url(img/ficha_tecnica.png);
 }
-.botones #ficha_tecnica:hover {background-image:url(img/ficha_tecnica_hover.png);}
-.botones #ficha_tecnica:active {background-image:url(img/ficha_tecnica_press.png);}
+.botones #ficha_tecnica:hover {background-image:url(img/Boneville/ficha_tecnica_hover.png);}
+.botones #ficha_tecnica:active {background-image:url(img/Boneville/ficha_tecnica_press.png);}
 
 .botones #consulte{
 	float:left;
@@ -161,8 +186,8 @@
 	height:35px;
 	background-image:url(img/consulte.png);
 }
-.botones #consulte:hover{background-image:url(img/consulte_hover.png);}
-.botones #consulte:active{background-image:url(img/consulte_press.png);}
+.botones #consulte:hover{background-image:url(img/Boneville/consulte_hover.png);}
+.botones #consulte:active{background-image:url(img/Boneville/consulte_press.png);}
 
 /* cierre CONTENT*/
 
