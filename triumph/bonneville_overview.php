@@ -4,7 +4,7 @@
         
         <div id="right_box">
         	<h1>
-            	bonneville
+            	Bonneville
             </h1>
             
             <p>

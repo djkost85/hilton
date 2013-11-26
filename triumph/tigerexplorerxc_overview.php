@@ -5,7 +5,7 @@
         
         <div id="right_box">
         	<h1>
-            	Tiger 800 XC
+            	Tiger Explorer XC
             </h1>
             
             <p>

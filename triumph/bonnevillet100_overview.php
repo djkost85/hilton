@@ -5,7 +5,7 @@
         
         <div id="right_box">
         	<h1>
-            	Bonneville 
+            	Bonneville T100 
             </h1>
             
             <p>
