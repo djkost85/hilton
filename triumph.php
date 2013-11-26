@@ -1,20 +1,13 @@
 <?php
 	$id=$_REQUEST['id'];
 	$modelos = array('bonneville','bonnevillet100','scrambler','thruxton','tiger800','tigerexplorerxc');
-	
-	if(isset($id) && !empty($id)) 
-	{
-		$modelo=$modelos[$id];
-	} 
-	else 
-	{
-		$modelo=$modelos[0];
-	}
+	if(isset($id) && !empty($id)){$modelo=$modelos[$id];} 
+	else {$modelo=$modelos[0];}
 ?>
 
 <link href="style.css" rel="stylesheet" type="text/css" />
 <link href="triumph/triumph.css" rel="stylesheet" type="text/css" />
-
+<script src="triumph/js/codigo.js" type="text/javascript"></script>
 <div id="medio">
  	<div id="triumph_header">
     	<p>	GO YOUR OWN WAY </p>

@@ -1,45 +1,4 @@
-<?php
-	$id=$_REQUEST['id'];
-	$nissan=mysql_query("SELECT * FROM nuevos WHERE marca='Nissan' ORDER BY modelo");
-	if(isset($id) && !empty($id)) 
-	{
-		$modelo=mysql_query("SELECT * FROM nuevos WHERE id='$id'");	
-	} 
-	else 
-	{
-		$modelo=mysql_query("SELECT * FROM nuevos WHERE marca='Nissan' ORDER BY RAND() LIMIT 0,1");
-	}
-?>
 
-<link href="style.css" rel="stylesheet" type="text/css" />
-<link href="triumph.css" rel="stylesheet" type="text/css" />
-
-<div id="medio">
- 	<div id="triumph_header">
-    	<p>	GO YOUR OWN WAY </p>
-        
-        <ul>
-        	<li><a href="#">Bonneville</a></li>
-            <li><a href="#">Bonneville T100</a></li>
-            <li><a href="#">Scrambler</a></li>
-            <li><a href="#">Thruxton</a></li>
-            <li><a href="#">Tiger 800 XC</a></li>
-            <li><a href="#">Tiger Explorer XC</a></li>
-        </ul> 
-    </div> 
-    
-  
-    <div class="triumph_menu" id="Bonneville_features">
-      
-   		<ul>
-        	<li><a href="#">Vista General</a></li>
-            <li><a href="#" class="active">Características</a></li>
-            <li><a href="#">Especificaciones</a></li>         
-        </ul>
-        
-    </div>
-    
-    <div class="triumph_content">
     	<table>
         
         	<tr>
@@ -71,7 +30,7 @@
             </tr>
             
             <tr>
-                <td class="foto"><img src="img/marcas/triumph/boneville/suspension.jpg" alt="boneville suspension"/></td>
+                <td class="foto"><img src="img/marcas/triumph/bonneville/suspension.jpg" alt="boneville suspension"/></td>
                 <td>
                 	<h2>SUSPENSION</h2>
                     Tener buen aspecto al mismo tiempo que se trabaja duro no es fácil. Pero los amortiguadores gemelos traseros al estilo de los años 60 cuentan con un acabado cromado y modernos mecanismos internos de amortiguación, al igual que la horquilla de apariencia clásica. Todo esto permite que la conducción de la Bonneville sea suave y controlada, ya sea en carreteras bacheadas o entrando rápido en las curvas.
@@ -87,8 +46,3 @@
             </tr>
             
         </table>
-	
-    </div> <!-- /content -->
-     
-    
-</div><!--#medio-->
