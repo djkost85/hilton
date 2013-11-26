@@ -13,7 +13,7 @@ ul.motorcycleThumbList { list-style-type: none; }
 ul.motorcycleThumbList img, #motorcycleOverviewGallery .photo .photoInner img { 
     border: none; 
 }
-#motorcycleSpecTable { width: 100%; }
+#motorcyclespecTable { width: 100%; }
 h1.bannerHeading { font-size: 32px; }
 a { color: #333; text-decoration: none; }
 

@@ -47,7 +47,7 @@
                     <h1>ESPECIFICACIONES</h1>
                                     </div>
                             
-                <table class="motorcycleFullSpecTable" id="motorcycleSpecTable">
+                <table class="motorcycleFullSpecTable" id="motorcyclespecTable">
                         <tbody><tr>
                         <th colspan="3">Engine and Transmission</th>
                         </tr>

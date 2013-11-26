@@ -2538,37 +2538,37 @@ li.ui-state-disabled, li.ui-state-disabled a {
 .cboxIE #cboxMiddleRight{background:transparent; }
 
 /* ---------------------- MOTORCYCLE SPEC TABLE ------------------------*/
-#motorcycleSpecTable
+#motorcyclespecTable
 {
     width: 100%;
 }
-#motorcycleSpecTable th
+#motorcyclespecTable th
 {
     background: #000;
     color: #fff;
     padding: 5px;
     font-size: 1.1em;
 }
-#motorcycleSpecTable td 
+#motorcyclespecTable td 
 {
     padding: 5px;
     vertical-align: top;
     font-size: 1.1em;
     font-weight: bold;
 }
-#motorcycleSpecTable .borderBtm
+#motorcyclespecTable .borderBtm
 {
     border-bottom: 1px solid #000;
 }
-#motorcycleSpecTable .borderRight 
+#motorcyclespecTable .borderRight 
 {
     border-right: 1px solid #000;
 }
-#motorcycleSpecTable .leftCol
+#motorcyclespecTable .leftCol
 {
     width: 30%;
 }
-#motorcycleSpecTable .leftColShortSpec
+#motorcyclespecTable .leftColShortSpec
 {
     width: 40%;
 }
@@ -2580,11 +2580,11 @@ li.ui-state-disabled, li.ui-state-disabled a {
 {
     margin-bottom: 5px;
 }
-#motorcycleSpecTable .compTitle 
+#motorcyclespecTable .compTitle 
 {
     width: 14%;
 }
-#motorcycleSpecTable  .result 
+#motorcyclespecTable  .result 
 {
     width: 24%
 }
