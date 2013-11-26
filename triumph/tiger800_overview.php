@@ -1,17 +1,4 @@
-    
-  
-    <div class="triumph_menu" id="tiger800_overview">
-      
-   		<ul>
-        	<li><a href="#" class="active">Vista General</a></li>
-            <li><a href="#">Características</a></li>
-            <li><a href="#">Especificaciones</a></li>         
-        </ul>
-        
-    </div>
-    
-    <div class="triumph_content">
-    
+   
     	<div id="left_box">
         	<img src="img/marcas/triumph/Tiger800/TIGER800XCABS.jpg" width="100%" />
         </div>
@@ -30,8 +17,8 @@
             </p>
             
             <div class="botones">
-            	<a id="ficha_tecnica" href="#"> </a>
-                <a id="consulte" href="#"> </a> 
+            	<a id="ficha_tecnica" href="triumph/tiger800.pdf"> </a>
+                <a id="consulte" href="contacto/index.php?imail=ventas@hiltonmotors.com.uy&amp;asunto=Contacto para Hilton Motors Co."> </a> 
             </div>
             
         </div> <!-- /rightbox -->

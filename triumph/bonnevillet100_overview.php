@@ -17,8 +17,8 @@
             </p>
             
             <div class="botones">
-            	<a id="ficha_tecnica" href="#"> </a>
-                <a id="consulte" href="#"> </a> 
+            	<a id="ficha_tecnica" href="triumph/bonneville.pdf"> </a>
+                <a id="consulte" href="contacto/index.php?imail=ventas@hiltonmotors.com.uy&amp;asunto=Contacto para Hilton Motors Co."> </a> 
             </div>
             
         </div> <!-- /rightbox -->
@@ -26,20 +26,20 @@
    
     <div id="triumph_gallery">
     
-    	<a href="img/marcas/triumph/bonnevillet100/bonevillet100_01.jpg" rel="lightbox-"> 
-        <img src="img/marcas/triumph/bonnevillet100/bonevillet100_01.jpg" width="230" border="0" alt="Motocicleta bonevillet100"/>
+    	<a href="img/marcas/triumph/bonnevillet100/bonnevillet100_01.jpg" rel="lightbox-"> 
+        <img src="img/marcas/triumph/bonnevillet100/bonnevillet100_01.jpg" width="230" border="0" alt="Motocicleta bonevillet100"/>
         </a>
         
-        <a href="img/marcas/triumph/bonnevillet100/bonevillet100_02.jpg" rel="lightbox-"> 
-        <img src="img/marcas/triumph/bonnevillet100/bonevillet100_02.jpg" width="230" border="0" alt="Motocicleta bonevillet100"/>
+        <a href="img/marcas/triumph/bonnevillet100/bonnevillet100_02.jpg" rel="lightbox-"> 
+        <img src="img/marcas/triumph/bonnevillet100/bonnevillet100_02.jpg" width="230" border="0" alt="Motocicleta bonevillet100"/>
         </a>
         
-        <a href="img/marcas/triumph/bonnevillet100/bonevillet100_03.jpg" rel="lightbox-"> 
-        <img src="img/marcas/triumph/bonnevillet100/bonevillet100_03.jpg" width="230" border="0" alt="Motocicleta bonevillet100"/>
+        <a href="img/marcas/triumph/bonnevillet100/bonnevillet100_03.jpg" rel="lightbox-"> 
+        <img src="img/marcas/triumph/bonnevillet100/bonnevillet100_03.jpg" width="230" border="0" alt="Motocicleta bonevillet100"/>
         </a>
         
-        <a href="img/marcas/triumph/bonnevillet100/bonevillet100_04.jpg" rel="lightbox-"> 
-        <img src="img/marcas/triumph/bonnevillet100/bonevillet100_04.jpg" width="230" border="0" alt="Motocicleta bonevillet100"/>
+        <a href="img/marcas/triumph/bonnevillet100/bonnevillet100_04.jpg" rel="lightbox-"> 
+        <img src="img/marcas/triumph/bonnevillet100/bonnevillet100_04.jpg" width="230" border="0" alt="Motocicleta bonevillet100"/>
         </a>
            
         <div class="clear" style="float:none;"></div>

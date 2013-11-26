@@ -177,8 +177,7 @@
 	height:35px;
 	background-image:url(../img/ficha_tecnica.png);
 }
-.botones #ficha_tecnica:hover {background-image:url(../img/bonneville/ficha_tecnica_hover.png);}
-.botones #ficha_tecnica:active {background-image:url(../img/bonneville/ficha_tecnica_press.png);}
+
 
 .botones #consulte{
 	float:left;
@@ -186,8 +185,7 @@
 	height:35px;
 	background-image:url(../img/consulte.png);
 }
-.botones #consulte:hover{background-image:url(../img/bonneville/consulte_hover.png);}
-.botones #consulte:active{background-image:url(../img/bonneville/consulte_press.png);}
+
 
 /* cierre CONTENT*/
 
@@ -236,6 +234,7 @@
 }
 
 .triumph_content table h2 {
+	margin-top:0;
 	font-size: 15px;
 }
 

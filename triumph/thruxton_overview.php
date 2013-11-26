@@ -1,7 +1,7 @@
 
      
     	<div id="left_box">
-        	<img src="img/marcas/triumph/Thruxton/2012-Triumph-Thruxton-black.jpg" width="100%" />
+        	<img src="img/marcas/triumph/Thruxton/triumph_thruxton.jpg" width="100%" />
         </div>
         
         <div id="right_box">
@@ -18,8 +18,8 @@
             </p>
             
             <div class="botones">
-            	<a id="ficha_tecnica" href="#"> </a>
-                <a id="consulte" href="#"> </a> 
+            	<a id="ficha_tecnica" href="triumph/thruxton.pdf"> </a>
+                <a id="consulte" href="contacto/index.php?imail=ventas@hiltonmotors.com.uy&amp;asunto=Contacto para Hilton Motors Co."> </a> 
             </div>
             
         </div> <!-- /rightbox -->

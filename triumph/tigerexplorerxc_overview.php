@@ -17,8 +17,8 @@
             </p>
             
             <div class="botones">
-            	<a id="ficha_tecnica" href="#"> </a>
-                <a id="consulte" href="#"> </a> 
+            	<a id="ficha_tecnica" href="triumph/tigerexp.pdf"> </a>
+                <a id="consulte" href="contacto/index.php?imail=ventas@hiltonmotors.com.uy&amp;asunto=Contacto para Hilton Motors Co."> </a> 
             </div>
             
         </div> <!-- /rightbox -->

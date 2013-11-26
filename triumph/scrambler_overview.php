@@ -17,8 +17,8 @@
             </p>
             
             <div class="botones">
-            	<a id="ficha_tecnica" href="#"> </a>
-                <a id="consulte" href="#"> </a> 
+            	<a id="ficha_tecnica" href="triumph/scrambler.pdf"> </a>
+                <a id="consulte" href="contacto/index.php?imail=ventas@hiltonmotors.com.uy&amp;asunto=Contacto para Hilton Motors Co."> </a> 
             </div>
             
         </div> <!-- /rightbox -->
@@ -39,10 +39,6 @@
         <img src="img/marcas/triumph/Scrambler/scrambler_03.jpg" width="230" border="0" alt="Motocicleta Scrambler"/>
         </a>
         
-        <a href="img/marcas/triumph/Scrambler/scrambler_04.jpg" rel="lightbox-"> 
-        <img src="img/marcas/triumph/Scrambler/scrambler_04.jpg" width="230" border="0" alt="Motocicleta Scrambler"/>
-        </a>
-           
         <div class="clear" style="float:none;"></div>
     </div>    
     
