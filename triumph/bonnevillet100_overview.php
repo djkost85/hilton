@@ -22,9 +22,8 @@
             </div>
             
         </div> <!-- /rightbox -->
-    <div class="clear"></div>
-    </div> <!-- /content -->
-    
+   <div class="clear" style="margin: 20px;display: block;height: 10px;"></div>   
+   
     <div id="triumph_gallery">
     
     	<a href="img/marcas/triumph/bonnevillet100/bonevillet100_01.jpg" rel="lightbox-"> 
