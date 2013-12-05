@@ -1,6 +1,6 @@
   
     	<div id="left_box">
-        	<img src="img/marcas/triumph/Scrambler/2013-Triumph-Scrambler-2.jpg" width="100%" />
+        	<img src="img/marcas/triumph/scrambler/2013-triumph-scrambler-2.jpg" width="100%" />
         </div>
         
         <div id="right_box">
@@ -27,16 +27,16 @@
     
     <div id="triumph_gallery">
     
-    	<a href="img/marcas/triumph/Scrambler/scrambler_01.jpg" rel="lightbox-"> 
-        <img src="img/marcas/triumph/Scrambler/scrambler_01.jpg" width="230" border="0" alt="Motocicleta Scrambler"/>
+    	<a href="img/marcas/triumph/scrambler/scrambler_01.jpg" rel="lightbox-"> 
+        <img src="img/marcas/triumph/scrambler/scrambler_01.jpg" width="230" border="0" alt="Motocicleta Scrambler"/>
         </a>
         
-        <a href="img/marcas/triumph/Scrambler/scrambler_02.jpg" rel="lightbox-"> 
-        <img src="img/marcas/triumph/Scrambler/scrambler_02.jpg" width="230" border="0" alt="Motocicleta Scrambler"/>
+        <a href="img/marcas/triumph/scrambler/scrambler_02.jpg" rel="lightbox-"> 
+        <img src="img/marcas/triumph/scrambler/scrambler_02.jpg" width="230" border="0" alt="Motocicleta Scrambler"/>
         </a>
         
-        <a href="img/marcas/triumph/Scrambler/scrambler_03.jpg" rel="lightbox-"> 
-        <img src="img/marcas/triumph/Scrambler/scrambler_03.jpg" width="230" border="0" alt="Motocicleta Scrambler"/>
+        <a href="img/marcas/triumph/scrambler/scrambler_03.jpg" rel="lightbox-"> 
+        <img src="img/marcas/triumph/scrambler/scrambler_03.jpg" width="230" border="0" alt="Motocicleta Scrambler"/>
         </a>
         
         <div class="clear" style="float:none;"></div>

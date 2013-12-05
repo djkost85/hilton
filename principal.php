@@ -8,7 +8,7 @@
 <div id="medio">
   <div id="fotoPrincipal">
     <!--Foto Principal-->
-    <div id="CustomSlideshow2"> <a href="img/principal/banner_juke.jpg" name="http://www.hiltonmotors.com.uy/?mod=bmw"></a> <a href="img/principal/banner_note.jpg" name="http://www.hiltonmotors.com.uy/?mod=nissan"></a> <a href="img/principal/Hilton_Ducati.jpg" name="http://www.hiltonmotors.com.uy/?mod=ducati"></a> <a href="img/principal/banner_sentra.jpg" name="http://www.hiltonmotors.com.uy/?mod=nissan"></a> </div>
+    <div id="CustomSlideshow2"> <a href="img/principal/banner_juke.jpg" name="http://www.hiltonmotors.com.uy/?mod=triumph"></a> <a href="img/principal/banner_note.jpg" name="http://www.hiltonmotors.com.uy/?mod=nissan"></a> <a href="img/principal/Hilton_Ducati.jpg" name="http://www.hiltonmotors.com.uy/?mod=ducati"></a> <a href="img/principal/banner_sentra.jpg" name="http://www.hiltonmotors.com.uy/?mod=nissan"></a> </div>
     <script type="text/javascript">
             //<![CDATA[
             $(document).ready(function(){
@@ -22,22 +22,18 @@
                 imgajax:true,
                 imglink:true,
                 time:5000,
-                controls :{
-				first:false,
-                hide:false,
-				last:false,
-                }
+                controls :{first:false,hide:false,last:false,}
                 }).playSlide();
             });
             //]]>
             </script>
   </div>
   <div class="marcas">
-    <div class="marcasTitulo">BMW</div>
-    <div class="marcasFoto"><a href="?mod=bmw"><img src="img/marcas/fotoBmw.jpg" width="294" height="169" border="0" /></a></div>
-    <div class="marcasTexto"><a href="?mod=bmw">BMW</a><br />
-      DEJATE LLEVAR POR TUS SENTIMIENTO.<br />
-      Nuestros 43 años junto a la marca nos permiten tener modelos exclusivos para Uruguay.</div>
+    <div class="marcasTitulo">Triumph</div>
+    <div class="marcasFoto"><a href="?mod=triumph"><img src="img/marcas/fotoTriumph.jpg" width="294" height="169" border="0" /></a></div>
+    <div class="marcasTexto"><a href="?mod=triumph">TRIUMPH</a><br />
+      <span style="text-transform: uppercase"> Triumph responde a una estética y estilo muy claros. </span>
+       Motocicletas llenas de identidad Británica.</div>
   </div>
   <div class="marcas">
     <div class="marcasTitulo">Nissan</div>

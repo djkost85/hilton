@@ -1,7 +1,7 @@
 
      
     	<div id="left_box">
-        	<img src="img/marcas/triumph/Thruxton/triumph_thruxton.jpg" width="100%" />
+        	<img src="img/marcas/triumph/thruxton/triumph_thruxton.jpg" width="100%" />
         </div>
         
         <div id="right_box">
@@ -27,20 +27,20 @@
          
     <div id="triumph_gallery">
     
-    	<a href="img/marcas/triumph/Thruxton/thruxton_01.jpg" rel="lightbox-"> 
-        <img src="img/marcas/triumph/Thruxton/thruxton_01.jpg" width="230" border="0" alt="Motocicleta Thruxton"/>
+    	<a href="img/marcas/triumph/thruxton/thruxton_01.jpg" rel="lightbox-"> 
+        <img src="img/marcas/triumph/thruxton/thruxton_01.jpg" width="230" border="0" alt="Motocicleta thruxton"/>
         </a>
         
-        <a href="img/marcas/triumph/Thruxton/thruxton_02.jpg" rel="lightbox-"> 
-        <img src="img/marcas/triumph/Thruxton/thruxton_02.jpg" width="230" border="0" alt="Motocicleta Thruxton"/>
+        <a href="img/marcas/triumph/thruxton/thruxton_02.jpg" rel="lightbox-"> 
+        <img src="img/marcas/triumph/thruxton/thruxton_02.jpg" width="230" border="0" alt="Motocicleta thruxton"/>
         </a>
         
-        <a href="img/marcas/triumph/Thruxton/thruxton_03.jpg" rel="lightbox-"> 
-        <img src="img/marcas/triumph/Thruxton/thruxton_03.jpg" width="230" border="0" alt="Motocicleta Thruxton"/>
+        <a href="img/marcas/triumph/thruxton/thruxton_03.jpg" rel="lightbox-"> 
+        <img src="img/marcas/triumph/thruxton/thruxton_03.jpg" width="230" border="0" alt="Motocicleta thruxton"/>
         </a>
         
-        <a href="img/marcas/triumph/Thruxton/thruxton_04.jpg" rel="lightbox-"> 
-        <img src="img/marcas/triumph/Thruxton/thruxton_04.jpg" width="230" border="0" alt="Motocicleta Thruxton"/>
+        <a href="img/marcas/triumph/thruxton/thruxton_04.jpg" rel="lightbox-"> 
+        <img src="img/marcas/triumph/thruxton/thruxton_04.jpg" width="230" border="0" alt="Motocicleta thruxton"/>
         </a>
            
         <div class="clear" style="float:none;"></div>

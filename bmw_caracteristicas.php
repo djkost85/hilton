@@ -22,7 +22,7 @@
         	<li><a href="#">Bonneville</a></li>
             <li><a href="#">Bonneville T100</a></li>
             <li><a href="#">Scrambler</a></li>
-            <li><a href="#">Thruxton</a></li>
+            <li><a href="#">thruxton</a></li>
             <li><a href="#">Tiger 800 XC</a></li>
             <li><a href="#">Tiger Explorer XC</a></li>
         </ul> 

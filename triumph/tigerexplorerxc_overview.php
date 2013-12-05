@@ -1,6 +1,6 @@
 
        	<div id="left_box">
-        	<img src="img/marcas/triumph/Tiger_Explorer/Triumph_tiger_explorer_ xc.jpg" width="100%" />
+        	<img src="img/marcas/triumph/tiger_explorer/triumph_tiger_explorer_ xc.jpg" width="100%" />
         </div>
         
         <div id="right_box">
@@ -26,20 +26,20 @@
        
     <div id="triumph_gallery">
     
-    	<a href="img/marcas/triumph/Tiger_Explorer/TigerExplorerxc_01.jpg" rel="lightbox-"> 
-        <img src="img/marcas/triumph/Tiger_Explorer/TigerExplorerxc_01.jpg" width="230" border="0" alt="Motocicleta Tiger Explorer XC"/>
+    	<a href="img/marcas/triumph/tiger_explorer/tigerexplorerxc_01.jpg" rel="lightbox-"> 
+        <img src="img/marcas/triumph/tiger_explorer/tigerexplorerxc_01.jpg" width="230" border="0" alt="Motocicleta Tiger Explorer XC"/>
         </a>
         
-        <a href="img/marcas/triumph/Tiger_Explorer/TigerExplorerxc_02.jpg"> 
-        <img src="img/marcas/triumph/Tiger_Explorer/TigerExplorerxc_02.jpg" width="230" border="0" alt="Motocicleta Tiger Explorer XC"/>
+        <a href="img/marcas/triumph/tiger_explorer/tigerexplorerxc_02.jpg" rel="lightbox-"> 
+        <img src="img/marcas/triumph/tiger_explorer/tigerexplorerxc_02.jpg" width="230" border="0" alt="Motocicleta Tiger Explorer XC"/>
         </a>
         
-        <a href="img/marcas/triumph/Tiger_Explorer/TigerExplorerxc_03.jpg"> 
-        <img src="img/marcas/triumph/Tiger_Explorer/TigerExplorerxc_03.jpg" width="230" border="0" alt="Motocicleta Tiger Explorer XC"/>
+        <a href="img/marcas/triumph/tiger_explorer/tigerexplorerxc_03.jpg" rel="lightbox-"> 
+        <img src="img/marcas/triumph/tiger_explorer/tigerexplorerxc_03.jpg" width="230" border="0" alt="Motocicleta Tiger Explorer XC"/>
         </a>
         
-        <a href="img/marcas/triumph/Tiger_Explorer/TigerExplorerxc_04.jpg"> 
-        <img src="img/marcas/triumph/Tiger_Explorer/TigerExplorerxc_04.jpg" width="230" border="0" alt="Motocicleta Tiger Explorer XC"/>
+        <a href="img/marcas/triumph/tiger_explorer/tigerexplorerxc_04.jpg" rel="lightbox-"> 
+        <img src="img/marcas/triumph/tiger_explorer/tigerexplorerxc_04.jpg" width="230" border="0" alt="Motocicleta Tiger Explorer XC"/>
         </a>
            
         <div class="clear" style="float:none;"></div>

@@ -1,6 +1,6 @@
    
     	<div id="left_box">
-        	<img src="img/marcas/triumph/Tiger800/TIGER800XCABS.jpg" width="100%" />
+        	<img src="img/marcas/triumph/tiger800/tiger800.jpg" width="100%" />
         </div>
         
         <div id="right_box">
@@ -26,20 +26,20 @@
     
     <div id="triumph_gallery">
     
-    	<a href="img/marcas/triumph/Tiger800/tiger800xc_01.jpg" rel="lightbox-"> 
-        <img src="img/marcas/triumph/Tiger800/tiger800xc_01.jpg" width="230" border="0" alt="Motocicleta Tiger800xc"/>
+    	<a href="img/marcas/triumph/tiger800/tiger800xc_01.jpg" rel="lightbox-"> 
+        <img src="img/marcas/triumph/tiger800/tiger800xc_01.jpg" width="230" border="0" alt="Motocicleta tiger800xc"/>
         </a>
         
-        <a href="img/marcas/triumph/Tiger800/tiger800xc_02.jpg" rel="lightbox-"> 
-        <img src="img/marcas/triumph/Tiger800/tiger800xc_02.jpg" width="230" border="0" alt="Motocicleta Tiger800xc"/>
+        <a href="img/marcas/triumph/tiger800/tiger800xc_02.jpg" rel="lightbox-"> 
+        <img src="img/marcas/triumph/tiger800/tiger800xc_02.jpg" width="230" border="0" alt="Motocicleta tiger800xc"/>
         </a>
         
-        <a href="img/marcas/triumph/Tiger800/tiger800xc_03.jpg" rel="lightbox-"> 
-        <img src="img/marcas/triumph/Tiger800/tiger800xc_03.jpg" width="230" border="0" alt="Motocicleta Tiger800xc"/>
+        <a href="img/marcas/triumph/tiger800/tiger800xc_03.jpg" rel="lightbox-"> 
+        <img src="img/marcas/triumph/tiger800/tiger800xc_03.jpg" width="230" border="0" alt="Motocicleta tiger800xc"/>
         </a>
         
-        <a href="img/marcas/triumph/Tiger800/tiger800xc_04.jpg" rel="lightbox-"> 
-        <img src="img/marcas/triumph/Tiger800/tiger800xc_04.jpg" width="230" border="0" alt="Motocicleta Tiger800xc"/>
+        <a href="img/marcas/triumph/tiger800/tiger800xc_04.jpg" rel="lightbox-"> 
+        <img src="img/marcas/triumph/tiger800/tiger800xc_04.jpg" width="230" border="0" alt="Motocicleta tiger800xc"/>
         </a>
            
         <div class="clear" style="float:none;"></div>
