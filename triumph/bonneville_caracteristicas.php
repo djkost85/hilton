@@ -4,6 +4,8 @@
         	<tr>
            		<td rowspan="5" id="caracteristicas"> 
                 	<h2> CARACTERISTICAS </h2>	
+                    El nombre más famoso del motociclismo. Bonneville es sinónimo de libertad, carreteras despejadas, independencia y una de las motos con más estilo jamás<br><br>
+                    La Bonnie sigue ofreciendo la apariencia, el sonido y las sensaciones imprescindibles en una moto genuina y te pone en contacto con más de 50 años de tradición, pero está construida con todos los avances que aporta la ingeniería moderna.
                 </td>
             	<td class="foto"><img src="img/marcas/triumph/bonneville/motor.jpg" alt="bonneville motor"/></td>
                 <td>

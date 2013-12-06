@@ -9,7 +9,8 @@ $('.triumph_menu ul li a').click(function(e){
 	quienCargo= $(this).attr('href');
 	$('.triumph_menu ul li a').removeClass('active')
 	$(this).addClass('active');
-	$('.triumph_content').load('triumph/'+quienCargo);
+	$('.triumph_content').slideUp('400');
+	$('.triumph_content').load('triumph/'+quienCargo, function(){$('.triumph_content').slideDown('400');});
 	
 	})
 

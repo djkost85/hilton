@@ -3,6 +3,8 @@
         	<tr>
            		<td rowspan="5" id="caracteristicas"> 
                 	<h2> CARACTERISTICAS </h2>	
+                    La Thruxton nace de la cultura café racer que dominó el motociclismo en los años 60.<br><br>
+En aquella época se utilizaban motores bicilíndricos ingleses, generalmente el de una Bonneville, como base de máquinas hechas por y para uno mismo. Utilizadas para correr de un café a otro, estaban muy modificadas con elementos tales como asiento monoplaza, manillares bajos y escapes hacia arriba. Y al igual que las café racer de aquella época, la Thruxton moderna está basada en la Bonneville, pero nuestros ingenieros se han encargado de que se conduzca como una Triumph bicilíndrica moderna. Es tan fiable como para ser utilizada en el día a día, fácil y divertida de manejar, pero evocando aquel estilo clásico de las café racer.
                 </td>
             	<td class="foto"><img src="img/marcas/triumph/thruxton/motor100x100.jpg" alt="thruxton motor"/></td>
                 <td>

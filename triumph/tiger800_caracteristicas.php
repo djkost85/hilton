@@ -4,6 +4,10 @@
         	<tr>
            		<td rowspan="5" id="caracteristicas"> 
                 	<h2> CARACTERISTICAS </h2>	
+
+                    Utilizando la recia Tiger 800 como punto de partida hemos añadido un paquete de equipamiento off-road para que puedas seguir rodando cuando se acabe el asfalto. <br> <br>
+El motor es el mismo tricilíndrico de 800 cc de la Tiger 800, así que cuenta con abundante músculo y empuje. El resistente bastidor de acero y la gran autonomía de combustible también provienen de la Tiger 800. El distintivo XC indica que esta máquina alcanza un nuevo nivel de capacidad fuera del asfalto.
+ <br> <br>Es una moto dura con la que se pueden atravesar continentes, sin importar si hay o no carreteras que vayan en esa dirección. Simplemente carga la moto y sal zumbando.
                 </td>
             	<td class="foto"><img src="img/marcas/triumph/tiger800/motor100x100.jpg" alt="Tiger 800 XC motor"/></td>
                 <td>

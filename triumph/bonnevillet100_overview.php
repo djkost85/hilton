@@ -1,3 +1,4 @@
+<script type="text/javascript" src="slimbox/js/slimbox2.js"></script>
    
     	<div id="left_box">
         	<img src="img/marcas/triumph/bonnevillet100/2014-triumph-bonneville-t-2w.jpg" width="100%" />

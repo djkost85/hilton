@@ -3,6 +3,10 @@
         	<tr>
            		<td rowspan="5" id="caracteristicas"> 
                 	<h2> CARACTERISTICAS </h2>	
+
+                    En los años 60, lejos de la civilización y las carreteras asfaltadas, en el desierto, se utilizaban motos basadas en las Triumph bicilíndricas, despojadas de todo lo innecesario, con escapes altos y suspensiones y neumáticos para tierra, con la idea de competir y pasar un buen rato por terrenos accidentados.
+<br><br>La Scrambler está inspirada en aquellas motos. Hemos construido la Scrambler de forma que evoque ese espíritu de libertad y evasión de una época despreocupada en la que lo único importante eran una moto y un destino de viaje.
+
                 </td>
             	<td class="foto"><img src="img/marcas/triumph/scrambler/motor100x100.jpg" alt="Scrambler motor"/></td>
                 <td>

@@ -1,9 +1,7 @@
 <?php 
 include("admin/conectarse.php");
 $link=Conectarse();
-if(isset($_REQUEST['mod'])){
-  $mod = $_REQUEST['mod'];}
-else{$mod="";}
+$mod = $_REQUEST['mod'];
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -34,11 +32,11 @@ else{$mod="";}
 </script>
 <script type="text/javascript"> 
 // link for shortcut icon
-//HtmlLink hlinkIcon = new HtmlLink();
-//hlinkIcon.Attributes.Add("href", this.ResolveUrl("~/favicon.ico"));
-//hlinkIcon.Attributes.Add("rel", "SHORTCUT ICON");
-//hlinkIcon.Attributes.Add("ID", @"LinkIcon1");
-//this.Header.Controls.Add(hlinkIcon);
+HtmlLink hlinkIcon = new HtmlLink();
+hlinkIcon.Attributes.Add("href", this.ResolveUrl("~/favicon.ico"));
+hlinkIcon.Attributes.Add("rel", "SHORTCUT ICON");
+hlinkIcon.Attributes.Add("ID", @"LinkIcon1");
+this.Header.Controls.Add(hlinkIcon);
 </script>
 
 <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -85,7 +83,6 @@ document.getElementById('bannerflotante').style.display = 'none'
 <div id="contenedor">
   <div id="menuSuperiorInicio"><a href="?mod=principal">Inicio</a>
     <?php if ($mod=="") { echo ""; }?>
-    <?php if ($mod=="bmw") { echo " / Bmw"; }?>
     <?php if ($mod=="triumph") { echo " / Triumph"; }?>
     <?php if ($mod=="nissan") { echo " / Nissan"; }?>
     <?php if ($mod=="ducati") { echo " / Ducati"; }?>

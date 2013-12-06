@@ -1,3 +1,4 @@
+<script type="text/javascript" src="slimbox/js/slimbox2.js"></script>
   
     	<div id="left_box">
         	<img src="img/marcas/triumph/scrambler/2013-triumph-scrambler-2.jpg" width="100%" />

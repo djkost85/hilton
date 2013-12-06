@@ -1,3 +1,4 @@
+<script type="text/javascript" src="slimbox/js/slimbox2.js"></script>
    
     	<div id="left_box">
         	<img src="img/marcas/triumph/tiger800/tiger800.jpg" width="100%" />

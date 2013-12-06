@@ -1,0 +1,5845 @@
+﻿/* ================== START - reset.css ================== 
+reset.css
+revision 51
+-------------------------------------*/
+html
+{
+    font-size:100%;
+}
+body
+{
+     margin:0;
+     padding:0;
+     font-family:arial,sans-serif;
+     font-size:63%;
+     line-height:125%;
+     letter-spacing:normal;
+}
+/* base size set to 63% - this is font-size around 10px and makes calculating sizes easier */
+fieldset, img
+{
+    border:0;
+}
+caption, th
+{
+    text-align:left;
+}
+h1, h2, h3, h4, h5, h6, li, td, a
+{
+    margin:0;
+    padding:0;
+    /*font-size:1em;*/
+}
+q:before, q:after
+{
+    content:'';
+}
+abbr, acronym
+{
+    font-variant:normal;
+    border:0;
+}
+/* to preserve line-height and selector appearance */
+sup
+{
+    vertical-align:text-top;
+}
+sub
+{
+    vertical-align:text-bottom;
+}
+input, textarea, select
+{
+    font-family:inherit;
+    font-size:inherit;
+    font-weight:inherit;
+}
+del, ins
+{
+    text-decoration:none;
+}
+p, ul, ol, dl
+{
+    margin:0;
+    padding:0;
+    /*font-size:1.2em;*/
+}
+a
+{
+    text-decoration:none;
+    color:#000;
+}
+a:hover
+{
+    color:#000;
+}
+body
+{
+    color:#000;
+    background:#fff;
+}
+/*
+self clearing styles to cause elements containing floats to wrap correctly -
+placed at the top so that height can be overruled later if necessary
+*/
+.clrNM, #bottomLinks, #motorcycleOverviewGallery, #motorcycleCarousel, .mcFeatureAwardSection
+{
+    min-height:1px;
+}
+.clrNM:after, #bottomLinks:after, #motorcycleOverviewGallery:after, #motorcycleCarousel:after, .mcFeatureAwardSection:after
+{
+    visibility:hidden;
+    content:".";
+    display:block;
+    height:0;
+    min-height:0;
+    overflow:hidden;
+    clear:both;
+}
+table, th, td
+{
+    margin:0;
+    padding:0;
+    border-spacing:0;
+    border-collapse:collapse;
+}
+ 
+
+/* ================== END - reset.css ================== *//* ================== START - structure.css ================== 
+structure.css
+revision 817, 6032
+-------------------------------------*/
+
+.clear
+{
+    position:relative;
+    display:block;
+    width:1px;
+    height:1px;
+    font-size:1px;
+    clear:both;
+}
+.displayNone
+{
+    display:none !important;
+}
+body
+{
+    background:#000522;
+}
+/* WRAPPERS */
+#container1
+{
+    width:100%;
+    text-align:center;
+}
+#container2
+{
+    margin:0 auto;
+    position:relative;
+    padding:0;
+    width:990px;   
+}
+#geolocation
+{
+    position:relative;
+    width:990px;
+    margin:0 -28px -7px 0;
+    padding:7px 14px 0;
+    height: 29px;
+    min-height:29px;
+    text-align:left;
+}
+#geomessage
+{
+    margin:0;
+    padding:0;
+    color:#fff;
+}
+#mainContent
+{
+    padding:0 0 0 11px;
+    width:979px;
+    text-align:left;
+}
+body#homePage #mainContent
+{
+    padding:0;
+    width:990px;
+    background:none;
+}
+/* HEADER SECTION */
+#header
+{
+    position:relative;
+    width:990px;
+    margin:0;
+    padding:0;
+    min-height:130px;
+}
+#header #topLinks
+{
+    margin:0 0 0 240px;
+    padding:4px 0 8px 0;
+    width:750px;
+    text-align:left;
+}
+#header #importantAnnouncment
+{
+    margin:0;
+    padding:0 0 0 523px;
+    width:460px;
+    height:46px;    
+}
+#header #importantAnnouncment .inner
+{    
+    height:44px;
+    overflow:hidden;
+    color:#fff;
+    border:#fff 1px dashed;
+}
+#header #search
+{    
+    margin:0;
+    padding:7px 0 9px 856px;
+    width:129px;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {/*chrome/safari*/
+#header #search {height: 19px !important; }
+}
+#header #mainNav
+{
+    margin:0;
+    padding:0 0 8px 0;
+    width:983px;
+}
+/* NEWSLETTER SIGN UP */
+#newsLetter
+{
+    position:absolute;
+    top:25px;
+    right:0;
+    width:236px;
+    z-index:999;
+    padding:3px 12px 12px 12px;
+    text-align:left;
+    overflow:hidden;
+}
+/* CRUMBTRAIL */
+#crumbtrail
+{
+    padding:0 0 0 20px;
+    width:970px;
+    height:19px;
+    border-top:#fff 2px solid;
+    border-bottom:#fff 2px solid;
+}
+/* COLUMNS */
+#leftCol
+{
+    float:left;
+    width:792px;
+}
+#rightCol
+{
+    float:right;    
+    width:198px;
+}
+.column
+{
+    float:left;
+    padding:30px 0 0 24px;
+}
+.column.col233px
+{
+    width:233px;
+}
+.column.col290px
+{
+    width:290px;
+}
+.column.col291px
+{
+    width:291px;
+}
+.column.col351px
+{
+    width: 351px;
+}
+.column.col355px
+{
+    width:355px;
+}
+.column.col361px
+{
+    width:361px;
+}
+.column.col362px
+{
+    width:362px;
+}
+.column.col368px
+{
+    width:368px;
+}
+.column.col406px
+{
+    width:406px;
+}
+.column.col448px
+{
+    width:448px;
+}
+.column.col490px
+{
+    width:490px;
+}
+.column.col502px /* motorcycle range listing */
+{
+    padding:30px 22px 0 12px;
+    width:502px;
+}
+.column.col528px
+{
+    width:528px;
+}
+.column.col663px
+{    
+    width:663px;
+}
+.column.col747px
+{
+    width:747px;
+}
+.column.col771pxcolHolder
+{
+    padding:30px 0 0 0;
+    width:771px;
+}
+.column.col771pxcolHolder .column
+{
+    padding:0 0 0 24px;
+}
+.column.col920px
+{
+    width:920px;
+}
+.flexiColumn
+{
+    padding:0px 0 0 24px;
+}
+#introArea
+{
+    float:right;
+    padding:12px 12px 4px 12px;
+    width:162px;
+}
+body#homePage #introArea
+{
+    padding:14px 18px 0 18px;
+    width:162px;
+}
+/* BANNER */
+#banner
+{
+    position:relative;
+    z-index:10;
+    width:990px;
+    height:358px;
+    overflow:hidden;
+    text-align:left; 
+}
+body#homePage #banner
+{
+    width:792px;
+    background:#fff;
+}
+#bannerReplace, #mymovie
+{
+    z-index:11;
+}
+/* TABBED CONTENT */
+#tabbedContent
+{
+    min-height:0px;
+    background:#fff;
+}
+#tabbedContent, #tabbedContent ul, #tabbedContent ul li
+{
+    position:relative;
+    margin:0;
+    padding:0;
+    border:none;
+}
+/* SIGN POSTS */
+#signPosts
+{
+    padding:0px 0 0px 0px;
+    width:990px;
+    height:155px;
+    text-align:left;   
+    background:#fff;
+    border-bottom:#67677e 1px solid;
+    overflow:hidden;  
+}
+/* FOOTER (TOP) */
+#footerTop, #footerBottom
+{
+    font-size:1.0em;
+}
+#footerTop
+{
+    margin:10px 0 0 0;
+    width:990px;
+    text-align:left;
+}
+#footerTop .inner
+{
+    position:relative;
+    padding:9px 0 8px 35px;
+    width:955px;
+}
+/* FOOTER (BOTTOM) */
+#footerBottom
+{
+    margin:8px 0 20px 0;
+}
+
+/* ================== END - structure.css ================== *//* ================ START - screen.css ================= *
+ * screen.css
+ * revision $LastChangedRevision: 817 $
+ * PHP at line 497, 4108-9, 4113-4, 4118-9, 4113-4, 4128-9, 4133-4, 4138-9
+ * After paste 481, 3783-4, 3787-8, 3791-2, 3795-6, 3799-800, 3803-4, 3808-9
+ * ===================================================== */
+h1, h2, h3
+{
+    padding:0 0 9px 0;
+    color: #333333;
+    line-height:120%;
+}
+h1, h2, h3
+{
+    font-weight:normal;
+    text-transform:uppercase;
+}
+h2
+{
+    font-size:1.6em;
+    letter-spacing:1px;
+}
+h3
+{
+    font-size:1.4em;
+    letter-spacing: 1px;
+}
+p
+{
+    padding:0 0 15px 0;
+    color:#333333;
+}
+ul,ol,li{
+    color:#333333;
+}
+a
+{
+    color:#4c689f;
+}
+a img
+{
+    border:none;
+}
+ol, ul
+{
+    margin:0 0 10px 25px;
+}
+ol li
+{
+    list-style-type:decimal;
+}
+ul li
+{
+    list-style-type:disc;
+}
+address
+{
+    font-style:normal;
+}
+h1.mainHeading
+{
+    font-size: 1.6em;
+    letter-spacing: 1px;
+}
+h1.mainHeadingLarge
+{
+    font-size: 4.0em;
+}
+h1.bannerHeading
+{
+    position: absolute; 
+    top: 140px; 
+    left: 35px; 
+    font-size: 4.3em; 
+    color: #fff;
+    width: 700px;
+}
+.headingLink
+{
+    color: #333;
+    padding-left: 16px;
+}
+.headingLink a
+{
+    color: #333;
+}
+.headingLink a:hover 
+{
+    color: #4c689f;
+}
+/* -------------------- GEO LOCATION -----------------------*/
+#geolocation a {
+    padding-right: 2px;
+}
+#geomessage
+{
+    float: left;
+    padding:0 7px 0 20px;    
+}
+/* ---------------------- LOGO LINK ------------------------*/
+#logoLink {
+    position: absolute; 
+    display: block; 
+    width: 290px; height: 129px;
+    text-indent: -9999px; 
+    text-align: left; 
+    left: 0px; top: 0px; 
+}
+/* ---------------------- TOP LINKS ------------------------*/
+#topLinks
+{
+    width:750px;
+    margin:0;
+    padding:0;
+    font-size:1.0em;
+}
+#topLinks ul
+{
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-align:right;
+    line-height:100%;
+    width:749px;
+    margin-right:1px;
+}
+#topLinks ul li
+{
+    display:inline;
+    padding:0 2px 0 0;
+    list-style-type:none;
+    color:#a0b0c8;
+}
+#topLinks ul li a
+{
+    line-height:100%;
+    padding:0 3px 0 0;
+    color:#a0b0c8;
+}
+#topLinks ul li a:hover
+{
+    color:#7b879a;
+}
+#topLinks ul li a.active
+{
+    color:#d9d9d9;
+}
+/* ---------------------- NEWSLETTER SIGN UP ------------------------*/
+#newsLetter
+{
+    display:none;
+}
+#newsLetter .close a
+{
+    float:right;
+    padding:1px 15px 0 0;
+    width:35px;
+    text-transform:uppercase;
+    color:#333333;
+    margin-right: -8px;
+}
+#newsLetter .close a:hover
+{
+    color:#4d6ba0;
+}
+#newsLetter h2
+{
+    padding:5px 0 3px 0;
+    font-size:1.4em;
+    font-weight:normal;
+    color:#333333;
+    text-transform:uppercase;
+}
+#newsLetter .form
+{
+    margin:0 0 3px 0;
+}
+#newsLetter .form form
+{
+    padding: 0;
+    margin: 0;
+}
+#newsLetter .form .inner
+{
+    padding:6px 6px 6px 12px;
+    width:218px;
+    overflow:hidden;
+}
+#newsLetter .form .inner ul
+{
+    margin:0;
+}
+#newsLetter .form .inner ul li
+{
+    list-style-type:none;
+}
+#newsLetter .form .inner ul li label
+{
+    float:left;
+    padding:6px 0 0 0;
+    width:76px;
+    color:#333333;
+    font-size:0.9em;
+}
+#newsLetter .form .inner ul li label.error {
+    color: #aa0000;
+    padding: 0px 0 5px 76px;
+    width: 134px;
+}
+#newsLetter .form .inner ul li input
+{
+    float:left;
+    padding:2px 3px;
+    width:134px;
+    color:#7b879a;
+    border:#d9d9d9 1px solid;
+}
+#newsLetter .form .inner ul li.btn input
+{
+    margin:3px 0 0 0;
+    padding:0;
+    width:64px;
+    height:18px;
+    border:none;
+    float:right;
+}
+#newsLetter p
+{
+    color:#333333;
+    font-size:0.95em;
+    padding:0 12px 0 2px;
+}
+#newsLetter a:hover
+{
+    color:#7b879a;
+}
+#newsLetter a
+{
+    color:#4d6ba0;
+}
+#newsLetter a:hover
+{
+    color:#7b879a;
+}
+/* ---------------------- SEARCH ------------------------*/
+#search form
+{
+    margin: 0px;
+    padding: 0px;
+}
+#search ul
+{
+    margin:0;
+}
+#search ul li
+{
+    float:left;
+    height:18px;
+    overflow:hidden;
+    list-style-type:none;
+}
+#search ul li.textBox input
+{
+    padding:1px 5px 0 5px;
+    width:99px;
+    color:#fff;
+    background:none;
+    border:none;
+    font-size: 1.1em;
+}
+#search ul li.textBox input.idleField
+{
+    color:#7c7c86;
+}
+#search ul li.textBox input.focusField
+{
+    color:#fff;
+}
+#search ul li.btn input
+{
+    margin:0 0 0 2px;
+}
+/* ---------------------- MAIN NAVIGATION ------------------------*/
+/*
+#mainNav
+{
+    text-align:right;
+}
+#mainNav ul
+{
+    margin:0;
+    padding:0;
+}
+#mainNav ul li
+{
+    display:inline;
+    padding:0 12px 10px 0;
+    margin:0;
+    list-style-type:none;
+    font-size:1em;
+    letter-spacing:normal;
+}
+#mainNav ul li.end
+{
+    padding:0 0 0 0px;
+    text-align:right;
+}
+#mainNav ul li a
+{
+    text-transform:uppercase;
+    text-decoration:none;
+    letter-spacing:inherit;
+    font-weight:normal;
+    color:#d9d9d9;
+    padding:0;
+    font-size: 1.2em;
+}
+#mainNav ul li a:hover
+{
+    color:#7b879a;
+}
+#mainNav ul li a.active
+{
+    color:#a0b0c8;
+}
+#mainNav ul li .navPanel
+{
+    position:absolute;
+    top:120px;
+    right:18px;
+    z-index:998;
+    padding:10px 0 0 0;
+    display:none;
+    width:809px;
+    text-align:left;
+}
+#mainNav ul li:hover .navPanel
+{
+    display:block;
+    z-index:997;
+}
+#mainNav ul li .navPanel .inner
+{
+    padding:12px 2px 0 12px;
+}
+#mainNav ul li .navPanel .inner ul.subNav
+{
+    float:left;
+    margin:0;
+    width:120px;
+    overflow:hidden;
+    text-align:left;
+}
+#mainNav ul li .navPanel .inner ul.subNav li
+{
+    margin:0;
+    padding:0 0 9px 18px;
+    display:block;
+}
+#mainNav ul li .navPanel .inner ul.subNav li a
+{
+    color:#333333;
+}
+#mainNav ul li .navPanel .inner ul.subNav li a:hover
+{
+    color: #4d6ba0;
+}    
+#mainNav .bikes
+{
+    float:left;
+    width:650px;
+    padding-left:12px;   
+}
+#mainNav .bikes h2
+{
+    padding:0 0 0 18px;
+    font-size:1.2em;  
+    color:#333333;
+    line-height:100%;
+}
+#mainNav .bikes h2 a 
+{
+    display: block;
+    padding-top: 2px;
+    color: #333333;
+}
+#mainNav .bikes h2 a:hover
+{
+    color: #4d6ba0;
+}
+#mainNav .bikes ul
+{
+    margin:0 0 20px 0;
+    text-align:left;
+}
+#mainNav .bikes ul li
+{
+    float:left;
+    padding:0 10px 0 0;
+    width:120px;
+    line-height:100%;
+}
+#mainNav .bikes ul li a
+{ 
+    display: block;
+    width:120px;
+    font-size:1.0em;
+    color:#333333;
+    line-height:100%;
+    text-align: center;
+}
+#mainNav .bikes ul li a:hover
+{
+    color: #4d6ba0;
+}
+#mainNav .bikes ul li a:hover img 
+{
+    opacity: 0.75;
+    filter:alpha(opacity=75);
+}
+#mainNav .bikes ul li a img 
+{
+    display: block;
+}
+#mainNav .bikes ul li a span 
+{
+    padding-left: 15px;
+}
+#mainNav .navPanel #bottomLinks 
+{
+    padding-bottom: 15px;
+}
+#mainNav .navPanel #bottomLinks h2 
+{
+    float: left; 
+    margin-right: 10px;
+}
+#mainNav ul li .navPanelWhyTriumph 
+{
+    right: 430px !important;
+    width: 160px;
+}
+#mainNav ul li .navPanelClothing 
+{
+    right: 330px !important;
+    width: 160px;
+}
+#mainNav ul li .navPanelAccessories
+{
+    right: 250px !important;
+    width: 160px;
+}
+#mainNav ul li .navPanelGenuineParts
+{
+    right: 150px !important;
+    width: 160px;
+}
+#mainNav ul li .navPanelTriumphWorld
+{
+    right: 40px !important;
+    width: 160px;
+}
+#mainNav ul li .navPanelMyTriumph
+{
+    right: 0px !important;
+    width: 160px;
+}
+*/
+/* ---------------- Top Navigation --------------------- */
+#topNav {
+    width: 980px;
+    position: relative;
+    text-align: right;
+}
+#topNav ul.top {
+    float: right;
+}
+#topNav ul.top div.sub-menu {
+    width: 160px;
+    /*height: 200px;*/
+    text-align: left;
+    /*opacity:0.8;
+    filter:alpha(opacity=80);    */
+}
+#topNav ul.top div.sub-menu-motorcycles 
+{
+    /*width: 809px; */
+    /*left: -120px; */
+    /* OLD width: 990px; */
+       /*  left: px;
+                Offset fix MH 24/5/2012 */   
+    right: -10px;
+    width: 990px;
+
+}
+#topNav ul.top {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#topNav ul.top li.top {
+    position: relative;
+    float: left;
+    list-style-type: none;
+}
+/*Offset Fix MH 24/5/2012*/
+#topNav ul.top li.motorcyclesNav {
+    position: inherit;
+}
+
+li.top .sub-menu {
+    position: absolute;
+    right: -10px;
+    display: none;
+    z-index: 1200;
+}
+li.top div.last-sub-menu {
+    left: -70px;
+}
+#topNav ul.top li a.top {
+    /*display: block;*/
+    text-decoration: none;
+    color: #fff;
+    /*padding: 10px 5px;*/
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+#topNav ul.top li a.top:hover span {
+    color: #7b879a;
+}
+#topNav ul.top li a.top span {
+    display: block;
+    padding: 0px 0px 15px 15px;
+}
+#topNav ul.top li:hover a.top, #topNav ul.top li.over a.top {
+   color: #fff;
+   /*background-color: red;*/
+}
+#topNav ul.top li:hover div.sub-menu, #topNav ul.top li.over div.sub-menu {
+    display: block;
+    /*padding-top: 20px;*/
+}
+#topNav ul.top li a.top.active {
+    color: #A0B0C8;
+}
+#topNav ul.top div.inner {
+    /*padding: 12px 12px 0px 12px;    */
+    padding: 12px 0 0 12px;
+}
+#topNav ul.top ul.relatedLinks li { /*padding-bottom: 9px;*/ }
+#topNav ul.top ul.relatedLinks li a { font-size: 1.2em; padding-bottom: 9px; }
+#topNav ul li .sub-menu .inner ul.subNav
+{
+    float:left;
+    margin:0;
+    /*width:120px;*/
+    width: 115px;
+    overflow:hidden;
+    text-align:left;
+}
+#topNav ul li .sub-menu .inner ul.subNav li
+{
+    margin:0;
+    padding:0 0 9px 18px;
+    display:block;
+}
+#topNav ul li .sub-menu .inner ul.subNav li a
+{
+    color:#333333;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+#topNav ul li .sub-menu .inner ul.subNav li a:hover
+{
+    color: #4d6ba0;
+}
+#topNav .bikes
+{
+    float:left;
+    /*width:650px;*/
+    /*padding-left:12px;*/ 
+    width: 858px;
+    /*padding-left: 8px;*/
+    /*background: #00aa00;*/
+}
+#topNav .bikes h2
+{
+    /*padding:0 0 0 18px;*/
+    padding: 0 0 5px 18px;
+    margin-bottom: 5px;
+    font-size:1.2em;  
+    color:#333333;
+    line-height:100%;
+    border-bottom: 1px solid #ccc;
+}
+#topNav .bikes h2 a 
+{
+    display: block;
+    padding-top: 2px;
+    color: #333333;
+}
+#topNav .bikes h2 a:hover
+{
+    color: #4d6ba0;
+}
+#topNav .bikes ul
+{
+    margin:0 0 20px 9px;
+    text-align:left;
+}
+#topNav .bikes ul li
+{
+    /*float:left;*/
+    /*padding:0 10px 0 0;*/
+    width:120px;
+    padding-bottom: 4px;
+    line-height:100%;
+    list-style-type: none;
+}
+#topNav .bikes ul li a
+{ 
+    display: block;
+    width:120px;
+    font-size:1.0em;
+    color:#333333;
+    line-height:100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+#topNav .bikes ul li a:hover
+{
+    color: #4d6ba0;
+}
+#topNav .bikes ul li a:hover img 
+{
+    opacity: 0.75;
+    filter:alpha(opacity=75);
+}
+#topNav .bikes ul li a img 
+{
+    display: block;
+}
+#topNav .bikes ul li a span 
+{
+    padding-left: 15px;
+}
+#topNav .sub-menu #bottomLinks 
+{
+    padding-bottom: 15px;
+}
+#topNav .sub-menu #bottomLinks h2 
+{
+    float: left; 
+    margin-right: 10px;
+}
+#topNav .bikes .bikesCol {
+    float: left;
+    width: 138px;
+    margin-right: 5px;
+}
+/* ------------------- END OF NEW NAV STYLES -----------------*/
+
+/* ---------------------- BREADCRUMB ------------------------*/
+#crumbtrail .flag
+{
+    float:left;
+    margin:4px 6px 0 0;
+}
+/* see language selection box below for flag backgrounds */
+#crumbtrail .flag a
+{
+    display:block;
+    width:16px;
+    height:11px;
+    text-indent:-3000px;
+    overflow:hidden;
+}
+#crumbtrail #crumbLinks
+{
+    float:left;
+    color: #d9d9d9;
+}
+#crumbtrail #crumbLinks ul
+{
+    margin:1px 0 0 0;
+}
+#crumbtrail #crumbLinks ul li
+{
+    float: left;
+    margin-right: 5px;
+    padding-top: 2px;
+    list-style-type:none;    
+}
+#crumbtrail #crumbLinks ul li.end
+{
+    color: #7b879a;
+    text-transform:lowercase;
+}
+#crumbtrail #crumbLinks ul li a
+{
+    text-transform:lowercase;
+    color:#d9d9d9;
+}
+#crumbtrail #crumbLinks ul li a:hover
+{
+    color:#7b879a;
+}
+/* ---------------------- BANNER ------------------------*/
+#banner #tabs
+{
+    position:absolute;
+    bottom:0;
+    left:0;
+    z-index:1200;
+    width:990px;
+}
+body#homePage #banner #tabs
+{
+    width:792px;
+}
+#banner #tabs ul
+{
+    margin:7px 0 7px 0;/* must be same as top and bottom anchor padding */
+    text-align:center;
+}
+#banner #tabs ul li
+{
+    margin:0 -1px 0 0;
+    display:inline;
+}
+#banner #tabs ul li.end
+{
+    margin:0 -3px 0 0;
+}
+#banner #tabs ul li a
+{
+    padding:7px 14px 7px 14px;
+    font-size:1.1em;
+    text-transform:uppercase;
+    color:#fff;
+    background:#000;
+}
+#banner #tabs ul li a:hover
+{
+    color:#000;
+    background: #d9d9d9;
+}
+#banner #tabs ul li a.active
+{
+    color:#000;
+    background:#fff;
+}
+/* ---------------------- INTRO AREA ------------------------*/
+#introArea h2
+{
+    padding:0 0 6px 0;
+    font-size:1.6em;
+    font-weight:normal;
+    text-transform:uppercase;
+    color:#fff;
+}
+#introArea p
+{
+    padding:0 0 12px 0;
+    text-transform:none;
+    color:#fff;
+    line-height: 1.4em;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+#introArea .callToAction
+{
+    position:relative;
+    margin:0 0 8px 0;
+    width:162px;
+    height:150px;
+    overflow:hidden;
+}
+#introArea .callToAction h3.callToActionTitle
+{
+    padding: 10px 9px 0 9px;
+    font-size:1.4em;
+    text-transform:uppercase;
+    color:#fff;
+}
+#introArea .callToAction .link
+{
+    position:absolute;
+    bottom:0;
+    right:0;
+    padding:0 11px 0 0;
+    height:29px;   
+}
+#introArea .callToAction .link .inner
+{
+    padding:2px 0 0 7px;
+    height:27px;
+}
+#introArea .callToAction .link a
+{    
+    padding:3px 0;
+    display:block;
+    text-transform:uppercase;
+    color:#fff; 
+}
+#introArea ul#nav
+{
+    display:none;
+    /* see js-enabled.css for panel nav */
+}
+#introArea #seeAll
+{
+    float:right;
+    margin:8px 0 15px 0;
+}
+#introArea #seeAll a
+{
+    padding:0 17px 0 0;
+    height:12px;
+    color:#fff;
+}
+/* ---------------------- TABBED CONTENT ------------------------*/
+#tabbedContent.opened
+{
+    min-height:122px;
+    background:#fff;
+}
+#tabbedContent ul li
+{
+    padding:10px 20px 0 20px;
+    background:#fff;
+}
+#tabbedContent ul li, #tabbedContent ul li.display
+{
+    display:block;
+    width:950px;
+    text-align:left;
+}
+#tabbedContent ul li.hidden
+{
+    display:none;
+}
+#tabbedContent .copy
+{
+    float:left;
+    padding:8px 6px 8px 0;
+    width:210px;
+}
+#tabbedContent .copy h2
+{
+    padding:0 0 4px 18px;
+    font-size:1.2em;
+    text-transform:uppercase;
+    color:#333333;
+}
+#tabbedContent .copy h2 a 
+{
+    color: #333333;
+    font-size: 1.5em;
+}
+#tabbedContent .copy h2 a:hover
+{
+    color: #4d6ba0;
+}
+#tabbedContent .copy p
+{
+    padding:0 0 6px 18px;
+    font-size:1.1em;
+    font-weight: bold;
+}
+#tabbedContent .copy p a
+{
+    font-weight: normal;
+    padding:0 16px 0 0;
+    color:#000;
+}
+#tabbedContent .copy p a:hover
+{
+    color: #4d6ba0;
+}
+#tabbedContent .bikes
+{
+    float:left;
+    width:594px;
+}
+#tabbedContent ul li .bikes ul li
+{
+    float:left;
+    padding:0 6px 0 0;
+    padding:0;
+    width:99px;
+    overflow:hidden;
+}
+#tabbedContent ul li .bikes ul li img
+{
+    margin-top: 20px;
+    margin-bottom:10px;
+    display: block;
+}
+/*
+#tabbedContent ul li .bikes ul li a
+{ 
+    padding:0 0 0 15px;
+    display:block;
+    width:78px;
+    overflow:hidden;
+    font-size:1em;
+    text-transform:uppercase;
+    color:#000;
+}
+*/
+#tabbedContent ul li .bikes ul li a 
+{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1em;
+    display: block;
+    text-align: center;
+}
+#tabbedContent ul li .bikes ul li a:hover 
+{
+    color: #4d6ba0;
+}
+#tabbedContent ul li .bikes ul li a:hover img 
+{
+    opacity: 0.75;
+    filter:alpha(opacity=75);
+}
+#tabbedContent ul li .bikes ul li a span {
+    padding-left: 15px;
+}
+#tabbedContent ul li .rangeNav
+{
+    float:right;
+    padding:8px 0;
+    width:122px;
+}
+#tabbedContent ul li .rangeNav ul li
+{
+    padding:0 2px 6px 0;
+    width:122px;
+}
+#tabbedContent ul li .rangeNav ul li a
+{
+    display:block;
+    padding:0 17px 0 0;
+    width:105px;
+    text-align:right;
+    font-size: 1.0em;
+    color:#000;
+}
+#tabbedContent ul li .rangeNav ul li a:hover
+{
+    color:#4d6ba0;
+}
+/* ---------------------- GENERIC RELATED LINKS LIST ------------------------*/
+ul.relatedLinks
+{
+    margin:0;
+}
+ul.relatedLinks li
+{
+    padding:0 0 2px 0;
+    list-style-type:none;
+}
+ul.relatedLinks li a
+{
+    font-size: 1.1em;
+    padding:0 0 0 16px;
+    color:#333333;
+    display: block;
+}
+ul.relatedLinks li a:hover 
+{
+    color: #4d6ba0;
+}
+/* ---------------------- GENERIC FORM ELEMENTS ------------------------*/
+ul.form
+{
+    margin:0;
+}
+ul.form li
+{
+    padding:0 0 6px 0;
+    list-style-type:none;
+}
+ul.form li label
+{
+    padding:0 0 2px 0;
+    display:block;
+    color:#333333;
+}
+ul.form li input, ul.form li select
+{
+    padding:2px 4px;
+    width:211px;
+    color:#a3a3aa;
+    border:#d7d7d7 1px solid;
+}
+ul.form li select
+{
+    width:221px;
+}
+ul.form li.btn input
+{
+    padding:0;
+    width:64px;
+    height:18px;    
+    border:none;    
+}
+ul.form li.btn.dealer input
+{
+    width:107px;
+}
+/* ---------------------- GREY BOXES ------------------------*/
+.roundedGrey233px
+{
+    margin:0 0 6px 0;
+}
+.roundedGrey233px .inner
+{
+    padding:10px 6px 4px 6px;
+}
+/* ---------------------- LATEST NEWS ------------------------*/
+#latestNewsList .item, #latestEventsList .item
+{
+    padding:0 0 10px 0;
+}
+#latestNewsList .item .image, #latestEventsList .item .image
+{
+    float:left;
+    width:55px;
+}
+#latestNewsList .item .copy, #latestEventsList .item .copy
+{
+    float:right;
+    padding:8px 0 0 0;
+    width:170px;
+    border-top:#d9d9d9 1px solid;
+}
+#latestNewsList .item .copy h3, #latestEventsList .item .copy h3
+{
+    padding:0 0 0 16px;
+}
+/* ---------------------- SOCIAL MEDIA ------------------------*/
+#faceBook h2
+{
+    padding:0 0 9px 20px;
+}
+#faceBook h2 a
+{
+    color: #333;
+}
+#faceBook h2 a:hover
+{
+    color: #4d6ba0;
+}
+#faceBook .quote
+{
+    border-top:#d9d9d9 1px solid;
+    border-bottom:#d9d9d9 1px solid;
+    margin-bottom: 5px;
+}
+#faceBook .quote p
+{
+    padding:8px 0;
+    font-size:1.2em;
+    font-style:italic;
+    color:#4d6ba0;
+}
+#faceBook p a.button
+{
+    margin:5px 0 0 0;
+    display:block;
+    width:107px;
+    height:22px;
+    overflow:hidden;
+    text-indent:-3000px;
+}
+#faceBook p 
+{
+    font-size: 1.1em;
+    line-height: 1.3em;
+}
+#youTube h2
+{
+    padding:0 0 9px 20px;
+}
+#youTube h2 a
+{
+    color: #333;
+}
+#youTube h2 a:hover 
+{
+    color: #4d6ba0;
+}
+#youTube .video
+{
+    padding:5px 0;
+    border-top:#d9d9d9 1px solid;
+    border-bottom:#d9d9d9 1px solid;  
+    margin-bottom: 5px;
+}
+#youTube p a.button
+{
+    margin:5px 0 0 0;
+    display:block;
+    width:162px;
+    height:22px;
+    overflow:hidden;
+    text-indent:-3000px;
+}
+#youTube p 
+{
+    font-size: 1.1em;
+    line-height: 1.3em;
+}
+/* ---------------------- TRIUMPH WORLD LANDING ---------------------------*/
+#newsletterSignup p 
+{
+    font-size: 1.1em;
+    line-height: 1.3em;
+}
+#newsletterSignup form 
+{
+    background: #efefef;
+    padding: 7px;
+    margin: 0 0 10px 0;
+}
+#newsletterSignup form .row 
+{
+    margin-bottom: 7px;
+}
+#newsletterSignup form .row .label 
+{
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+#newsletterSignup form .row input#firstname,
+#newsletterSignup form .row input#lastname,
+#newsletterSignup form .row input#email
+{
+    width: 204px;
+    color: #7b879a;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+#newsletterSignup form .row input.error {
+    border: 1px solid #AB0245;
+}
+#newsletterSignup form .row label.error {
+    font-size: 1.1em;
+    color: #fff;
+    height: 25px;
+    padding-top: 5px;
+    padding-right: 20px;
+    text-align: right;
+    display: block;    
+}
+#findADealerForm p 
+{
+    font-size: 1.1em;
+    line-height: 1.3em;
+}
+#findADealerForm p.top
+{
+    font-weight: bold;
+    padding-bottom: 0;
+}
+#findADealerForm p.active-country {
+    padding-bottom: 0;
+}
+#findADealerForm form 
+{
+    background: #efefef;
+    padding: 7px;
+    margin: 0 0 10px 0;
+}
+#findADealerForm form .row 
+{
+    margin-bottom: 7px;
+}
+#findADealerForm form .row .label
+{
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+#findADealerForm form .row input#country,
+#findADealerForm form .row input#dealersNearTo,
+#findADealerForm form .row input#andOr
+{
+    width: 210px;
+    color: #7b879a;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+#findADealerForm form .row select#country 
+{
+    width: 215px;
+    color: #7b879a;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+span.findDealerFormError {
+    display: block;
+    margin-top: 10px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 165px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #fff;    
+}
+/* ---------------------- MOTORCYCLE SECTION LISTS ------------------------*/
+#motorcycleSectionList 
+{
+    padding-bottom: 10px;
+}
+#motorcycleSectionList .item
+{
+    margin:0 0 12px 0;
+}
+#motorcycleSectionList .item .image
+{
+    float:left;
+    /*margin:4px 0 0 0;*/
+    width:250px;
+    height:152px;
+    margin-right: 7px;
+    margin-top: 4px;
+}
+#motorcycleSectionList .item .image img
+{
+    width: 248px;
+    height: 150px;
+    margin: 1px;
+}
+#motorcycleSectionList .item .copy
+{
+    float:left;
+    width:231px;
+    min-height: 152px;
+}
+#motorcycleSectionList .item .copy .copyInnerTop
+{
+    background: #cfd7e3; 
+    padding: 8px 12px 12px 12px;
+    min-height: 132px;
+    margin-top: 4px;
+}
+#motorcycleSectionList .item .copy .copyInner
+{
+    padding: 0px 0px 0px 12px;
+}
+#motorcycleSectionList .item .copy h2
+{
+    padding:0 0 8px 16px;
+}
+#motorcycleSectionList .item .copy h2 a
+{
+    color: #333333;
+}
+#motorcycleSectionList .item .copy h2 a:hover 
+{
+    color:#4c689f;
+}
+#motorcycleSectionList .item .copy h3 
+{
+    padding-bottom: 4px;
+    font-size: 1.1em;
+}
+#motorcycleSectionList .item .copy p
+{
+    font-size: 1.1em;
+    padding-bottom: 8px;
+}
+#motorcycleSectionList .item .copy ul.relatedLinks li a 
+{
+    text-transform: uppercase;
+    font-size: 1.0em;
+    padding-top: 2px;
+    display: block;
+}
+#motorcycleSectionList .item .copy ul.relatedLinks li a.active 
+{
+    color: #4d6ba0;
+}
+#motorcycleSectionList .item .copy .specialEdition 
+{
+    display: block;
+    padding: 3px 0 3px 19px;
+    margin-bottom: 8px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+#motorcycleSectionList .item .copy .list .listLeft 
+{
+    float: left; 
+    width: 109px;
+}
+#motorcycleSectionList .item .copy .list .listRight
+{
+    float: left; 
+    width: 109px;
+}
+/* ---------------------- MOTORCYCLES SECTION ------------------------*/
+.motorcyclesIntroText p, .motorcyclesIntroText ul, .motorcyclesIntroText ol
+{
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
+.motorcyclesIntroSub 
+{
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 15px;
+}
+.motorcyclesIntroSub img 
+{
+    padding-bottom: 10px;
+}
+.motorcyclesIntroSub p
+{
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height:1.3em;
+}
+/* ---------------------- MOTORCYCLE OVERVIEW GALLERY ------------------------*/
+#motorcycleOverviewGallery 
+{
+    margin-top: 3px;
+    margin-bottom: 16px;
+}
+#motorcycleOverviewGallery .photo
+{
+    float: left; 
+    width: 386px; 
+    height: 235px;
+    position: relative;
+}
+#motorcycleOverviewGallery .photo .photoInner 
+{
+    padding: 1px;
+}
+#motorcycleOverviewGallery .title 
+{
+    position: absolute;
+    bottom: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    width: 386px;
+    font-size: 1.0em;
+}
+#motorcycleOverviewGallery .thumbs 
+{
+    float: right; 
+    width: 101px;
+    display: none;
+}
+#motorcycleOverviewGallery .thumbs h2 
+{
+    margin-top: -4px;
+    padding-bottom: 9px;
+}
+#motorcycleOverviewGallery .thumbs .hider
+{
+    position: relative; 
+    height: 212px; 
+    overflow: hidden;
+}
+#motorcycleOverviewGallery .thumbs .slider
+{
+    position: absolute; 
+    left: 0px; 
+    top: 0px;
+}
+#motorcycleOverviewGallery .thumbs #upBtn
+{
+    display: block;
+    width: 101px; 
+    height: 20px;
+}
+#motorcycleOverviewGallery .thumbs #downBtn
+{
+    display: block;
+    width: 101px; 
+    height: 20px;
+}
+#motorcycleOverviewGallery .thumbs a#upBtn:hover
+{
+    background-position: right top;
+}
+#motorcycleOverviewGallery .thumbs a#downBtn:hover
+{
+    background-position: right bottom;
+}
+ul.motorcycleThumbList
+{
+    margin:0;
+}
+ul.motorcycleThumbList li
+{
+    padding:0 0 2px 0;
+    list-style-type:none;
+    line-height: 0px;
+    font-size: 0px;
+}
+ul.motorcycleThumbList li a
+{
+    padding:2px;
+    display:block;
+    width:97px;
+    height:58px;
+    overflow:hidden;    
+}
+ul.motorcycleThumbList li a:hover
+{
+    
+}
+ul.motorcycleThumbList li a.active
+{
+    
+}
+ul.motorcycleThumbList li a img 
+{
+    width: 97px;
+    display: block;
+}
+#mcOveriewFullSpecLink 
+{
+    font-size: 1.0em;
+    color: #333;
+    text-transform: uppercase;
+    padding: 1px 0 0 15px;
+    display: block;
+}
+#mcOveriewFullSpecLink:hover 
+{
+    color: #4d6ba0;
+}
+
+/* ---------------------- MOTORCYCLE OVERVIEW CAROUSEL ------------------------*/
+#motorcycleCarouselOverviewContainer 
+{
+    margin-bottom: 20px;
+    width: 696px;
+    border: none;
+    margin: 0 0 20px 0; 
+    padding: 0;
+    float: left;
+    
+}
+#motorcycleCarouselOverviewContainer li
+{
+    display: inline;
+}
+#motorcycleCarouselOverviewContainer li a
+{
+    border:none;
+}
+#motorcycleCarouselOverviewContainer li a img
+{
+    border:none;
+}
+.jcarousel-skin-tango {
+    margin-bottom: 15px;
+}
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+    width: 245px;
+    padding: 20px 40px;
+}
+.jcarousel-skin-tango .jcarousel-container-vertical {
+    width: 75px;
+    height: 245px;
+    padding: 40px 20px;
+}
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+    width:  245px;
+    height: 75px;
+}
+.jcarousel-skin-tango .jcarousel-clip-vertical {
+    width:  75px;
+    height: 245px;
+}
+.jcarousel-skin-tango .jcarousel-item {
+    width: 75px;
+    height: 75px;
+}
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+    margin-right: 10px;
+}
+.jcarousel-skin-tango .jcarousel-item-vertical {
+    margin-bottom: 10px;
+}
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+    top: 43px;
+    right: 5px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+.jcarousel-skin-tango .jcarousel-next-horizontal:hover {
+    background-position: -32px 0;
+}
+.jcarousel-skin-tango .jcarousel-next-horizontal:active {
+    background-position: -64px 0;
+}
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    background-position: -96px 0;
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 43px;
+    left: 5px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;    
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
+    background-position: -32px 0;
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+    background-position: -64px 0;
+}
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    background-position: -96px 0;
+}
+/**
+ *  Vertical Buttons
+ */
+.jcarousel-skin-tango .jcarousel-next-vertical {
+    position: absolute;
+    bottom: 5px;
+    left: 43px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;    
+}
+.jcarousel-skin-tango .jcarousel-next-vertical:hover {
+    background-position: 0 -32px;
+}
+.jcarousel-skin-tango .jcarousel-next-vertical:active {
+    background-position: 0 -64px;
+}
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical,
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical:hover,
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px;
+}
+.jcarousel-skin-tango .jcarousel-prev-vertical {
+    position: absolute;
+    top: 5px;
+    left: 43px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+.jcarousel-skin-tango .jcarousel-prev-vertical:hover {
+    background-position: 0 -32px;
+}
+.jcarousel-skin-tango .jcarousel-prev-vertical:active {
+    background-position: 0 -64px;
+}
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical,
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical:hover,
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+    top: 11px;
+    right: 3px;
+    width: 11px;
+    height: 110px;
+    cursor: pointer;    
+}
+.jcarousel-skin-tango .jcarousel-next-horizontal:hover {
+    background-position: 0 0;
+}
+.jcarousel-skin-tango .jcarousel-next-horizontal:active {
+    background-position: 0 0;
+}
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal,.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active
+    {
+    cursor: default;
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 11px;
+    left: 3px;
+    width: 11px;
+    height: 110px;
+    cursor: pointer;    
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
+    background-position: 0 0;
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+    background-position: 0 0;
+}
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active
+    {
+    cursor: default;
+}
+.jcarousel-skin-tango .jcarousel-item {
+    width: 110px;
+    height: 110px;
+}
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+    width: 360px;
+    height: 110px;
+}
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+    width: 332px;
+    padding: 11px 40px 2px 20px;
+    height: 120px;
+}
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+    width: 717px;
+    height: 110px;
+}
+.jcarousel-skin-tango .jcarousel-container {
+    -moz-border-radius: none;
+    background: #000000;
+    border: 1px solid #346F97;
+    width:690px;
+}
+
+/*
+#motorcycleCarouselOverviewContainer 
+{
+    margin-bottom: 20px;
+    
+}
+#motorcycleCarouselOverviewContainer #motorcycleCarousel
+{
+    background: #000;
+    padding: 10px;
+}
+#motorcycleCarouselOverviewContainer #motorcycleCarousel .hider
+{
+    float: left;
+    width: 696px;
+    height: 110px;
+    position: relative;
+    overflow: hidden;
+}
+#motorcycleCarouselOverviewContainer #motorcycleCarousel .slider
+{
+    width: 1160px;    
+    position: absolute;
+    left: 0px;
+    white-space:nowrap;
+}
+#motorcycleCarouselOverviewContainer #motorcycleCarousel #prev
+{
+    float: left;
+    width: 11px;
+    height: 110px;
+    margin-right: 3px;
+    display: none;
+}
+#motorcycleCarouselOverviewContainer #motorcycleCarousel #next
+{
+    float: left;
+    width: 11px;
+    height: 110px;
+    margin-left: 3px;
+    display: none;
+}
+#motorcycleCarouselOverviewContainer #motorcycleCarousel a#prev:hover, #motorcycleCarouselOverviewContainer #motorcycleCarousel a#next:hover
+{
+    opacity: 0.75;
+    filter: alpha(opacity=75);
+}
+#motorcycleCarouselOverviewContainer #motorcycleCarousel .panel
+{
+    float: left;
+    width: 116px;
+    text-align: center;
+    display:inline;
+}
+#motorcycleCarouselOverviewContainer #motorcycleCarousel .panel a:hover img
+{
+    opacity: 0.75;
+    filter:alpha(opacity=75);
+}
+#motorcycleCarouselOverviewContainer #motorcycleCarousel .panel img
+{
+    width: 110px;
+    height: 110px;
+}*/
+/*
+* jQuery UI CSS Framework
+* Copyright (c) 2010 AUTHORS.txt (http://jqueryui.com/about)
+* Dual licensed under the MIT (MIT-LICENSE.txt) and GPL (GPL-LICENSE.txt) licenses.
+*/ /* Layout helpers
+----------------------------------*/
+ .ui-helper-hidden {
+    display: none;
+}
+.ui-helper-hidden-accessible {
+    position: absolute;
+    left: -99999999px;
+}
+.ui-helper-reset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    line-height: 1.3;
+    text-decoration: none;
+    font-size: 100%;
+    list-style: none;
+}
+.ui-helper-clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.ui-helper-clearfix {
+    display: inline-block;
+}
+/* required comment for clearfix to work in Opera \*/
+* html .ui-helper-clearfix {
+    height: 1%;
+}
+.ui-helper-clearfix {
+    display: block;
+}
+/* end clearfix */
+.ui-helper-zfix {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    filter: Alpha(Opacity = 0);
+}
+
+/*
+* jQuery UI CSS Framework
+* Copyright (c) 2010 AUTHORS.txt (http://jqueryui.com/about)
+* Dual licensed under the MIT (MIT-LICENSE.txt) and GPL (GPL-LICENSE.txt) licenses.
+* To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Trebuchet%20MS,%20Tahoma,%20Verdana,%20Arial,%20sans-serif&fwDefault=bold&fsDefault=1.1em&cornerRadius=4px&bgColorHeader=f6a828&bgTextureHeader=12_gloss_wave.png&bgImgOpacityHeader=35&borderColorHeader=e78f08&fcHeader=ffffff&iconColorHeader=ffffff&bgColorContent=eeeeee&bgTextureContent=03_highlight_soft.png&bgImgOpacityContent=100&borderColorContent=dddddd&fcContent=333333&iconColorContent=222222&bgColorDefault=f6f6f6&bgTextureDefault=02_glass.png&bgImgOpacityDefault=100&borderColorDefault=cccccc&fcDefault=1c94c4&iconColorDefault=ef8c08&bgColorHover=fdf5ce&bgTextureHover=02_glass.png&bgImgOpacityHover=100&borderColorHover=fbcb09&fcHover=c77405&iconColorHover=ef8c08&bgColorActive=ffffff&bgTextureActive=02_glass.png&bgImgOpacityActive=65&borderColorActive=fbd850&fcActive=eb8f00&iconColorActive=ef8c08&bgColorHighlight=ffe45c&bgTextureHighlight=03_highlight_soft.png&bgImgOpacityHighlight=75&borderColorHighlight=fed22f&fcHighlight=363636&iconColorHighlight=228ef1&bgColorError=b81900&bgTextureError=08_diagonals_thick.png&bgImgOpacityError=18&borderColorError=cd0a0a&fcError=ffffff&iconColorError=ffd27a&bgColorOverlay=666666&bgTextureOverlay=08_diagonals_thick.png&bgImgOpacityOverlay=20&opacityOverlay=50&bgColorShadow=000000&bgTextureShadow=01_flat.png&bgImgOpacityShadow=10&opacityShadow=20&thicknessShadow=5px&offsetTopShadow=-5px&offsetLeftShadow=-5px&cornerRadiusShadow=5px
+*/ /* Component containers
+----------------------------------*/
+.ui-widget-header {
+    background: transparent ;
+}
+.ui-state-active,.ui-widget-content .ui-state-active {
+    background: #000;
+}
+.ui-widget {
+    font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif;
+    font-size: 0.7em;
+}
+.ui-widget .ui-widget {
+    font-size: 0.7em;
+}
+.ui-widget input,.ui-widget select,.ui-widget textarea,.ui-widget button
+    {
+    font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif;
+    font-size: 1em;
+}
+.ui-widget-content {
+    border: none;        
+    color: #333333;
+}
+.ui-widget-content a {
+    color: #333333;
+}
+.ui-widget-header {
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+.ui-widget-header a {
+    color: #ffffff;
+}
+/* Interaction states
+----------------------------------*/
+.ui-state-default,.ui-widget-content .ui-state-default {
+    border: 1px solid #cccccc;    
+    font-weight: normal;
+    color: #000;
+}
+.ui-state-default a,.ui-state-default a:link,.ui-state-default a:visited
+    {
+    color: #000;
+    text-decoration: none;
+    font-weight:normal;
+    font-size:11px;
+}
+.ui-state-hover,.ui-widget-content .ui-state-hover,.ui-state-focus,.ui-widget-content .ui-state-focus
+    {
+    
+    
+    font-weight: bold;
+    
+}
+.ui-state-hover a,.ui-state-hover a:hover {
+    
+    text-decoration: none;
+}
+.ui-state-active,.ui-widget-content .ui-state-active {
+    border: 3px solid #fff;    
+    font-weight: bold;
+    color: #eb8f00;
+    background: #000;
+}
+.ui-state-active a,.ui-state-active a:link,.ui-state-active a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+.ui-widget :active {
+    outline: none;
+}
+
+
+/* Tabs
+----------------------------------*/
+.ui-tabs {
+    position: relative;
+    padding: .2em;
+    width:100%;
+    height:100%;
+    border:none;
+    zoom: 1;
+    
+}
+    
+    /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+.ui-tabs .ui-tabs-nav {
+    margin: 0;
+    margin-left:0.0px;
+    margin-right:-2px;
+    padding: .2em .2em 0;
+    padding-bottom:0px;
+    margin-bottom:0px;
+    border:none;
+}
+.ui-tabs .ui-tabs-nav li {
+    list-style: none;
+    float: left;
+    position: relative;
+    top:3px;
+    margin: 0 1px 0 1px;
+    border-bottom: 0 !important;
+    padding: 0 1px 0 1px;
+    white-space: nowrap;
+    margin-bottom:0px;
+}
+.ui-tabs .ui-tabs-nav li a {
+    float: left;
+    border:none;
+    padding: .5em 1em;
+    text-decoration: none;
+    margin-left:0px;
+    
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected {
+    margin-bottom: 0;
+    padding-bottom: 1px;
+    border:3px solid #fff;
+    border-bottom:none;
+    top:3px;
+    margin-left:1px;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a,.ui-tabs .ui-tabs-nav li.ui-state-disabled a,.ui-tabs .ui-tabs-nav li.ui-state-processing a
+    {
+    cursor: text;
+}
+li.ui-state-disabled, li.ui-state-disabled a {
+    visbility:hidden;
+    display:none;
+}
+.ui-tabs .ui-tabs-nav li a,.ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a
+    {
+    cursor: pointer;
+}
+    
+    /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-panel {
+    display: block;
+    border: 3px solid #fff;
+    padding: 1em 1.4em;
+    background: #000;
+    margin-left: 0.3em;
+}
+.ui-tabs .ui-tabs-hide {
+    display: none !important;
+}
+
+
+/* GALLERY LIST */
+/* GALLERY CONTAINER */
+#motorcycle-overview-gallery-container {
+    background: #000;
+    border: none;
+    padding: 13px 5px 2px 17px;
+    
+    /*border: none;
+    padding: 5px 0px 0px 11px;*/
+    
+}
+/* LOADING BOX */
+#motorcycle-overview-gallery-container .loader {
+    
+}
+/* GALLERY PANELS */
+#motorcycle-overview-gallery-container .panel {
+    
+}
+/* DEFINE HEIGHT OF PANEL OVERLAY */
+    /* NOTE - It is best to define padding here as well so overlay and background retain identical dimensions */
+#motorcycle-overview-gallery-container .panel .panel-overlay,.panel .overlay-background {
+    height: 32px;
+    padding: 0 1em;
+}
+/* PANEL OVERLAY BACKGROUND */
+#motorcycle-overview-gallery-container .panel .overlay-background {
+    background: #fff;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity = 50);
+}
+/* PANEL OVERLAY CONTENT */
+#motorcycle-overview-gallery-container .panel .panel-overlay {
+    color: black;
+    font-size: 0.7em;
+    vertical-align:center;
+}
+#motorcycle-overview-gallery-container .panel .panel-overlay a {
+    color: #000;
+    text-decoration: none;
+    font-weight: lighter;
+}
+/* FILMSTRIP */
+    /* 'margin' will define top/bottom margin in completed gallery */
+
+#motorcycle-overview-gallery-container .filmstrip {
+    margin: 24px 0px 4px 0px;
+}
+/* FILMSTRIP FRAMES (contains both images and captions) */
+#motorcycle-overview-gallery-container .frame {
+    
+}
+/* WRAPPER FOR FILMSTRIP IMAGES */
+#motorcycle-overview-gallery-container .frame .img_wrap {
+    border: none;
+}
+/* WRAPPER FOR CURRENT FILMSTRIP IMAGE */
+#motorcycle-overview-gallery-container .frame.current .img_wrap {
+    border-color: #000;
+}
+/* FRAME IMAGES */
+#motorcycle-overview-gallery-container .frame img {
+    border: none;
+}
+/* FRAME CAPTION */
+#motorcycle-overview-gallery-container .frame .caption {
+    font-size: 11px;
+    text-align: center;
+    color: #888;
+}
+#motorcycle-overview-gallery-container div.panel-overlay {
+    background-color: transparent;
+    
+}
+#motorcycle-overview-gallery-container h2.panel-inner-content, #motorcycle-overview-gallery-container h2.panel-inner-content a {
+    color: #000;
+    text-decoration:none;
+    font-weight:lighter;
+}
+#motorcycle-overview-gallery-container .panel-content{
+    border:none;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#motorcycle-overview-gallery-container p.panel-inner-content {
+    color: #000;
+}
+/* CURRENT FRAME CAPTION */
+#motorcycle-overview-gallery-container .frame.current .caption {
+    color: #000;
+}
+/* POINTER FOR CURRENT FRAME */
+#motorcycle-overview-gallery-container .pointer {
+    border-color: #000;
+}
+/* TRANSPARENT BORDER FIX FOR IE6 */
+    /* NOTE - DO NOT CHANGE THIS RULE */
+* html .pointer {
+    filter: chroma(color =     pink);
+}
+#motorcycle-overview-gallery-container h2.panel-inner-content {
+    font-size: 3em;
+    display: block;
+    float: left;
+    border: none;
+    text-transform: uppercase;
+    color: #2f4244;
+    font-weight: normal;
+    vertical-align:middle;
+    margin-top:8px;
+}
+#motorcycle-overview-gallery-container p.panel-inner-content {
+    display: block;
+    border: none;
+    padding-right:12px;
+    float: right;
+    text-transform: uppercase;
+    color: #2f4244;
+    font-weight: normal;
+    vertical-align:middle;
+    margin-top:10px;
+    font-size:2.1em;
+}
+#motorcycle-overview-gallery-container p.panel-inner-content a{
+    
+    border: none;
+    text-decoration:none;
+    text-transform: uppercase;
+    color: #2f4244;
+    font-weight: lighter;
+    font-size:1.1em;
+    white-space:nowrap;
+    
+    }
+
+#motorcycle-overview-gallery-container p.panel-inner-content a span{
+    border:none;
+    width:20px;
+    height:20px;
+}
+
+#multimedia-gallery-tabs #closeLightBox{
+    width:62px;
+    float:right;
+    text-transform: uppercase;
+}
+
+#multimedia-gallery-tabs #closeLightBox span{
+    width:10px;
+    height:25px;
+    border:none;    
+}
+
+/*
+    ColorBox Core Style
+    The following rules are the styles that are consistant between themes.
+    Avoid changing this area to maintain compatability with future versions of ColorBox.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{ position:absolute; top:0; left:0; z-index:9999; overflow:hidden; }
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative; overflow:hidden;}
+#cboxLoadedContent{overflow:auto;}
+#cboxLoadedContent iframe{display:block; width:100%; height:100%; border:0;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+#cboxWrapper{ border:none; background-color:transparent; padding:0px;}
+#cboxOverlay{ border:none;}
+#colorbox{background-color:transparent;}   
+#cboxTopLeft{width:0px; height:0px; background-color:transparent;}
+#cboxTopRight{width:0px; height:0px; background-color:transparent;}
+#cboxBottomLeft{width:0px; height:0px; background-color:transparent;}
+#cboxBottomRight{width:0px; height:0px; background-color:transparent;}
+#cboxMiddleLeft{width:0px; background-color:transparent;}
+#cboxMiddleRight{width:0px; background-color:transparent;}
+#cboxTopCenter{height:0px; background-color:transparent;}
+#cboxBottomCenter{height:0px; background-color:transparent;}
+#cboxContent{background-color:transparent;}
+#cboxLoadedContent{margin-bottom:0px;background-color:transparent;}   
+#cboxTitle{display:none;}
+#cboxCurrent{position:absolute; bottom:4px; left:58px; color:#949494;}
+#cboxSlideshow{position:absolute; bottom:4px; right:30px; color:#0092ef;}
+#cboxPrevious{display:none;}
+#cboxPrevious.hover{display:none;}
+#cboxNext{display:none;}
+#cboxNext.hover{display:none;}
+#cboxLoadingOverlay{}
+#cboxLoadingGraphic{}
+#cboxClose{display:none;}
+#cboxClose.hover{display:none;}  
+                
+/*
+    The following fixes png-transparency for IE6.  
+    It is also necessary for png-transparency in IE7 & IE8 to avoid 'black halos' with the fade transition
+    
+    Since this method does not support CSS background-positioning, it is incompatible with CSS sprites.
+    Colorbox preloads navigation hover classes to account for this.
+    
+    !! Important Note: AlphaImageLoader src paths are relative to the HTML document,
+    while regular CSS background images are relative to the CSS document.
+*/
+.cboxIE #cboxTopLeft{background:transparent; }
+.cboxIE #cboxTopCenter{background:transparent; }
+.cboxIE #cboxTopRight{background:transparent; }
+.cboxIE #cboxBottomLeft{background:transparent; }
+.cboxIE #cboxBottomCenter{background:transparent; }
+.cboxIE #cboxBottomRight{background:transparent; }
+.cboxIE #cboxMiddleLeft{background:transparent; }
+.cboxIE #cboxMiddleRight{background:transparent; }
+
+/* ---------------------- MOTORCYCLE SPEC TABLE ------------------------*/
+#motorcyclespecTable
+{
+    width: 100%;
+}
+#motorcyclespecTable th
+{
+    background: #000;
+    color: #fff;
+    padding: 5px;
+    font-size: 1.1em;
+}
+#motorcyclespecTable td 
+{
+    padding: 5px;
+    vertical-align: top;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+#motorcyclespecTable .borderBtm
+{
+    border-bottom: 1px solid #000;
+}
+#motorcyclespecTable .borderRight 
+{
+    border-right: 1px solid #000;
+}
+#motorcyclespecTable .leftCol
+{
+    width: 30%;
+}
+#motorcyclespecTable .leftColShortSpec
+{
+    width: 40%;
+}
+.motorcycleFullSpecTable 
+{
+    margin-bottom: 20px;
+}
+.motorcycleShortSpecTable
+{
+    margin-bottom: 5px;
+}
+#motorcyclespecTable .compTitle 
+{
+    width: 14%;
+}
+#motorcyclespecTable  .result 
+{
+    width: 24%
+}
+/* ---------------------- MOTORCYCLE FEATURES / REVIEWS & AWARDS ------------------------*/
+.mcFeatureAwardContainer
+{
+    padding-bottom: 24px;
+}
+.mcFeatureAwardSection, .mcFeatureAwardSectionBig
+{
+    margin-bottom: 12px;
+}
+.mcFeatureAwardSection .image, .mcFeatureAwardSectionBig .image  
+{
+    float: left;
+    width: 119px;
+    margin-top: 3px;
+}
+ .mcFeatureAwardSectionBig .image {
+    float: left;
+    width: 176px;
+ }
+.mcFeatureAwardSection .info, .mcFeatureAwardSectionBig .info 
+{
+    float: left;
+    width: 371px;
+}
+.mcFeatureAwardSectionBig .info 
+{
+    width: 314px;
+}
+.mcFeatureAwardSection .image .logo, .mcFeatureAwardSectionBig .image .logo
+{
+    padding: 1px;
+}
+.mcFeatureAwardSection .info h2, .mcFeatureAwardSectionBig .info h2 
+{
+    padding-bottom: 6px;
+}
+.mcFeatureAwardSectionBig h2 
+{
+    font-size: 2.1em;
+}
+.mcFeatureAwardSection .info h2 a, .mcFeatureAwardSectionBig .info h2 a
+{
+    color: #333;
+    padding-left: 16px;
+}
+.mcFeatureAwardSection .info h2 a:hover, .mcFeatureAwardSectionBig .info h2 a:hover
+{
+    color: #4d6ba0;
+}
+.mcFeatureAwardSection .info p.date, .mcFeatureAwardSectionBig .info p.date
+{
+    font-size: 1.1em;
+    padding-bottom: 5px;
+}
+.mcFeatureAwardSection .info p.text, .mcFeatureAwardSection .info p, .mcFeatureAwardSectionBig .info p.text 
+{
+    font-size:1.1em;
+    line-height:1.3em;
+    font-weight: bold;
+}
+.sectionBorder {
+    background: #d9d9d9;
+    height: 1px;
+    margin-bottom: 10px;
+    font-size: 0px;
+    line-height: 0px;
+}
+/* WARRANTY IMAGE */
+#warrantyImg
+{
+    margin-top: 10px;
+}
+/* MOTORCYCLE VIEW BY YEAR LIST */
+ul.col3List 
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+ul.col3List li 
+{
+    float: left;
+    width: 33%;
+    list-style-type: none;
+}
+ul.col3List li h3 {
+    font-size: 1.1em;
+    background-position: left 1px;
+}
+/* -------------------- CLOTHING ------------------------*/
+a.launch-btn
+{
+    color: #fff;
+    height: 18px;
+    width: 74px;
+    display: block;
+    text-indent:-3000px;
+}
+/* ---------------------- SIGNPOSTS ------------------------*/
+#signPosts .post
+{
+    position:relative;
+    float:left;
+    /*width:214px;
+    height:137px;*/
+    width: 190px;
+    height: 123px;
+    margin-right:5px;    
+}
+#signPosts .post h2
+{
+    position:absolute;
+    top:8px;
+    left:10px;
+    text-transform:uppercase;
+    color:#d9d9d9;
+    font-size:1.4em;
+}
+#signPosts .post .link
+{
+    position:absolute;
+    bottom:0px;
+    right:5px;
+    padding:0 11px 0 0;
+    height:29px;
+}
+#signPosts .post .link .inner
+{
+    padding:2px 0 0 7px;
+    height:27px;
+}
+#signPosts .post .link a
+{    
+    padding:3px 0;
+    display:block;
+    text-transform:uppercase;
+    color:#fff; 
+}
+#signPosts #post1, #signPosts #post5
+{
+    margin-top:17px;
+    margin-right:10px;
+    width:161px;
+    height:104px;
+}
+#signPosts #post1 .content, #signPosts #post5 .content
+{
+    width:161px;
+    height:104px;
+    position:relative;
+}
+#signPosts #post1 h2, #signPosts #post5 h2
+{
+    font-size:1.2em;
+}
+#signPosts #post2, #signPosts #post4
+{
+    margin-top:6px;
+    margin-right:10px;
+    width:190px;
+    height:123px;
+}
+#signPosts #post2 .content, #signPosts #post4 .content
+{
+    width:190px;
+    height:123px;
+    position:relative;
+}
+#signPosts #post2 h2, #signPosts #post4 h2
+{
+    font-size:1.3em;
+}
+#signPosts #post3
+{
+    width:214px;
+    height:137px;
+}
+#signPosts #post3 .content
+{
+    width:214px;
+    height:137px;
+    position:relative;
+}
+#signPosts .post img
+{
+    position:absolute;
+    top:0;
+    left:0;
+}
+/* -------------------- SEARCH RESULTS -----------------------*/
+.resultSection
+{
+    margin-bottom: 12px;
+    border-bottom: 1px solid #d9d9d9;
+    position: relative;
+}
+.resultSection .left 
+{
+    float: left;
+    width: 573px;
+}
+.resultSection .right
+{
+    float: right;
+    width: 150px;
+}
+.resultSection p 
+{
+    font-size: 1.1em;
+    padding-left: 16px;
+}
+.resultSection .right h2 {
+    font-size: 1.1em;
+    text-align: right;
+}
+.resultSection .right h3 
+{
+    float: left;
+    width: 90px;
+    font-size: 1.1em;
+}
+span.searchRel
+{
+    float: left;
+    width: 29px;
+    display: block;    
+    color: #4d6ba0;
+    text-indent: 32px;
+}
+span.searchRel90  { background-position: -3px 2px !important; }
+span.searchRel80  { background-position: -6px 2px !important; }
+span.searchRel70  { background-position: -9px 2px !important; }
+span.searchRel60  { background-position: -12px 2px !important; }
+span.searchRel50  { background-position: -15px 2px !important; }
+span.searchRel40  { background-position: -18px 2px !important; }
+span.searchRel30  { background-position: -21px 2px !important; }
+span.searchRel20  { background-position: -24px 2px !important; }
+span.searchRel10  { background-position: -27px 2px !important; }
+span.searchRel0   { background-position: -30px 2px !important; }
+.topResult 
+{
+    margin-bottom: 12px;
+}
+.topResult .image 
+{
+    float: left; 
+    width: 250px; 
+    height: 152px; 
+    margin-right: 17px; 
+    margin-top: 3px;    
+}
+.topResult .image img 
+{
+    width: 248px;
+    height: 150px;
+    padding: 1px 0px 0px 1px;
+}
+.topResult .info 
+{
+    float: left; 
+    width: 299px;
+}
+.topResult .info p 
+{
+    padding-left: 0px;
+}
+.topRel
+{
+    position: absolute;
+    top: 145px;
+}
+#advancedSearchForm {
+    margin-bottom: 5px;
+    background: #ececec;
+    width: 597px;
+}
+#advancedSearchForm .inner 
+{
+    padding: 12px;
+}
+#advancedSearchForm .row 
+{
+    margin-bottom: 2px;
+}
+#advancedSearchForm .row .label 
+{
+    float: left;
+    width: 110px;
+    font-size: 1.1em;
+    color: #333;
+}
+#advancedSearchForm .row .field 
+{
+    float: left;
+    width: 310px;
+    font-size: 1.1em;
+}
+#advancedSearchForm .row .right
+{
+    float: left;
+    width: 50px;
+}
+#advancedSearchForm .row .field input 
+{
+    width: 300px;
+    color: #7b879a;
+}
+#advancedSearchForm .right input#submit
+{
+    margin-top: 1px;
+}
+#searchPagination
+{
+    width: 597px;
+    background: #cfd7e3;
+    /*margin-bottom: 30px;*/
+}
+#searchPagination .inner 
+{
+    padding: 5px 0px 5px 10px;
+}
+#searchPagination .left 
+{
+    float: left;
+    width: 357px;
+}
+#searchPagination .right
+{
+    float: right;
+    width: 118px;
+    padding-top: 1px;
+}
+#searchPagination .left p
+{
+    float: left;
+    width: 40px;
+    padding-bottom: 0px;
+    text-transform: uppercase;
+}
+#searchPagination .left ul
+{
+    float: left;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+#searchPagination .left ul li 
+{
+    list-style-type: none;
+    display: inline;
+}
+#searchPagination .left ul li a
+{
+    float: left;
+    display: block;
+    padding: 0px 3px;
+    font-size: 1.0em;
+    margin-right: 0px;
+}
+#searchPagination .left ul li a.active
+{
+    color: #fff;    
+}
+#searchPagination .right a.previous
+{
+    text-transform: uppercase;    
+    padding-left: 10px;
+}
+#searchPagination .right .next
+{
+    margin-left: 6px;
+    text-transform: uppercase;    
+    padding-right: 10px;
+}
+#searchPagination .right a.previous.inactive, #searchPagination .right a.next.inactive
+{
+    color: #a0b0c8;
+}
+#searchPagination .right a:hover 
+{
+    color: #333;
+}
+/* Pagination overrides */
+.twNewsPagination  #searchPagination
+{
+    width: 490px;
+}
+.twNewsPagination  #searchPagination .left 
+{
+    width: 300px;
+}
+.twEventsPagination #searchPagination 
+{
+    width: 233px;
+}
+.twEventsPagination #searchPagination .left 
+{
+    width: 100px;
+}
+.twEventsPagination #searchPagination .left ul 
+{
+    width: 50px;
+}
+/* --------------- TRIUMPH WORLD EVENTS ---------------------*/
+.triumhWorldLandingEventsContainer 
+{
+    margin-top: 20px;
+}
+.twLandingSection
+{
+    border-bottom:1px solid #D9D9D9;
+    margin-bottom:15px;
+}
+.twLandingSection.end
+{
+    border-bottom: none;
+}
+.twLandingSection p 
+{
+    font-size: 1.1em;
+    line-height: 1.3em;
+    padding-bottom: 10px;
+}
+.twLandingSection img
+{
+    padding-bottom:10px;
+}
+.twLandingSection ul.relatedLinks 
+{
+    padding-bottom: 10px;
+}
+.triumphWorldEventsContainer 
+{
+    margin-bottom: 20px;
+}
+.eventDetailsSectionContainer 
+{
+    margin-bottom: 20px;
+}
+.eventDetailsSectionContainer.last
+{
+    margin-bottom: 0px;
+}
+.eventDetailsSection 
+{
+    margin-bottom: 9px;
+}
+.eventDetailsSection.noM
+{
+    margin-bottom: 0px;
+}
+.eventDetailsSection .image 
+{
+    float: left;
+    width: 62px;
+}
+.eventDetailsSection .info 
+{
+    float: left;
+    width: 170px;
+}
+.eventDetailsSection .infowide
+{
+    width: 233px;
+}
+.eventDetailsSection .sectionBorder 
+{
+    margin-bottom: 8px;
+}
+.eventDetailsSection .sectionBorder.bottom 
+{
+    margin-bottom: 0px;
+}
+.eventDetailsSection h2 
+{
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-bottom: 8px;    
+}
+.eventDetailsSection h3 
+{
+    font-size: 1.3em;
+    padding-left: 16px;
+    padding-bottom: 5px;
+}
+.eventDetailsSectionContainer h3.month
+{
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.eventDetailsSection h3 a 
+{
+    color: #333;
+}
+.eventDetailsSection h3 a:hover 
+{
+    color: #4d6ba0;
+}
+.eventDetailsSection p 
+{
+    padding-bottom: 10px;
+}
+/* blue sliding door button */
+.slidingDoorBlue 
+{
+    
+}
+.slidingDoorBlue a
+{
+    float: left;
+    display: block;
+    min-height: 22px;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-right: 2px;
+}
+.slidingDoorBlue a span
+{
+    margin-left: 6px;
+    min-height: 22px;
+    display: block;
+    padding-top: 4px;
+    padding-right: 6px;
+}
+.slidingDoorBlue.ext a span
+{
+    padding-right: 18px;
+}
+.slidingDoorBtmSpace5 
+{
+    margin-bottom: 5px;
+}
+.slidingDoorBtmSpace10
+{
+    margin-bottom: 10px;
+}
+.slidingDoorBtmSpace15
+{
+    margin-bottom: 15px;
+}
+.slidingDoorBtmSpace20
+{
+    margin-bottom: 20px;
+}
+/* --------------- ARTICLE / EVENT PAGES ---------------------------*/
+p.eventDate 
+{
+    margin-top: -15px;
+    font-size: 1.1em;
+}
+.articleEventPageSection
+{
+    padding-bottom: 15px;
+}
+ul.eventMapLinks
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul.eventMapLinks li 
+{
+    display: inline;
+    list-style-type: none;
+}
+ul.eventMapLinks li a 
+{    
+    padding-left: 16px;
+    font-size: 1.1em;
+    color: #333;
+    margin-right: 10px;
+}
+ul.eventMapLinks li a:hover
+{
+    color: #4d6ba0;
+}
+#eventPageMap, #myTriumphPageMap
+{
+    margin-bottom: 10px;
+}
+#myTriumphPageMap 
+{
+    border: 1px solid #000;
+    position: relative;
+}
+#myTriumphPageMap div.icon 
+{
+    position: absolute;
+    left: 95px;
+    top: 10px;
+    width: 43px;
+    height: 50px;    
+    cursor: pointer;
+}
+/* --------------- STANDARD FORM --------------------*/
+.standardFormSubHeading
+{
+    
+}
+.standardFormSubHeading h2 
+{
+    float: left;
+    width: 320px;
+}
+.standardFormSubHeading p 
+{
+    float: right;
+    width: 170px;
+    text-align: right;
+    font-size: 1.1em;
+}
+.formError
+{
+    color: #c52452;
+}
+.standardForm
+{
+    background: #ececec;
+    padding: 12px;
+}
+.standardForm form .row
+{
+    margin-bottom: 2px;
+}
+.standardForm form .row .label
+{
+    float: left;
+    width: 100px;
+}
+.standardForm form .row .input 
+{
+    float: left;
+    font-size: 1.1em;
+    height: 21px;
+}
+.standardForm form .row .input .text
+{
+    width:170px;
+}
+.standardForm form .row .input span 
+{
+    float: right;
+    margin-right: 0px;
+    padding-left: 5px;
+}
+.standardForm .regionHeading{
+    padding-top: 8px;
+    text-transform: uppercase;
+    height: 1.8em;
+    font-size: 1.4em;
+}
+.standardForm .regionHeading hr{
+    height: 0px;
+    border-left: 0px;
+    border-top: 0px;
+}
+.standardForm .region{
+    padding-top: 8px;
+    width: 280px;
+}
+.standardForm .region div.input{
+    display: inline;
+    width: 100px;
+    padding-right: 30px;
+}
+.standardForm .region .checkBoxPad{
+    margin: 8px 0px;
+}
+.standardForm .region .checkBoxPad .input{
+    width: 120px;
+    padding:0;
+}
+.standardForm .region .wideCheckBoxPad .input{
+    width: 250px;
+    padding:0;
+}
+.standardForm .terms{
+    margin-top: 8px;
+}
+.standardForm  .submit{
+    margin-top: 20px;
+}
+.standardForm input.text 
+{
+    width: 168px;
+    color: #a3a3aa;
+    height: 15px;
+    border: 1px solid #ececec;
+    padding-left: 2px;
+    float: left;
+}
+.standardForm input.short
+{
+    width: 40px !important;
+}
+.standardForm input.med
+{
+    width: 82px !important;
+}
+.standardForm form .row .input select 
+{
+    width: 172px;
+    height: 19px;
+    font-weight: bold;
+    float: left;
+}
+.standardForm select.noError, .standardForm input.noError{
+    border: 1px solid #ececec;
+    color: #A3A3AA;
+}
+/* removed for IE
+.standardForm select.error, .standardForm input.error{
+    border: 1px solid #ab0245;
+    color: #ab0245;
+}
+*/
+.standardForm label.error{
+    width: 170px;
+    height: 19px;
+    text-align: right;
+    color: #ffffff;
+    font-weight: bold;
+    display: block;
+    float: right;
+    padding: 3px 10px 0px 0px;
+    margin: 0px;
+    font-size: 11px;
+    float: right;
+    display:inline;
+}
+.standardForm .checkBoxes label.error{
+    position: relative;
+    top: -18px; left: 172px;
+}
+.standardForm #ifRide, .standardForm #ifBrochure{
+    display: none;
+}
+/* --------------- MOTORCYCLE COMPARISON --------------------*/
+.motorcycleComparison {
+    margin-bottom: 5px;
+    width: 661px;
+    float: right;
+}
+.compareImages {
+    float: right;
+}
+.compareImages .image {
+    margin-left: -1px;
+    float: left;    
+    width: 221px;
+    height: 135px;
+}
+.compareImages .image .inner {
+    padding: 1px;
+}
+.compareImages .image img {
+    width: 219px;
+    height: 133px;
+}
+.compareSelect {
+    float: right;
+    width: 661px;
+    margin: 0 0 15px -1px;
+    margin-left: -1px;    
+}
+.compareSelect form {
+    padding: 0px;
+    margin: 0px;
+}
+.compareSelect .field {
+    float: left;
+    width: 220px;
+}
+.compareSelect .field p {
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0 0 5px 0;
+    font-weight: bold;
+}
+.compareSelect .field .inner {
+    padding: 10px;
+}
+.compareSelect .field select {
+    width: 200px;
+    color: #7b879a;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+/* ---------------------- MY TRIUMPH ------------------------ */
+.borderSurroundTB 
+{
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    padding: 7px 0;
+    margin-bottom: 10px;
+}
+.borderSurroundTB ul.relatedLinks li a 
+{
+    /*text-transform: uppercase;*/
+}
+.dealerNameIntro
+{
+    
+}
+.dealerNameIntro .left 
+{
+    float: left;
+    width: 180px;
+}
+.dealerNameIntro .right
+{
+    float: left;
+    width: 53px;
+}
+.dealerNameIntro p 
+{
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.loggedIn 
+{
+    position: absolute; 
+    left: 35px; 
+    top: 230px;
+}
+.username 
+{    
+    min-height: 53px;
+}
+.username .inner
+{
+    padding: 12px 12px 0 7px;
+    margin-left: 5px;
+    min-width: 120px;
+}
+.username p.title 
+{
+    color: #999;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-bottom: 2px;
+    text-transform: uppercase;
+}
+.username p.user
+{
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.signout a
+{
+    display: block;
+}
+.signout a span 
+{
+    display: block;
+    padding: 6px 6px 0 7px;    
+    margin-left: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    min-height: 25px;
+    min-width: 120px;
+    cursor: pointer;
+}
+.loginForm, .registerForm, .forgotPasswordForm 
+{
+    min-height: 440px;
+}
+.loginForm p
+{
+    font-size: 1.1em;
+    line-height: 1.3em;
+}
+.loginForm, .registerForm, .forgotPasswordForm
+{
+    background: #dde3eb; 
+    padding: 8px;
+}
+.registerForm
+{
+    background: #ececec;
+}
+.loginForm form, .registerForm form, .forgotPasswordForm form
+{
+    padding: 0px;
+    margin: 0 0 10px;
+}
+.loginForm .row, .registerForm .row,  .forgotPasswordForm .row  
+{
+    margin-bottom: 8px;
+}
+.loginForm .row .label , .registerForm .row .label, .forgotPasswordForm .row .label
+{
+    margin-bottom: 5px;
+}
+.loginForm .row label, .registerForm .row label
+{
+    font-size: 1.1em;
+}
+.loginForm input#email, .loginForm input#password, .registerForm input#registerEmail, .registerForm input#registerPassword, .registerForm input#confirmPass, 
+.registerForm input#firstname, .registerForm input#surname, .forgotPasswordForm input#email
+{
+    width: 204px;
+    color: #7c7c86;
+    font-size: 1.1em;
+    border: 1px solid #d7d7d7;
+}
+.registerForm select#title 
+{
+    color: #7b879a;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.registerForm select#country
+{
+    width: 212px;
+    color: #7c7c86;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.loginForm .radio, .registerForm .radio
+{
+    float: left;
+    width: 18px;
+}
+.loginForm .radioLabel, .registerForm .radioLabel
+{
+    float: left; 
+    width: 180px;
+    padding-top: 2px;
+}
+#myTriumphLogin input.error, #myTriumphRegisterForm input.error, #forgotPasswordForm input.error {
+    border: 1px solid #AB0245;
+}
+#myTriumphLogin label.error, #myTriumphRegisterForm label.error, #forgotPasswordForm label.error {
+    display: block;
+    height: 25px;
+    padding-top: 5px;
+    padding-right: 15px;
+    text-align: right;
+    color: #fff;    
+}
+.registerForm form select {
+    background-position: right top;
+}
+/* ---------------------- WHY TRIUMPH ----------------------- */
+.whyTriumphSection
+{
+    float: left; 
+    width: 233px;
+    /*min-height: 200px;*/
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 12px;
+}
+.whyTriumphSection.lm
+{
+    margin-left: 24px;
+}
+.whyTriumphSection img 
+{
+    padding-bottom: 10px;
+}
+.whyTriumphSection p
+{
+    font-size: 1.1em;
+    line-height: 1.3em;
+    font-weight: bold;
+}
+/* -------------------- DEALER SEARCH --------------------- */
+#dealer_details_container h2 {
+    
+}
+#dealer_details_container p {
+    font-weight: bold;
+    padding-bottom: 5px;
+    font-size: 1.1em;
+}
+#dealer_details_container .address {
+    padding-bottom: 15px;
+}
+#directions_form_container {
+    display: none;
+    padding-top: 15px;
+}
+#directions_form_container #get_directions_form .left {
+    float: left;
+    width: 200px;
+}
+#directions_form_container #get_directions_form .right {
+    float: left;
+    width: 120px;
+}
+#directions_form_container #get_directions_form .left input {
+    width: 185px;
+    color: #7B879A;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+#directions_form_container #get_directions_form .right input {
+    margin-top: -2px;
+}
+#directions_form_container p {
+    padding-bottom: 5px;
+    font-size: 1.1em;
+}
+#directions_panel {
+    height: 400px; 
+    overflow: scroll; 
+    display: none;
+}
+.get-in-touch {
+    margin-bottom: 35px;
+}
+#openingTimesTable {
+    border-top: 1px solid #000; 
+    width: 100%; 
+    margin-bottom: 20px;
+}
+#openingTimesTable .left {
+    width: 50%; 
+    font-weight: bold; 
+    font-size: 1.1em; 
+    border-right: 1px solid #000; 
+    border-bottom: 1px solid #000;
+    padding: 5px 5px 5px 0px;
+}
+#openingTimesTable .right {
+    width: 50%; 
+    font-size: 1.1em; 
+    padding: 5px 0 5px 8px;
+    border-bottom: 1px solid #000;
+}
+#map {
+    border: 1px solid #000; 
+    width: 490px; 
+    height: 400px; 
+    margin-bottom: 15px;
+}
+.googledir {
+    font-size: 1.1em;
+}
+
+dl#Searchresult {
+    margin-top: -10px;
+}
+dl#Searchresult dt {
+    font-size: 1.3em;
+    margin-top: 10px;
+    margin-bottom: 5px;    
+    text-transform: uppercase;
+    line-height: 1.1em;
+}
+dl#Searchresult dt a {
+    color: #333;
+    padding-left: 16px;
+    padding-bottom: 4px;
+    display: block;
+}
+dl#Searchresult dt a:hover {
+    color: #4c689f;
+}
+dl#Searchresult dd {
+    margin: 0 0 2px 0px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+span.dealerDistance {
+    text-align: right; 
+    display: block; 
+    font-weight: bold; 
+    font-size: 1.0em;
+    color: #4d6ba0;
+}
+#searchResults #Pagination {
+    background: #cfd7e3 no-repeat;
+    padding: 4px 5px;
+    margin-bottom: 10px;
+    width:240px;
+}
+#searchResults #Pagination .prev {
+    padding-left: 12px;
+    padding-right: 1px;
+    text-transform: uppercase;    
+}
+#searchResults #Pagination .next {
+    padding-right: 12px;
+    padding-left: 1px;
+    text-transform: uppercase;    
+}
+#searchResults #Pagination span, #searchResults #Pagination a {
+    padding: 0px 2px;
+}
+#searchResults #Pagination span.prev, #searchResults #Pagination span.current.next 
+{
+    color: #A0B0C8;
+}
+#searchResults #Pagination span.prev, #searchResults #Pagination span.current.prev 
+{
+    color: #A0B0C8;    
+}
+#searchResults #Pagination span.prev, #searchResults #Pagination span.current
+{
+    text-align: center;
+    color: #fff;    
+}
+.delearLocationAddress .address {
+    float: left; 
+    width: 175px;
+}
+.dealerLocationAddress .milesTo {
+    float: right; 
+    width: 50px;
+}
+/* ----------------- MULTI MEDIA SHOWCASE --------------- */
+#multiMediaShowcase
+{
+    margin-bottom: 20px;
+}
+#multiMediaShowcase .photoHolder img {
+    width: 368px;
+    height: 243px;
+}
+#multiMediaShowcase .hider
+{
+    float: left;
+    width: 332px;
+    height: 77px;
+    position: relative;
+    overflow: hidden;
+}
+#multiMediaShowcase #thumbs 
+{
+    background: #000000;
+    padding: 4px 6px;
+    margin-top: 5px;
+}
+#multiMediaShowcase #thumbs .slider
+{
+    width: 840px;    /* (n)photos x panelWidth: will be set in js ultimately */
+    position: absolute;
+    left: 0px;
+}
+#multiMediaShowcase #thumbs #prev
+{
+    float: left;
+    width: 9px;
+    height: 77px;
+    margin-right: 3px;
+    /*display: none;*/
+}
+#multiMediaShowcase #thumbs #next
+{
+    float: left;
+    width: 9px;
+    height: 77px;
+    margin-left: 3px;
+    /*display: none;*/
+}
+#multiMediaShowcase #thumbs a#prev:hover, #multiMediaShowcase #thumbs a#next:hover
+{
+    opacity: 0.75;
+    filter: alpha(opacity=75);
+}
+#multiMediaShowcase #thumbs .panel
+{
+    position: relative;
+    float: left;
+    width: 83px;
+    text-align: center;
+}
+#multiMediaShowcase #thumbs .panel a:hover img
+{
+    opacity: 0.75;
+    filter:alpha(opacity=75);
+}
+#multiMediaShowcase #thumbs .panel img
+{
+    width: 77px;
+    height: 77px;
+}
+#multiMediaShowcase .videoHolder,  #multiMediaShowcase .youtubeHolder {
+    display: none;
+}
+#multiMediaShowcase .panel span {
+    position: absolute;
+    bottom: 0;
+    right: 3px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    text-indent: -4000px;
+}
+/* ---------------------- FOOTER TOP ------------------------*/
+#footerTop .inner .list
+{
+    float:left;
+    padding:0 6px 0 0;
+    width:150px;
+    min-height: 100px;
+    overflow:hidden;
+}
+#footerTop .inner .list h2
+{    
+    padding:0 0 5px 0;
+    font-size:1em;
+    text-transform:none;
+    letter-spacing: normal;
+}
+#footerTop .inner .list h2 a
+{    
+    color:#d9d9d9;  
+    text-decoration:none; 
+}
+#footerTop .inner .list h2 a:hover
+{
+    color:#a0b0c8;   
+}
+#footerTop .inner .list ul
+{
+    margin:0;
+}
+#footerTop .inner .list ul li
+{
+    margin:0 0 1px 0;
+    padding:0 0 0 9px;
+    list-style-type:none;
+}
+#footerTop .inner .list ul li a
+{    
+    color:#7b879a;
+    text-decoration:none;   
+}
+#footerTop .inner .list h2 a, #footerTop .inner .list ul li a:hover
+{    
+    color:#d9d9d9;  
+}
+/* ---------------------- LANGUAGE SELECTION ------------------------*/
+#footerTop .inner #languageSelection
+{
+    position:absolute;
+    top:12px;
+    right:10px;
+    padding:0 0 0 75px;
+    width:90px;
+    height:46px;
+    color:#fff;
+}
+#footerTop .inner #languageSelection .flag
+{
+    /*padding:0 0 0 23px;*/
+    width:72px;
+    background-position:0 center;
+}
+#footerTop .inner #languageSelection .flag a
+{    
+    padding:0 0 0 23px;
+    font-size:1.05em;
+    font-weight:bold;
+    line-height:108%;
+    color:#a0b0c8;
+    display: block;
+    
+}
+#footerTop .inner #languageSelection .flag a:hover {
+    color: #d9d9d9;
+}
+/* ---------------------- SOCIAL MEDIA LINKS & COPYRIGHT ------------------------*/
+#footerTop .inner #socialMediaLinks
+{
+    position:absolute;
+    bottom:26px;
+    right:10px;
+    width:185px;
+}
+#footerTop .inner #socialMediaLinks ul
+{
+    margin:0;
+    padding:0 0 0 12px;
+    width:153px;
+}
+#footerTop .inner #socialMediaLinks ul li
+{
+    float:left;
+    margin:0 5px 0 0;
+    list-style-type:none;
+}
+#footerTop .inner #socialMediaLinks ul li.facebook a, #footerTop .inner #socialMediaLinks ul li.youtube a
+{
+    display:block;
+    width:24px;
+    height:24px;
+    text-indent:-3000px;
+}
+#footerTop .inner #socialMediaLinks ul li.facebook a:hover, #footerTop .inner #socialMediaLinks ul li.youtube a:hover 
+{    
+    opacity: 0.75;
+    filter:alpha(opacity=75);
+}
+#footerTop .inner #socialMediaLinks ul li.share
+{
+    margin:4px 0 0 0;
+}
+#footerTop .inner p.copyright
+{
+    padding:8px 0 0 0;
+    text-align:center;
+    font-size:0.9em;
+    color:#fff;
+}
+/* ---------------------- FOOTER (BOTTOM) ------------------------*/
+#footerBottom ul
+{
+    margin:0;
+    text-align:center;
+}
+#footerBottom ul li
+{
+    padding:0 8px 0 4px;
+    display:inline;
+    list-style-type:none;
+}
+#footerBottom ul li.end
+{
+    padding:0 0 0 4px;
+    background:none;
+}
+#footerBottom ul li a
+{
+    font-weight:bold;
+    color:#a0b0c8;
+}
+#footerBottom ul li a:hover
+{
+    color:#d9d9d9;
+}
+/* ---------------------- LANGUAGE SELECTION ------------------------*/
+#languageSelectionBox
+{
+    padding:6px 6px 5px 6px;
+    width:280px;
+    display:none;
+}
+#languageSelectionBox .checker
+{
+    display:block;
+    background:lime;
+}
+#languageSelectionBox ul
+{
+    margin:0;
+    width:135px;
+}
+#languageSelectionBox ul.left
+{
+    float:left;
+}
+#languageSelectionBox ul.right
+{
+    float:right;
+}
+#languageSelectionBox ul li
+{
+    list-style-type:none;
+    padding:3px 0 5px 0;
+    width:135px;
+    text-align:left;
+    border-bottom:#d9d9d9 1px solid
+}
+#languageSelectionBox ul li a
+{
+    display:block;
+    padding:0 0 0 20px;    
+    height:13px;
+    font-size:0.9em;
+    color:#444;
+}
+#languageSelectionBox ul li a:hover
+{
+    color:#000;
+}
+/* ------------------ GENERIC STYLING WHEN USED WITH CMS EDITOR----------------*/
+/* paragraph */
+.genericCopy p, .genericCopy ul, .genericCopy ol {
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
+
+.genericCopy strong {
+    font-weight: bold;
+}
+/* headings */
+.genericCopy h2 {
+    
+}
+.genericCopy h2 a {
+    color: #333333;
+    padding:0 0 0 16px;    
+}
+.genericCopy h2 a:hover {
+    color: #4C689F;
+}
+/* unordered lists */
+.genericCopy ul {
+    margin: 0;
+    padding: 0 0 15px 0;
+    list-style-type: none;
+}
+.genericCopy ul li {
+    list-style-type: none;
+    padding:0 0 2px;
+}
+.genericCopy ul li a {
+    color:#333333;
+    display:block;
+    font-size:1.1em;
+    padding:0 0 0 16px;    
+}
+.genericCopy ul li a:hover {
+    color: #4C689F;
+}
+/* links */
+.genericCopy a {
+    
+}
+.genericCopy a:hover {
+}
+/* horizontal rule */
+.genericCopy hr {
+    border: none;
+    background: #d9d9d9;
+    height: 1px;
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+/* ---------------------- Z-INDEX FIXES ------------------------- */
+#container1 { z-index: 990; }
+#container2 { z-index: 980; }
+#header { z-index: 970; }
+#topLinks { z-index: 960; }
+#importantAnnouncment { z-index: 950; }
+#importantAnnouncment .inner { z-index: 940; }
+#search { z-index: 930; }
+#topNav { z-index: 920; }
+#crumbtrail { z-index: 750; }
+#languageSelectionBox { /*z-index: 1202;*/ z-index: 740; }
+/* ---------------------- NO PROMO STYLING ------------------------ */
+/* used on motorcycle overview and specification page */
+.noPromo, .noPromoFeatures, .noPromoCategory, .noPromoClothing, .noPromoWhyTri, .noPromoSearch, .noPromoCompare,  .noPromoTw , .noPromoForm{
+    background: #fff !important;
+}
+.noPromo #introArea {
+    display: none;
+}
+.noPromo .col771pxcolHolder, .noPromoFeatures .col771pxcolHolder {
+    width: 944px;
+}
+.noPromo .col771pxcolHolder .col233px {
+    width: 406px;
+}
+.noPromo #motorcycleCarouselOverviewContainer #motorcycleCarousel .hider {
+    width: 812px;
+}
+.noPromo #motorcycleCarouselOverviewContainer #motorcycleCarousel #prev {
+    margin-right: 33px;
+}
+.noPromo #motorcycleCarouselOverviewContainer #motorcycleCarousel #next {
+    margin-left: 33px;
+}
+/* used on motorcycle features / reviews & awards pages */
+.noPromoFeatures #introArea {
+    display: none;
+}
+.noPromoFeatures .col771pxcolHolder .col233px {
+    width: 319px;
+}
+.noPromoFeatures .col771pxcolHolder .col490px {
+    width: 577px;
+}
+.noPromoFeatures .col490px .mcFeatureAwardSection .info {
+    width: 458px;
+}
+.noPromoFeatures .col771pxcolHolder .col351px
+{
+    width: 437px;
+}
+.noPromoFeatures .twNewsPagination  #searchPagination
+{
+    width: 577px;
+}
+.noPromoFeatures .twNewsPagination  #searchPagination .left  
+{
+    width: 400px;
+}
+/* used on the motorcycle family / motorcycle category pages */
+.noPromoCategory #introArea 
+{
+    display: none;
+}
+.noPromoCategory .col233px
+{
+    width: 319px;
+}
+.noPromoCategory .col490px 
+{
+    width: 577px;
+}
+.noPromoCategory #motorcycleSectionList .item .copy
+{
+    width: 320px;
+}
+.noPromoCategory #motorcycleSectionList .item .copy .list .listLeft, .noPromoCategory #motorcycleSectionList .item .copy .list .listRight
+{
+    width: 154px;
+}
+/* used on clothing / why triumph pages */
+.noPromoClothing #introArea, .noPromoWhyTri #introArea {
+    display: none;
+}
+.noPromoClothing .col771pxcolHolder, .noPromoWhyTri .col771pxcolHolder, .noPromoForm .col771pxcolHolder
+{
+    width: 944px;
+}
+.noPromoClothing .col233px.expCol, .noPromoWhyTri .col233px.expCol , .noPromoForm .col233px.expCol 
+{
+    width: 406px;
+}
+.noPromoWhyTri .col355px.expCol
+{
+    width: 527px;
+}
+/* used on search results page */
+.noPromoSearch #introArea {
+    display: none;
+}
+.noPromoSearch .col771pxcolHolder, .noPromoWhyTri .col771pxcolHolder {
+    width: 944px;
+}
+.noPromoSearch .resultSection .left {
+    width: 733px;
+}
+/* used on the motorcycles compare page */
+.noPromoCompare  #introArea{
+    display: none;
+}
+.noPromoCompare .column.col771pxcolHolder {
+    width: 944px;
+}
+.noPromoCompare .col355px {
+    width: 50%;
+}
+/* used on triumph world landing page */
+.noPromoTw #introArea
+{
+    display: none;
+}
+.noPromoTw .col233px.expCol
+{
+    width: 406px;
+}
+.noPromoTw .col233px.expCol .eventDetailsSection .info 
+{
+    width: 340px;
+}
+/* used on form pages */
+.noPromoForm #introArea{
+    display:none;
+}
+.noPromoForm .col233px.expCol
+{
+    width: 406px;
+}
+/* homepage no promo */
+.noPromoHome #leftCol {
+    width: 990px;
+}
+.noPromoHome #leftCol #banner 
+{
+    width: 990px;
+}
+.noPromoHome #rightCol 
+{
+    display: none;
+}
+/* for sso links in header */
+.ssoHeaderLinks {
+    float: right; 
+    padding-top: 5px;
+}
+.ssoHeaderLinks .ssoHeaderSignInContainer {
+    position: relative; 
+    float: left;
+    z-index: 1000;
+}
+.ssoHeaderLinks #signIn, .ssoHeaderLinks #welcomeMsg {
+    padding-right: 5px;
+}
+#signInPopout {
+    margin-top: 3px;
+    float: right;
+}
+/* For Sliding Door Btns */
+a.sd24px, a.sd22px, a.sd22pxSignIn, a.sd22pxDark, a.sd18px, a.sd18pxIcon, a.sd14pxGrey {
+    display: block;
+    float: left;
+    color: #fff;
+    text-decoration: none;            
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: normal;
+}
+a.sd24px { background: url(/images/static/sd-left-24px.png) no-repeat left top; padding: 4px 0px 6px 10px;    font-size: 1.1em; cursor: pointer; }
+a.sd24px span {    padding: 4px 10px 6px 0px; background: url(/images/static/sd-right-24px.png) no-repeat right top; }
+a.sd24px.allowHov:hover { background-position: left -56px; }
+a.sd24px.allowHov:hover span { background-position: right -56px; color: #5076a9; }
+a.sd22px { background: url(/images/static/sd-left-22px.png) no-repeat left top; padding: 4px 0px 3px 10px;    font-size: 1.1em; cursor: pointer; }
+a.sd22px span {    padding: 4px 10px 3px 0px; background: url(/images/static/sd-right-22px.png) no-repeat right top; }
+a.sd22px.allowHov:hover, a.sd22px.active { background-position: left -54px; }
+a.sd22px.allowHov:hover span, a.sd22px.active span { background-position: right -54px; color: #5076a9; }
+a.sd22pxSignIn { background: url(/images/static/sd-left-22px.png) no-repeat left top; padding: 4px 0px 3px 10px;    font-size: 1.1em; cursor: pointer; }
+a.sd22pxSignIn span { padding: 4px 23px 3px 0px; background: url(/images/static/sd-right-22px-sign-in.png) no-repeat right top; }
+a.sd22pxSignIn.allowHov:hover, a.sd22pxSignIn.active { background-position: left -54px; }
+a.sd22pxSignIn.allowHov:hover span, a.sd22pxSignIn.active span { background-position: right -54px; color: #5076a9; }
+a.sd22pxDark { background: url(/images/static/sd-left-22px-dark.png) no-repeat left top; padding: 4px 0px 3px 10px; font-size: 1.1em; cursor: pointer; }
+a.sd22pxDark span {    padding: 4px 23px 3px 0px; background: url(/images/static/sd-right-22px-dark.png) no-repeat right top; }
+a.sd22pxDark.allowHov:hover { background-position: left -54px; }
+a.sd22pxDark.allowHov:hover span { background-position: right -54px; color: #5076a9; }
+a.sd18px { background: url(/images/static/sd-left-18px.png) no-repeat left top; padding: 3px 0px 3px 10px;    font-size: 1.0em; cursor: pointer; }
+a.sd18px span {    padding: 3px 10px 3px 0px; background: url(/images/static/sd-right-18px.png) no-repeat right top; }
+a.sd18px.allowHov:hover, a.sd18px.active { background-position: left -50px; }
+a.sd18px.allowHov:hover span, a.sd18px.active span { background-position: right -50px;    color: #5076a9;    }
+a.sd18pxIcon { background: url(/images/static/sd-left-18px.png) no-repeat left top; padding: 3px 0px 3px 10px;    font-size: 1.0em; cursor: pointer; }
+a.sd18pxIcon span {    padding: 3px 20px 3px 0px; background: url(/images/static/sd-right-18px-icon.png) no-repeat right top; }
+a.sd18pxIcon.allowHov:hover{ background-position: left -50px; }
+a.sd18pxIcon.allowHov:hover span { background-position: right -50px; color: #5076a9; }
+
+a.sd14pxGrey { background: url(/images/static/sd-left-14px-grey.png) no-repeat left top; padding: 2px 0px 2px 4px;    font-size: 0.8em; cursor: pointer; letter-spacing: 1px; font-weight: normal; }
+a.sd14pxGrey span {    padding: 2px 4px 2px 0px; background: url(/images/static/sd-right-14px-grey.png) no-repeat right top; color: #000;}
+
+span.sdBlack { position: absolute; top: 105px; right: 8px; display: block; color: #fff; background: url(/images/static/sd-black-left.png) no-repeat left top; padding: 4px 0px 8px 6px;    font-size: 1.0em; cursor: pointer; }
+span.sdBlack span {    padding: 4px 10px 8px 0px; background: url(/images/static/sd-black-right.png) no-repeat right top; }
+
+/* Sliding door button containers */
+.registerBtnContainer { float: right; margin-right: 10px; }
+.btnRight { float: right; }
+.hideInputBtn { height: 0; width: 0; }
+
+/*Cookie Policy */
+
+    .messageOverlay {
+      display: none;
+      width: 223px; 
+      position: fixed; 
+      bottom: 7px;
+      right: 55px;
+      z-index: 1000;
+     }
+    .messageOverlayTop {
+        position: relative;
+        text-align: left; 
+        background: url(/images/static/message-overlay-top.png) no-repeat left top;
+    }
+    .messageOverlayBtm {
+        background: url(/images/static/message-overlay-btm.png) no-repeat left top; 
+        height: 9px;
+    }
+    .messageOverlay p.top {
+        font-size: 1.2em;
+        font-weight: bold;
+        padding: 11px 13px 6px;
+        text-transform: uppercase;
+    }
+    .messageOverlay p {
+        font-size: 1.1em;
+        line-height: 1.2em;
+        color: #ffffff;
+        padding: 5px 13px;
+        margin: 0;
+    }
+    .messageOverlay .divider {
+        background: #ffffff;
+        height: 1px;
+        margin: 0 3px;
+        opacity: 0.3;
+        filter:alpha(opacity=30);
+    }
+    .messageOverlay a {            
+        color: #8094bb;
+    }
+    .messageOverlay a:hover {
+        color: #ffffff;
+    }
+    .messageOverlay .close {
+        position: absolute;
+        right: 13px;
+        top: 12px;
+        width: 13px;
+        height: 13px;
+        background: url(/images/static/message-overlay-close-btn.png) no-repeat left top;
+        cursor: pointer;
+    }
+    
+/*End Cookie Policy */
+
+/* ================= END - screen.css ================== *//* ================== START - image-refs.css ================== 
+image-refs.css
+revision 817
+-------------------------------------*/
+.headingLink 
+{
+    background:transparent url(/images/static/blue-arrow-on-white.gif) no-repeat left 4px;
+}
+h3.headingLink
+{
+    background-position: left 3px;
+}
+/* intro area */
+#geolocation
+{
+    background:transparent url(/images/static/geo-location-bg.png) no-repeat;
+}
+#introArea ul#nav li {
+    background:url(/images/static/intro-nav-pipe.gif) left 3px no-repeat;
+}
+#mainContent.showIntroArea
+{
+    background:transparent url(/images/static/main.gif) repeat-y;
+}
+#header
+{
+    background:transparent url(/images/static/header.jpg) no-repeat;
+}
+/* Newsletter */
+#newsLetter
+{
+    background:transparent url(/images/static/white-overlay-95.png);
+}
+#newsLetter .close a
+{
+    background:transparent url(/images/static/newsletter-close.gif) right 1px no-repeat;
+}
+#newsLetter .form
+{
+    background:transparent url(/images/static/newsletter-top.png) top left;
+}
+#newsLetter .form .inner
+{
+    background:transparent url(/images/static/newsletter-bot.png) bottom left;
+}
+/* banner */
+#banner
+{
+    /*background:#fff url(/images/banners/banner.jpg) top left no-repeat;  */
+}
+/* Search */
+#search ul li.textBox
+{
+    background:transparent url(/images/static/search.gif) top left no-repeat;
+}
+/* Main Nav */
+#mainNav ul li .navPanel .inner
+{
+    background:transparent url(/images/static/white-overlay.png);
+}
+#mainNav ul li .navPanel .inner ul.subNav li
+{
+    background:transparent url(/images/static/blue-arrow.png) left 2px no-repeat;
+}
+#mainNav .bikes h2
+{
+   background:transparent url(/images/static/blue-arrow.png) 0 2px no-repeat;
+}
+#mainNav .bikes ul li a span
+{ 
+   background: transparent url(/images/static/blue-arrow.png) 0px center no-repeat;
+}
+/* New Nav */
+#topNav ul.top div.inner { background:transparent url(/images/static/white-overlay.png); }
+#topNav ul li .sub-menu .inner ul.subNav li { background:transparent url(/images/static/blue-arrow.png) left 2px no-repeat; }
+#topNav .bikes h2 { background:transparent url(/images/static/blue-arrow.png) 0 2px no-repeat; }
+#topNav .bikes ul li a span { background: transparent url(/images/static/blue-arrow.png) 0px center no-repeat; }
+/* Crumbtrail */
+#crumbtrail .flag a:hover
+{
+    background:transparent url(/images/static/black-overlay.png);
+}
+/* Intro Area */
+#introArea .callToAction .link
+{
+    background:transparent url(/images/static/tab-right.png) top right no-repeat;   
+}
+#introArea .callToAction .link .inner
+{
+    background:transparent url(/images/static/tab-left.png) top left no-repeat;
+}
+#introArea #seeAll a
+{
+    background:transparent url(/images/static/see-all.gif) right 1px no-repeat;
+}
+/* Tabbed Content */
+#tabbedContent .copy h2
+{
+    background:transparent url(/images/static/blue-arrow.png) left 2px no-repeat;
+}
+#tabbedContent .copy p a
+{
+    background:transparent url(/images/static/blue-arrow.png) right 2px no-repeat;
+}
+#tabbedContent ul li .bikes ul li a span
+{
+    background:transparent url(/images/static/blue-arrow.png) left center no-repeat;
+}
+#tabbedContent ul li .rangeNav ul li a
+{
+    background:transparent url(/images/static/blue-arrow.png) right 1px no-repeat;
+}
+/* Related links */
+ul.relatedLinks li a
+{
+    background:transparent url(/images/static/blue-arrow-on-white.gif) left 1px no-repeat;
+}
+ul.relatedLinks li a.back
+{
+    background:transparent url(/images/static/blue-arrow-back.gif) left 1px no-repeat;
+}
+/* Motor cycle range */
+#motorcycleSectionList .item .image
+{
+    background:transparent url(/images/static/motorcycle-range-image.gif) no-repeat;
+}
+#motorcycleSectionList .item .copy h2
+{
+    background:transparent url(/images/static/blue-arrow-on-white.gif) left 4px no-repeat;
+}
+#motorcycleSectionList .item .copy .specialEdition 
+{
+    background: #cfd7e3 url(/images/static/blue-arrow-on-white.gif) 3px 4px no-repeat;
+}
+/* Motorcycle overview */
+#mcOveriewFullSpecLink 
+{
+    background:transparent url(/images/static/blue-arrow-on-white.gif) left 2px no-repeat;
+}
+/* Grey boxes */
+.roundedGrey233px
+{
+   background:transparent url(/images/static/grey-233px-top.gif) top left no-repeat;
+}
+.roundedGrey233px .inner
+{
+    background:transparent url(/images/static/grey-233px-bot.gif) bottom left no-repeat;
+}
+/* Latest News */
+#latestNewsList .item .copy h3, #latestEventsList .item .copy h3
+{
+    background:transparent url(/images/static/blue-arrow-on-white.gif) left 2px no-repeat;
+}
+/* Social Media */
+#faceBook h2
+{
+    background:transparent url(/images/static/facebook-h2.gif) left 3px no-repeat;
+}
+#faceBook p a.button
+{
+   background:transparent url() no-repeat;
+}
+#youTube h2
+{
+    background:transparent url(/images/static/youtube-h2.gif) left 3px no-repeat;
+}
+#youTube p a.button
+{
+    background:transparent url() no-repeat;
+}
+#footerTop .inner #socialMediaLinks ul li.facebook a, #footerTop .inner #socialMediaLinks ul li.youtube a
+{
+   background:transparent url(/images/static/facebook.jpg) no-repeat;
+}
+#footerTop .inner #socialMediaLinks ul li.youtube a
+{
+    background:transparent url(/images/static/youtube.gif) no-repeat;
+}
+/* Motorcycle gallery */
+#motorcycleOverviewGallery .photo
+{
+    background: url(/images/static/mcOverviewGalleryBg.gif) left top no-repeat;
+}
+#motorcycleOverviewGallery .thumbs #upBtn
+{
+    background: url(/images/static/mcGalleryControls.gif) left top no-repeat;
+}
+#motorcycleOverviewGallery .thumbs #downBtn
+{
+    background: url(/images/static/mcGalleryControls.gif) left bottom no-repeat;
+}
+ul.motorcycleThumbList li a
+{
+    background:transparent url(/images/static/motorcycle-overview-thumb.gif) top left no-repeat;
+    background:url(/images/static/motorcycle-overview-thumb.gif) top left no-repeat;
+}
+ul.motorcycleThumbList li a:hover, ul.motorcycleThumbList li a.active
+{
+    background:transparent url(/images/static/motorcycle-overview-thumb.gif) bottom left no-repeat;
+}
+/* Motorcycle carousel */
+#motorcycleCarouselOverviewContainer #motorcycleCarousel #prev
+{
+    background: url(/images/static/mcCarouselPrev.gif) no-repeat;
+}
+#motorcycleCarouselOverviewContainer #motorcycleCarousel #next
+{
+    background: url(/images/static/mcCarouselNext.gif) no-repeat;
+}
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+    background: transparent url(/images/static/mcCarouselNext.gif) no-repeat 0 0;
+    /*background: transparent url(next-horizontal.png) no-repeat 0 0;*/
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+    background: transparent url(/images/static/mcCarouselPrev.gif) no-repeat 0 0;
+    /*background: transparent url(prev-horizontal.png) no-repeat 0 0;*/
+}
+.ui-widget-header {
+    background: transparent ;
+}
+.ui-state-default,.ui-widget-content .ui-state-default {
+    background: #fff url(/images/static/tab-inactive-background.gif) 50% 50% repeat-x;
+}    
+.ui-state-active,.ui-widget-content .ui-state-active {
+    background: #000;
+}
+#motorcycle-overview-gallery-container .loader {
+    background:  #ddd;
+}    
+#motorcycle-overview-gallery-container p.panel-inner-content a span{
+    background: url(/images/static/blue-arrow-down-button-11x11.gif) no-repeat 1px 2px;    
+}
+#multimedia-gallery-tabs #closeLightBox span {
+    background: url(/images/static/newsletter-close.gif) no-repeat right center;
+}
+#cboxOverlay {
+    background:url(/images/static/overlay.png) 0 0 repeat;
+}
+#cboxSlideshow, #cboxPrevious, #cboxNext, #cboxClose{background:url(/images/static/colorbox-controls.png) 0 0 no-repeat;}
+/* motorcycle features / reviews & awards */
+.mcFeatureAwardSection .image .logo
+{
+    background: url(/images/static/logo-bg.gif) left top no-repeat;
+}
+.mcFeatureAwardSection .info h2 a, .mcFeatureAwardSectionBig .info h2 a
+{
+    background: url(/images/static/blue-arrow-on-white.gif) left center no-repeat;
+}
+/* Sign Posts */
+#signPosts .post .link
+{
+    background:transparent url(/images/static/tab-right.png) top right no-repeat;   
+}
+#signPosts .post .link .inner
+{
+    background:transparent url(/images/static/tab-left.png) top left no-repeat;
+}
+/* FooterTop */
+#footerTop
+{
+    background:transparent url(/images/static/footer-top.gif) top left no-repeat;
+}
+#footerTop .inner
+{
+    background:transparent url(/images/static/footer-bottom.gif) bottom left no-repeat;
+}
+#footerTop .inner .list ul li
+{
+    background:transparent url(/images/static/footer-arrow.gif) left 3px no-repeat;
+}
+/* FooterBottom */
+#footerBottom ul li
+{
+    background:transparent url(/images/static/footer-pipe.gif) right 3px no-repeat;
+}
+/* LANGUAGE SELECTION */
+#footerTop .inner #languageSelection
+{
+    background:transparent url(/images/static/language-map.jpg) 12px 0 no-repeat;
+}
+#footerTop .inner #languageSelection .flag a:hover {
+    background:transparent url(/images/static/black-overlay.png);
+}
+#languageSelectionBox
+{
+    background:transparent url(/images/static/white-overlay.png);
+}
+#crumbtrail .flag, #footerTop #languageSelection .flag, #languageSelectionBox ul li a, #geomessage
+{
+    background-repeat:no-repeat;
+}
+#languageSelectionBox ul li a
+{
+    background-position:left 2px;
+}
+#crumbtrail .flag.argentina, #footerTop #languageSelection .flag.argentina,  #languageSelectionBox ul li.argentina a, #geomessage.argentina
+{
+    background-image:url(/images/static/argentina.gif);
+}
+#crumbtrail .flag.australia, #footerTop #languageSelection .flag.australia,  #languageSelectionBox ul li.australia a, #geomessage.australia
+{
+    background-image:url(/images/static/australia.gif);
+}
+#crumbtrail .flag.austria, #footerTop #languageSelection .flag.austria,  #languageSelectionBox ul li.austria a, #geomessage.austria 
+{
+    background-image:url(/images/static/austria.jpg);
+}
+#crumbtrail .flag.bahrain, #footerTop #languageSelection .flag.bahrain, #languageSelectionBox ul li.bahrain a, #geomessage.bahrain 
+{
+    background-image:url(/images/static/bahrain.gif);
+}
+#crumbtrail .flag.belgium, #footerTop #languageSelection .flag.belgium, #languageSelectionBox ul li.belgium a, #geomessage.belgium 
+{
+    background-image:url(/images/static/belgium.gif);
+}
+#crumbtrail .flag.bolivia, #footerTop #languageSelection .flag.bolivia, #languageSelectionBox ul li.bolivia a, #geomessage.bolivia 
+{
+    background-image:url(/images/static/bolivia.gif);
+}
+#crumbtrail .flag.brazil, #footerTop #languageSelection .flag.brazil, #languageSelectionBox ul li.brazil a, #geomessage.brazil 
+{
+    background-image:url(/images/static/brazil.gif);
+}
+#crumbtrail .flag.canada, #footerTop #languageSelection .flag.canada, #languageSelectionBox ul li.canada a, #geomessage.canada 
+{
+    background-image:url(/images/static/canada.gif);
+}
+#crumbtrail .flag.chile, #footerTop #languageSelection .flag.chile, #languageSelectionBox ul li.chile a, #geomessage.chile 
+{
+    background-image:url(/images/static/chile.gif);
+}
+#crumbtrail .flag.columbia, #footerTop #languageSelection .flag.columbia, #languageSelectionBox ul li.columbia a, #geomessage.columbia 
+{
+    background-image:url(/images/static/columbia.gif);
+}
+#crumbtrail .flag.costa-rica, #footerTop #languageSelection .flag.costa-rica, #languageSelectionBox ul li.costa-rica a, #geomessage.costa-rica 
+{
+    background-image:url(/images/static/costa-rica.gif);
+}
+#crumbtrail .flag.czech-republic, #footerTop #languageSelection .flag.czech-republic, #languageSelectionBox ul li.czech-republic a, #geomessage.czech-republic 
+{
+    background-image:url(/images/static/czech.gif);
+}
+#crumbtrail .flag.finland, #footerTop #languageSelection .flag.finland, #languageSelectionBox ul li.finland a, #geomessage.finland 
+{
+    background-image:url(/images/static/finland.gif);
+}
+#crumbtrail .flag.france, #footerTop #languageSelection .flag.france, #languageSelectionBox ul li.france a, #geomessage.france 
+{
+    background-image:url(/images/static/france.gif);
+}
+#crumbtrail .flag.germany, #footerTop #languageSelection .flag.germany, #languageSelectionBox ul li.germany a, #geomessage.germany 
+{
+    background-image:url(/images/static/germany.gif);
+}
+#crumbtrail .flag.greece, #footerTop #languageSelection .flag.greece, #languageSelectionBox ul li.greece a, #geomessage.greece 
+{
+    background-image:url(/images/static/greece.gif);
+}
+#crumbtrail .flag.guatemala, #footerTop #languageSelection .flag.guatemala, #languageSelectionBox ul li.guatemala a, #geomessage.guatemala 
+{
+    background-image:url(/images/static/guatemala.gif);
+}
+#crumbtrail .flag.holland, #footerTop #languageSelection .flag.holland, #languageSelectionBox ul li.holland a, #geomessage.holland 
+{
+    background-image:url(/images/static/holland.gif);
+}
+#crumbtrail .flag.honduras, #footerTop #languageSelection .flag.honduras, #languageSelectionBox ul li.honduras a, #geomessage.honduras 
+{
+    background-image:url(/images/static/honduras.gif);
+}
+#crumbtrail .flag.hungary, #footerTop #languageSelection .flag.hungary, #languageSelectionBox ul li.hungary a, #geomessage.hungary 
+{
+    background-image:url(/images/static/hungary.jpg);
+}
+#crumbtrail .flag.italy, #footerTop #languageSelection .flag.italy, #languageSelectionBox ul li.italy a, #geomessage.italy 
+{
+    background-image:url(/images/static/italy.gif);
+}
+#crumbtrail .flag.india, #footerTop #languageSelection .flag.india, #languageSelectionBox ul li.india a, #geomessage.india 
+{
+    background-image:url(/images/static/india.gif);
+}
+#crumbtrail .flag.japan, #footerTop #languageSelection .flag.japan, #languageSelectionBox ul li.japan a, #geomessage.japan 
+{
+    background-image:url(/images/static/japan.gif);
+}
+#crumbtrail .flag.malta, #footerTop #languageSelection .flag.malta, #languageSelectionBox ul li.malta a, #geomessage.malta
+{
+    background-image:url(/images/static/malta.gif);
+}
+#crumbtrail .flag.mexico, #footerTop #languageSelection .flag.mexico, #languageSelectionBox ul li.mexico a, #geomessage.mexico 
+{
+    background-image:url(/images/static/mexico.gif);
+}
+#crumbtrail .flag.new-zealand, #footerTop #languageSelection .flag.new-zealand, #languageSelectionBox ul li.new-zealand a, #geomessage.new-zealand 
+{
+    background-image:url(/images/static/new-zealand.gif);
+}
+#crumbtrail .flag.panama, #footerTop #languageSelection .flag.panama, #languageSelectionBox ul li.panama a, #geomessage.panama 
+{
+    background-image:url(/images/static/panama.gif);
+}
+#crumbtrail .flag.poland, #footerTop #languageSelection .flag.poland, #languageSelectionBox ul li.poland a, #geomessage.poland 
+{
+    background-image:url(/images/static/poland.gif);
+}
+#crumbtrail .flag.portugal, #footerTop #languageSelection .flag.portugal, #languageSelectionBox ul li.portugal a, #geomessage.portugal 
+{
+    background-image:url(/images/static/portugal.gif);
+}
+#crumbtrail .flag.puerto-rico, #footerTop #languageSelection .flag.puerto-rico, #languageSelectionBox ul li.puerto-rico a, #geomessage.puerto-rico 
+{
+    background-image:url(/images/static/puerto-rico.gif);
+}
+#crumbtrail .flag.qatar, #footerTop #languageSelection .flag.qatar, #languageSelectionBox ul li.qatar a, #geomessage.qatar 
+{
+    background-image:url(/images/static/qatar.gif);
+}
+#crumbtrail .flag.russia, #footerTop #languageSelection .flag.russia, #languageSelectionBox ul li.russia a, #geomessage.russia 
+{
+    background-image:url(/images/static/russia.gif);
+}
+#crumbtrail .flag.singapore, #footerTop #languageSelection .flag.singapore, #languageSelectionBox ul li.singapore a, #geomessage.singapore 
+{
+    background-image:url(/images/static/singapore.gif);
+}
+#crumbtrail .flag.slovak-republic, #footerTop #languageSelection .flag.slovak-republic, #languageSelectionBox ul li.slovak-republic a, #geomessage.slovak-republic 
+{
+    background-image:url(/images/static/slovak-republic.gif);
+}
+#crumbtrail .flag.south-africa, #footerTop #languageSelection .flag.south-africa, #languageSelectionBox ul li.south-africa a, #geomessage.south-africa 
+{
+    background-image:url(/images/static/south-africa.gif);
+}
+#crumbtrail .flag.spain, #footerTop #languageSelection .flag.spain, #languageSelectionBox ul li.spain a, #geomessage.spain 
+{
+    background-image:url(/images/static/spain.gif);
+}
+#crumbtrail .flag.sweden, #footerTop #languageSelection .flag.sweden, #languageSelectionBox ul li.sweden a, #geomessage.sweden 
+{
+    background-image:url(/images/static/sweden.gif);
+}
+#crumbtrail .flag.switzerland, #footerTop #languageSelection .flag.switzerland, #languageSelectionBox ul li.switzerland a, #geomessage.switzerland 
+{
+    background-image:url(/images/static/switzerland.gif);
+}
+#crumbtrail .flag.taiwan, #footerTop #languageSelection .flag.taiwan, #languageSelectionBox ul li.taiwan a, #geomessage.taiwan 
+{
+    background-image:url(/images/static/taiwan.gif);
+}
+#crumbtrail .flag.uae, #footerTop #languageSelection .flag.uae, #languageSelectionBox ul li.uae a, #geomessage.uae 
+{
+    background-image:url(/images/static/uae.gif);
+}
+#crumbtrail .flag.united-kingdom, #footerTop #languageSelection .flag.united-kingdom, #languageSelectionBox ul li.united-kingdom a, #geomessage.united-kingdom 
+{
+    background-image:url(/images/static/united-kingdom.gif);
+}
+#crumbtrail .flag.usa, #footerTop #languageSelection .flag.usa, #languageSelectionBox ul li.usa a, #geomessage.usa 
+{
+    background-image:url(/images/static/usa.gif);
+}
+#crumbtrail .flag.venezuela, #footerTop #languageSelection .flag.venezuela, #languageSelectionBox ul li.venezuela a, #geomessage.venezuela 
+{
+    background-image:url(/images/static/venezuela.gif);
+}
+/* clothing */
+a.launch-btn 
+{
+    background:transparent url() no-repeat;
+}
+/* search results */
+span.searchRel 
+{
+    background: url(/images/static/search-relevancy.gif) no-repeat left 2px;
+}
+.topResult .image  
+{
+    background:transparent url(/images/static/motorcycle-range-image.gif) no-repeat;
+}
+#searchPagination .left ul li a.active
+{
+    background: url(/images/static/search-pagination-active.gif) center center no-repeat;
+}
+#searchPagination .right a.previous
+{
+    background: url(/images/static/pagination-prev.gif) left 1px no-repeat;
+}
+#searchPagination .right .next
+{
+    background: url(/images/static/pagination-next.gif) right 1px no-repeat;
+}
+/* motorcycle comparison */
+.compareImages .image
+{
+    background: url(/images/static/motorcycle-compare-bg.gif) no-repeat;
+}
+.compareSelect
+{
+    background: url(/images/static/compare-motorcycle-select-bg.gif) repeat-y;
+}
+/* triumph world */
+.eventDetailsSection h3 
+{
+    background: url(/images/static/blue-arrow-on-white.gif) left 3px no-repeat;
+}
+/* my triumph */
+.username 
+{
+    background: url(/images/static/username-bg-left.png) no-repeat left top;
+}
+.username .inner
+{
+    background: url(/images/static/username-bg-right.png) no-repeat right top;
+}
+.signout a
+{
+    background: url(/images/static/signout-bg-left.png) no-repeat left top;
+}
+.signout a span 
+{
+    background: url(/images/static/signout-bg-right.png) no-repeat right top;
+}
+#myTriumphPageMap div.icon 
+{
+    background: transparent url(/images/static/dealer-icon.gif) no-repeat left top;
+}
+/* blue sliding door button */
+.slidingDoorBlue a
+{
+    background: url(/images/static/sliding-door-btn-left.gif) no-repeat left top;    
+}
+.slidingDoorBlue a span
+{
+    background: url(/images/static/sliding-door-btn-right.gif) no-repeat right top;
+}
+.slidingDoorBlue.ext a span
+{
+    background: url(/images/static/sliding-door-btn-right-ext.gif) no-repeat right top;
+}
+/* event / article page */
+ul.eventMapLinks li a 
+{
+    background: transparent url(/images/static/blue-arrow-on-white.gif) no-repeat scroll left 2px;
+}
+ul.eventMapLinks li a.printMap
+{
+    background: transparent url(/images/static/print-map.gif) no-repeat scroll left 2px;
+}
+/* multi media showcase */
+#multiMediaShowcase #thumbs #prev
+{
+    background: url(/images/static/mcCarouselPrev.gif) left center no-repeat;
+}
+#multiMediaShowcase #thumbs #next
+{
+    background: url(/images/static/mcCarouselNext.gif) left center no-repeat;
+}
+#multiMediaShowcase .panel span.photo { 
+    background: url(/images/static/showcase-photo-icon.gif) no-repeat top left;
+}
+#multiMediaShowcase .panel span.video { 
+    background: url(/images/static/showcase-video-icon.gif) no-repeat top left; 
+}
+/* form */
+.standardForm label.error{
+    background: url(/images/static/hint-bg.gif) no-repeat top right;
+}
+.standardForm .terms label.error{
+    background: url(/images/static/hint-bg-small.gif) no-repeat top right;
+}
+.standardForm .checkBoxes label.error{
+    background: url(/images/static/hint-bg-small.gif) no-repeat top right;
+}
+div.selector, 
+div.selector span{
+  background-image: url(/images/static/sprite.png);
+}
+#myTriumphLogin label.error, #myTriumphRegisterForm label.error, #forgotPasswordForm label.error {
+    background: url(/images/static/hint-bottom.png) left top no-repeat;
+}
+/* dealer search */
+dl#Searchresult dt a {
+    background: transparent url(/images/static/blue-arrow-on-white.gif) no-repeat scroll left 2px;
+}
+#searchResults #Pagination .prev {
+    background: transparent url(/images/static/pagination-prev.gif) no-repeat scroll left 1px;
+}
+#searchResults #Pagination .next {
+    background: transparent url(/images/static/pagination-next.gif) no-repeat scroll right 1px;
+}
+#searchResults #Pagination span.prev, #searchResults #Pagination span.current.next  {
+    background: transparent url(/images/static/pagination-next.gif) no-repeat scroll right 1px;
+}
+#searchResults #Pagination span.prev, #searchResults #Pagination span.current.prev {
+    background: transparent url(/images/static/pagination-prev.gif) no-repeat scroll left 1px;
+}    
+#searchResults #Pagination span.prev, #searchResults #Pagination span.current {
+    background: transparent url(/images/static/search-pagination-active.gif) no-repeat scroll center center;
+}
+/* generic */
+.genericCopy h2 a {
+    background: url(/images/static/blue-arrow-on-white.gif) left center no-repeat;
+}
+.genericCopy ul li a {
+    background:transparent url(/images/static/blue-arrow-on-white.gif) no-repeat scroll left 1px;
+}
+#newsletterSignup form .row label.error { 
+    background: url(/images/static/hint-bottom.png) left top no-repeat;
+}
+span.findDealerFormError {
+    background: url(/images/static/hint-bg-small.gif) no-repeat;
+}
+/* ================== END - image-refs.css ================== *//* ================== START - sifr.css ================== 
+sifr.css
+revision 200
+-------------------------------------*/
+
+
+/*****************************************************************************
+scalable Inman Flash Replacement (sIFR) version 3.
+Copyright 2006 – 2008 Mark Wubben, <http://novemberborn.net/>
+Older versions:
+* IFR by Shaun Inman
+* sIFR 1.0 by Mike Davidson, Shaun Inman and Tomas Jogin
+* sIFR 2.0 by Mike Davidson, Shaun Inman, Tomas Jogin and Mark Wubben
+See also <http://novemberborn.net/sifr3> and <http://wiki.novemberborn.net/sifr3>.
+This software is licensed and provided under the CC-GNU LGPL.
+See <http://creativecommons.org/licenses/LGPL/2.1/>
+*****************************************************************************/
+@media screen {
+  .sIFR-flash {
+    visibility: visible !important;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sIFR-replaced, .sIFR-ignore {
+    visibility: visible !important;
+  }
+  
+  .sIFR-alternate {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    display: block;
+    overflow: hidden;
+  }
+  
+  .sIFR-replaced div.sIFR-fixfocus {
+    margin: 0pt; 
+    padding: 0pt; 
+    overflow: auto; 
+    letter-spacing: 0px; 
+    float: none;
+  }
+}
+@media print {
+  .sIFR-flash {
+    display    : none !important;
+    height     : 0;
+    width      : 0;
+    position   : absolute;
+    overflow   : hidden;
+  }
+  
+  .sIFR-alternate {
+    visibility : visible !important;
+    display    : block   !important;
+    position   : static  !important;
+    left       : auto    !important;
+    top        : auto    !important;
+    width      : auto    !important;
+    height     : auto    !important;
+  }
+  
+.sIFR-active h1 {
+    color:#ffffff;
+    font-size:16px;
+}
+
+body h1.sIFR-replaced object, .sIFR-replaced embed { display: none !important; height: 0; width: 0; position: absolute; overflow: hidden; }
+body h1 .sIFR-alternate { 
+    visibility: visible !important; 
+    display: block !important; 
+    position: static !important; 
+    height: auto !important; 
+    width: auto !important; 
+    left: auto !important; 
+    top: auto !important; 
+}
+
+}
+/*
+Place CSS rules for to-be-replaced elements here. Prefix by .sIFR-active
+so they only apply if sIFR is active. Make sure to limit the CSS to the screen
+media type, in order not to have the printed text come out weird.
+*/
+@media screen {
+  /* Example:
+  .sIFR-active h1 {
+    font-family: Verdana;
+    visibility: hidden;
+  }
+  */
+  
+.sIFR-active h1 {
+}
+
+}
+ 
+ 
+
+/* ================== END - sifr.css ================== *//* ================== START - uniform-generated.css ================== 
+uniform-generated.css
+revision 378
+-------------------------------------*/
+
+
+/*
+Uniform Theme: #YOUR THEME NAME HERE#
+Version: #VERSION NUMBER HERE#
+By: #YOUR NAME HERE#
+License: #THEME LICENSE HERE#
+---
+For use with the Uniform plugin:
+http://pixelmatrixdesign.com/uniform/
+---
+Generated by Uniform Theme Generator:
+http://pixelmatrixdesign.com/uniform/themer.html
+*/
+/* Global Declaration */
+div.selector, 
+div.selector span, 
+div.checker span, 
+div.radio span, 
+div.uploader, 
+div.uploader span.action {
+  /* see image-refs.css */
+  background-repeat: no-repeat;
+}
+.selector, 
+.radio, 
+.checker, 
+.uploader, 
+.selector *, 
+.radio *, 
+.checker *, 
+.uploader *{
+    margin: 0;
+    padding: 0;
+}
+/* SPRITES */
+/* Select */
+div.selector {
+  background-position: -483px -90px;
+  line-height: 18px;
+    height: 18px;
+}
+div.selector span {
+  background-position: right 0px;
+  height: 18px;
+    line-height: 18px;
+}
+div.selector select {
+  /* change these to adjust positioning of select element */
+  top: 0px;
+    left: 0px;
+}
+div.selector:active, 
+div.selector.active {
+    background-position: -483px -108px;
+}
+div.selector:active span, 
+div.selector.active span {
+    background-position: right -18px;
+}
+div.selector.focus, div.selector.hover, div.selector:hover {
+    background-position: -483px -126px;
+}
+div.selector.focus span, div.selector.hover span, div.selector:hover span {
+    background-position: right -36px;
+}
+div.selector.focus:active,
+div.selector.focus.active,
+div.selector:hover:active,
+div.selector.active:hover {
+    background-position: -483px -144px;
+}
+div.selector.focus:active span,
+div.selector:hover:active span,
+div.selector.active:hover span,
+div.selector.focus.active span {
+    background-position: right -54px;
+}
+div.selector.disabled,
+div.selector.disabled:active,
+div.selector.disabled.active {
+    background-position: -483px -162px;
+}
+div.selector.disabled span,
+div.selector.disabled:active span,
+div.selector.disabled.active span {
+  background-position: right -72px;
+}
+/* Checkbox */
+div.checker {
+  width: 18px;
+  height: 18px;
+}
+div.checker input {
+  width: 18px;
+  height: 18px;
+}
+div.checker span {
+  background-position: 0px -180px;
+  height: 18px;
+  width: 18px;
+}
+div.checker:active span, 
+div.checker.active span {
+    background-position: -18px -180px;
+}
+div.checker.focus span,
+div.checker:hover span {
+    background-position: -36px -180px;
+}
+div.checker.focus:active span,
+div.checker:active:hover span,
+div.checker.active:hover span,
+div.checker.focus.active span {
+    background-position: -54px -180px;
+}
+div.checker span.checked {
+    background-position: -72px -180px;
+}
+div.checker:active span.checked, 
+div.checker.active span.checked {
+    background-position: -90px -180px;
+}
+div.checker.focus span.checked,
+div.checker:hover span.checked {
+    background-position: -108px -180px;
+}
+div.checker.focus:active span.checked,
+div.checker:hover:active span.checked,
+div.checker.active:hover span.checked,
+div.checker.active.focus span.checked {
+    background-position: -126px -180px;
+}
+div.checker.disabled span,
+div.checker.disabled:active span,
+div.checker.disabled.active span {
+    background-position: -144px -180px;
+}
+div.checker.disabled span.checked,
+div.checker.disabled:active span.checked,
+div.checker.disabled.active span.checked {
+    background-position: -162px -180px;
+}
+/* Radio */
+div.radio {
+  width: 18px;
+  height: 18px;
+}
+div.radio input {
+  width: 18px;
+  height: 18px;
+}
+div.radio span {
+  height: 18px;
+  width: 18px;
+  background-position: 0px -198px;
+}
+div.radio:active span, 
+div.radio.active span {
+    background-position: -18px -198px;
+}
+div.radio.focus span, 
+div.radio:hover span {
+    background-position: -36px -198px;
+}
+div.radio.focus:active span,
+div.radio:active:hover span,
+div.radio.active:hover span,
+div.radio.active.focus span {
+    background-position: -54px -198px;
+}
+div.radio span.checked {
+    background-position: -72px -198px;
+}
+div.radio:active span.checked,
+div.radio.active span.checked {
+    background-position: -90px -198px;
+}
+div.radio.focus span.checked, div.radio:hover span.checked {
+    background-position: -108px -198px;
+}
+div.radio.focus:active span.checked, 
+div.radio:hover:active span.checked,
+div.radio.focus.active span.checked,
+div.radio.active:hover span.checked {
+    background-position: -126px -198px;
+}
+div.radio.disabled span,
+div.radio.disabled:active span,
+div.radio.disabled.active span {
+    background-position: -144px -198px;
+}
+div.radio.disabled span.checked,
+div.radio.disabled:active span.checked,
+div.radio.disabled.active span.checked {
+    background-position: -162px -198px;
+}
+/* Uploader */
+div.uploader {
+  background-position: 0px -216px;
+  height: 18px;
+}
+div.uploader span.action {
+  background-position: right -288px;
+  height: 18px;
+  line-height: 18px;
+}
+div.uploader span.filename {
+  height: 18px;
+  /* change this line to adjust positioning of filename area */
+  margin: 2px 0px 2px 2px;
+  line-height: 18px;
+}
+div.uploader.focus,
+div.uploader.hover,
+div.uploader:hover {
+  background-position: 0px -252px;
+}
+div.uploader.focus span.action,
+div.uploader.hover span.action,
+div.uploader:hover span.action {
+  background-position: right -306px;
+}
+div.uploader.active span.action,
+div.uploader:active span.action {
+  background-position: right -324px;
+}
+div.uploader.focus.active span.action,
+div.uploader:focus.active span.action,
+div.uploader.focus:active span.action,
+div.uploader:focus:active span.action {
+  background-position: right -342px;
+}
+div.uploader.disabled {
+  background-position: 0px -234px;
+}
+div.uploader.disabled span.action {
+  background-position: right -270px;
+}
+/* PRESENTATION */
+/* Select */
+div.selector {
+  width: 190px;
+}
+div.selector select {
+  width: 190px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    border: solid 1px #fff;
+}
+div.selector span {
+  padding: 0px 25px 0px 2px;
+  cursor: pointer;
+}
+div.selector span {
+  color: #666;
+  width: 158px;
+  text-shadow: 0 1px 0 #fff;
+}
+div.selector.disabled span {
+    color: #bbb;
+}
+/* Checker */
+div.checker {
+  margin-right: 10px;
+}
+/* Radio */
+div.radio {
+  margin-right: 10px;
+}
+/* Uploader */
+div.uploader {
+  width: 190px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+div.uploader span.action {
+  width: 85px;
+  text-align: center;
+  text-shadow: #fff 0px 1px 0px;
+  background-color: #fff;
+}
+div.uploader span.filename {
+  color: #777;
+  width: 82px;
+  border-right: solid 1px #bbb;
+  font-size: 90%;
+}
+div.uploader input {
+  width: 190px;
+}
+div.uploader.disabled span.action {
+  color: #aaa;
+}
+div.uploader.disabled span.filename {
+  border-color: #ddd;
+  color: #aaa;
+}
+/*
+CORE FUNCTIONALITY 
+Not advised to edit stuff below this line
+-----------------------------------------------------
+*/
+.selector select:focus, .radio input:focus, .checker input:focus, uploader input:focus {
+  outline: 0;
+}
+/* Select */
+div.selector {
+    position: relative;
+    padding-left: 10px;
+    overflow: hidden;
+}
+div.selector span {
+    display: block;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+div.selector select {
+    position: absolute;
+    opacity: 0;
+  height: 25px;
+  border: none;
+  background: none;
+}
+/* Checker */
+div.checker {
+    position: relative;
+    float: left;
+}
+div.checker span {
+    display: block;
+    float: left;
+    text-align: center;
+}
+div.checker input {
+  opacity: 0;
+  display: inline-block;
+  background: none;
+}
+/* Radio */
+div.radio {
+    position: relative;
+    float: left;
+}
+div.radio span {
+    display: block;
+    float: left;
+    text-align: center;
+}
+div.radio input {
+  opacity: 0;
+  text-align: center;
+  display: inline-block;
+  background: none;
+}
+/* Uploader */
+div.uploader {
+  position: relative;
+  float: left;
+  overflow: hidden;
+}
+div.uploader span.action {
+  float: left;
+  display: inline;
+  padding: 2px 0px;
+  overflow: hidden;
+  cursor: pointer;
+}
+div.uploader span.filename {
+  padding: 0px 10px;
+  float: left;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+div.uploader input {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  float: right;
+  height: 25px;
+  border: none;
+} 
+ 
+
+/* ================== END - uniform-generated.css ================== *//* ================== START - uniform-triumph.css ================== 
+uniform-triumph.css
+revision 411
+-------------------------------------*/
+
+
+/*
+Uniform Theme: #YOUR THEME NAME HERE#
+Version: #VERSION NUMBER HERE#
+By: #YOUR NAME HERE#
+License: #THEME LICENSE HERE#
+---
+For use with the Uniform plugin:
+http://pixelmatrixdesign.com/uniform/
+---
+Generated by Uniform Theme Generator:
+http://pixelmatrixdesign.com/uniform/themer.html
+*/
+div.selector {
+  background-position: -483px -90px;
+  line-height: 18px;
+    height: 18px;
+    background: #ececec;
+}
+div.selector span {
+  background-position: right 0px;
+  height: 18px;
+    line-height: 18px;
+}
+div.selector select {
+  /* change these to adjust positioning of select element */
+  top: 0px;
+left: 0px;
+}
+/* PRESENTATION */
+/* Select */
+div.selector {
+  width: 162px;
+  display:inline;
+  float:left;
+  border: 1px solid #ececec;
+}
+div.selector select {
+  width: 162px;
+  background-color: white;
+}
+div.selector span {
+  padding: 0px 5px 0px 2px;
+  cursor: pointer;
+  color: #A3A3AA;
+  font-weight: bold;
+  width: 162px; height: 18px;
+}
+div.selectorError {
+    border: 1px solid #ab0245;
+    height: 17px;
+}
+div.selectorError span {
+    color: #ab0245;
+}
+div.selector.disabled span {
+    color: #bbb;
+}
+/* register form */
+#myTriumphRegisterForm div.selector {
+    width: 210px;
+    /*float: none;*/
+    padding-left: 0px;
+}
+#myTriumphRegisterForm div.selector select {
+    width: 205px;
+}
+#myTriumphRegisterForm div.selector span {
+    width: 200px;
+}
+#myTriumphRegisterForm div.radio input {
+    opacity: 100;
+}
+/* My Triumph Login Form */
+#myTriumphLogin div.radio input {
+    opacity: 100;
+}
+ 
+/* ================== END - uniform-triumph.css ================== *//* ================== START - colorbox.css ================== 
+colorbox.css
+revision 501
+-------------------------------------*/
+
+/*
+    ColorBox Core Style
+    The following rules are the styles that are consistant between themes.
+    Avoid changing this area to maintain compatability with future versions of ColorBox.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative; overflow:visible;}
+#cboxLoadedContent{overflow:auto;}
+#cboxLoadedContent iframe{display:block; width:100%; height:100%; border:0;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+/* 
+    ColorBox example user style
+    The following rules are ordered and tabbed in a way that represents the
+    order/nesting of the generated HTML, so that the structure easier to understand.
+*/
+#cboxOverlay{background:#000;}
+#colorbox{ /*z-index: 1000 !important;*/ }
+    #cboxContent{margin-top:32px;}
+    #cboxLoadedContent{background:#fff; padding:3px;}
+    #cboxLoadingGraphic{/*background:url(images/loading.gif) center center no-repeat;*/}
+    #cboxLoadingOverlay{background:#fff;}
+    #cboxTitle{position:absolute; top:-22px; left:0; color:#000;}
+    #cboxCurrent{position:absolute; top:-22px; right:205px; text-indent:-9999px;}
+    #cboxSlideshow, #cboxPrevious, #cboxNext, #cboxClose{text-indent:-9999px; width:20px; height:20px; position:absolute; top:-20px;}
+    #cboxPrevious{background-position:0px 0px; right:44px;}
+    #cboxPrevious.hover{background-position:0px -25px;}
+    #cboxNext{background-position:-25px 0px; right:22px;}
+    #cboxNext.hover{background-position:-25px -25px;}
+    #cboxClose{background-position:-50px 0px; right:0;}
+    #cboxClose.hover{background-position:-50px -25px;}
+    .cboxSlideshow_on #cboxPrevious, .cboxSlideshow_off #cboxPrevious{right:66px;}
+    .cboxSlideshow_on #cboxSlideshow{background-position:-75px -25px; right:44px;}
+    .cboxSlideshow_on #cboxSlideshow.hover{background-position:-100px -25px;}
+    .cboxSlideshow_off #cboxSlideshow{background-position:-100px 0px; right:44px;}
+    .cboxSlideshow_off #cboxSlideshow.hover{background-position:-75px -25px;}
+
+
+
+
+/* ================== END - colorbox.css ================== *//* =============== START - key-forms.css =============== *
+ * key-forms.css
+ * revision $LastChangedRevision: 816 $
+ * PHP at lines 7, 26, 47, 95, 152, 162, 184-6, 199-200, 204-5, 208-13, 220-4
+ * After paste  7, 25, 45, 91, 142, 151, 171-3, 184-5, 199-200, 193-8, 203-7
+ * ===================================================== */
+div.wideContent01 {background: #fff url(/images/static/rightColBikesStrip.jpg) repeat-y right top !important; }
+div.wideContent01 form {padding: 0; margin: 0; }
+div.wideContent01 div.wideContent02 {margin-left: -11px; width: 790px; padding-left: 14px; } 
+div.column div.col736px {width: 736px; }
+div.wideContent01 div.motorcyclesIntroText, 
+div.wideContent01 div.formColCenter p.smLabel, 
+div.wideContent01 div.formColCenter .smLabel div {font-weight: bold; /*width: 736px;*/}
+div.wideContent01 div.formColCenter p.smLabel, 
+div.wideContent01 div.formColCenter .smLabel p {padding: 0; }
+div.wideContent01 div div p.smLabel, 
+div.wideContent01 div div .smLabel p {font-size: 1.2em; color: #ab0245; }
+div.wideContent01 div div .bold {font-weight: bold; }
+div.wideContent01 div.validations, div.wideContent01 div.exceptions {
+    background-color: #AB0245; 
+    color: #fff; 
+    font-size: 100%; 
+    padding: 15px 10px 12px 44px; 
+    margin-bottom: 5px; 
+    background: #AB0245 url(/images/static/error-check-mark.gif) no-repeat 15px 13px ; }
+div.wideContent01 div.exceptions {margin-top: -5px; }
+div.wideContent01 div.validations strong, div.wideContent01 div.exceptions strong {font-size: 1.2em; margin-bottom: 4px; display: inline-block; }
+div.wideContent01 div.validations p, div.wideContent01 div.exceptions p {color: #fff; line-height: 1.3em; padding: 0; } 
+div.wideContent01 .msg {color: #ab0245; font-weight: bold; }
+div.wideContent01 p.cancel {padding: 0; margin-top: 5px; }
+div.wideContent01 p.cancel a {text-decoration: underline; }
+div.wideContent01 p.cancel a:hover {text-decoration: none; }
+/*div.wideContent01 div.validations ul li, 
+div.wideContent01 div.exceptions ul li {font-size: 1em !important; }
+div.wideContent01 div.formColCenter div.exceptions ul li {font-size: 1.2em !important; margin-top: 10px; }*/
+div.wideContent01 div div .smLabel ul {margin-top: 10px; }
+div.wideContent01 div div .smLabel li, 
+div.wideContent01 div.validations li, div.wideContent01 div.validations p, 
+div.wideContent01 div.exceptions li, div.wideContent01 div.exceptions p, 
+div.wideContent01 div p.msg {font-size: 1.2em;  }
+.formColRight p {display: block; padding: 3px 0 6px 0; margin-left: 110px; clear: left; }
+.formColCenter p.subLabel {display: block; padding: 3px 0 2px 0; margin-left: 146px; clear: left; width: 234px; }
+.formColRight .submit p {float: left; clear: right; margin: 7px 16px 0 0; }
+div.wideContent01 div.standardForm div.row p.short {width: 45%; }
+div#bgColorBlocks {background: url(/images/static/login-bg-shim.gif) no-repeat 0 0; }/*Inelegant img solution as repeating strip would not obey top start position*/
+.wideContent01 div.standardForm {clear: left; margin-bottom: 6px; }
+.wideContent01 div.group {margin-bottom: 2px; }
+.horizontal1Col {width: 710px; }/*note L followed by '1'*/
+.horizontal2Col {width: 100%; }
+.horizontal1Col .regionHeading, 
+.horizontal1Col .formColCenter {width: auto; margin-left: 200px; }/* width: 392px; margin: 0 auto;  Can't use = longer labels wrap */
+.horizontal2Col div.formColLeft {float: left; width: 356px; }
+.horizontal2Col div.formColRight {float: right; width: 356px; }
+div.formColLeft, div.formColRight {min-width: 356px; }
+.formColFull {width: 100%; }
+.vertical2Col {float: left; clear: right; padding: 0; }/*width: 356px; */
+/*.vertical2Col {float: none;}*/
+.wideContent01 .regionHeading h2 {font-size: 90%; }
+.wideContent01 .marginTop {margin-top: 14px; }
+.wideContent01 .clrNM div.label {background-color: #d7d7d7; height: 23px; min-width: 110px; width: auto !important; }/*ie6 defaults to std width*/
+.wideContent01 .lightBlue div.label {background-color: #8195bc; color: #fff; }
+.wideContent01 div.standardForm div div div div.static {background-color: #8195bc; color: #fff; }
+.wideContent01 div.formColCenter .input p.static, 
+.wideContent01 div.formColRight .input p.static {color: #8195bc; display: inline-block; height: 6px; padding: 5px 0 0 5px; margin-left: 0; }
+.wideContent01 .lightBlue p {color: #8195bc; padding: 6px 0 0 5px; }
+.wideContent01 .clrNM div.input input {height: 20px !important; overflow: hidden; color: #4c689f; padding-left: 4px; }
+.wideContent01 .clrNM div.input input#signIn {height: auto !important; margin-left: -15px; }
+.wideContent01 .clrNM div.label label {margin: 5px 2px 0 7px; display: block; }
+.wideContent01 .clrNM div.input input.button {border: 0; margin-top: 1px; }
+.wideContent01 .standardForm .row .selector {height: 21px; border: 1px #d7d7d7 solid; background-color: #fff; }
+.wideContent01 .standardForm .row .selector span {font-weight: normal; margin-top: 2px; }
+.wideContent01 .standardForm .row .input .text, 
+.wideContent01 .standardForm .row .input .selector select {width: 216px; height: 20px; color: #999; border: 1px #d7d7d7 solid; }
+.wideContent01 .standardForm .row .input .selector, 
+.wideContent01 .standardForm .row .input .selector span {display: block; min-width: 209px/*206px*/; color: #4c689f; }
+#header .headerPopForm .form .inner li.clrNM input.bluetxt, 
+#header .headerPopForm .form .inner li.clrNM #password01Popout, 
+.wideContent01 .standardForm .row .input .bluetxt, 
+.wideContent01 div.standardForm div.row input[type="password"] {color: #4c689f !important; }
+.wideContent01 .formColCenter {width: 400px; }
+.wideContent01 .standardForm .formColCenter div.label {min-width: 142px; }
+.wideContent01 .standardForm .formColCenter .input .text, 
+.wideContent01 .standardForm .formColCenter .input .selector select {width: 235px; }
+.wideContent01 .standardForm .formColCenter .marginTop {margin-top: 18px; }
+.wideContent01  div.marginBottom {margin-bottom: 40px; }
+.wideContent01 .standardForm .formColCenter fieldset#captcha {margin-left: -8px; }
+.wideContent01 div.column div.noMarginBottom {margin-bottom: 12px !important; }
+/*.wideContent01 div.column div.minHeight50 {min-height: 114px; }*/
+.wideContent01 .standardForm .question .input input {padding-left: 4px; }
+.wideContent01 .standardForm .question .input .text {width: 190px; }
+.wideContent01 .standardForm .question span.question {display: block; width: 14px; height: 20px; background: transparent url(/images/static/form-question-mark.jpg) no-repeat 3px 4px; }
+.wideContent01 .standardForm .question .input span:hover {cursor: pointer; }
+.wideContent01 .standardForm .checkBoxWide {height: 26px; }
+.wideContent01 .standardForm .vertical2Col .checkBoxWide {height: auto;}
+.wideContent01 .standardForm .checkBoxWide input {margin: 4px 0 0 0; float: left; clear: right; }
+.wideContent01 .standardForm .checkBoxWide label {display: inline-block; margin: 7px 0 0 6px; }
+.wideContent01 .standardForm .checkBoxWide p {padding: 0;}
+.wideContent01 .standardForm .formColFull .checkBoxWide .input {min-width: 100px; margin-right: 10px; }
+.wideContent01 .standardForm .submit {margin-top: 8px; float: right; }
+.wideContent01 .standardForm div.small {font-size: 120%; }
+.wideContent01 .standardForm .formColFull .checkBoxNarrow {width: 100%; }
+.wideContent01 .solidSq {padding-left: 18px; clear: right !important; position: relative; /*margin-bottom: 40px !important; */padding-bottom: 5px !important; }
+.wideContent01 .solidSq .label {background-color: #4c689f !important; color: #fff !important; }
+.wideContent01 .solidSq .longer .input input {width: 238px !important; }
+.wideContent01 .solidSq .checkBoxNarrow {margin-top: 10px; }
+div.wideContent01 div div.blue {background-color: #dde3eb; }
+div.wideContent01 div div.wideBlock {width: 364px !important; }
+div.wideContent01 .wideBlock .baseBlock {width: 364px; }
+div.wideContent01 div div.narrowBlock {width: 300px !important; }
+div.wideContent01 .narrowBlock .baseBlock {width: 300px; }
+div.wideContent01 div div.solidLeft {float: left !important; min-height: 120px /*170px*/; }
+div.wideContent01 div div.solidRight {float: right !important; /*min-height: 170px;*/ }
+div.wideContent01 div div.lrgP p, 
+div.wideContent01 div div.lrgP li {font-size: 130%; line-height: 1.2em; }
+div.wideContent01 .narrowBlock li {color: #4c689f; list-style: square; margin-bottom: 5px; }
+div.wideContent01 .narrowBlock li span {color: #333; font-weight: bold; }
+div.wideContent01 div div.baseBlock {padding: 12px 21px 0 10px; border-top: 1px solid #fff; /*bottom: 0;*/ right: 0; height: 28px; margin: 15px 20px -5px -20px; }
+div.wideContent01 div div.baseBlock2 {position: absolute; margin: 0; }
+div.wideContent01 div div.relative {position: relative; right: 20px; margin-top: 10px; }
+div.wideContent01 .solidLeft .baseBlock * {text-align: left; margin-bottom: 10px; margin-left: 5px; font-weight: bold; }
+div.wideContent01 .solidRight .baseBlock * {text-align: right; margin-bottom: 10px; font-weight: bold; }
+div.wideContent01 div div.lrgP .baseBlock p {font-size: 100%; }
+div.wideContent01 .solidSq .bottomImg, 
+div.wideContent01 .horizontal1Col .bottomImg {text-align: right; margin-bottom: 14px /*50px*/; margin-right: 10px; }
+div.wideContent01 .solidSq .bottomRightImg {position: absolute; bottom: 12px; right: 16px; }
+div.wideContent01 .horizontal1Col .bottomImg {width: 380px; margin-top: 10px; }
+div.wideContent01 .horizontal1Col .bottomImg p {float: right; clear: left; padding-top: 5px; }
+div.wideContent01 .horizontal1Col .bottomImg p a {text-decoration: underline; }
+div.wideContent01 .horizontal1Col .bottomImg p a:hover {text-decoration: none; }
+div.wideContent01 .horizontal1Col .bottomImg input {float: right; clear: left; margin-left: 12px; }
+.wideContent01 .checkBoxNarrow p {margin: 5px 0 0 1px; }
+.wideContent01 .checkBoxNarrow .input01, .wideContent01 .checkBoxNarrow .input02 {width: 130px; }
+.wideContent01 .checkBoxNarrow .input03 {width: auto; margin-left: -5px; }
+.wideContent01 .checkBoxNarrow label {margin: 6px 0 0 5px; display: inline-block; }
+.wideContent01 .checkBoxNarrow .input02 input {float: left; clear: right; }
+.wideContent01 .checkBoxNarrow .input02 {padding-left: 3px; }
+.wideContent01 .checkBoxNarrow .input03 * {float: right; display: inline-block; margin-right: 6px; }
+.wideContent01 .colBlocks {width: 232px; min-height: 150px; float: left; clear: right; margin: 34px 0 16px 0; }
+.wideContent01 .marginRight {margin-right: 20px; }
+.wideContent01 .colBlocks img {margin-bottom: 7px; border: 0; }
+.wideContent01 .colBlocks a {outline: none; }
+.wideContent01 h2 a {padding-left: 16px; color: #333; background: url(/images/static/blue-arrow-on-white.gif) no-repeat left center; }
+.wideContent01 h2 a:hover {text-decoration: none; color: #4c689f; }
+.wideContent01 .colBlocks p {font-size: 110%; font-weight: bold; }
+.wideContent01 .narrowHeading {float: left; clear: right; width: 485px; }
+.wideContent01 .smallDealerMap {float: right; width: 240px; height: 138px; padding-right: 30px; }
+.wideContent01 .smallDealerMap img {float: right; border: 0; }
+.wideContent01 .localDealerMap {
+    position: relative; 
+    float: right; 
+    background: url(/images/static/find-local-dealer-bg.gif) no-repeat left top;
+    width: 193px; 
+    height: 137px; 
+    margin-right: 30px; 
+    text-transform: uppercase; 
+    display: block;
+}
+.wideContent01 .localDealerMap span.title {
+    font-size: 1.0em; 
+    color: #fff; 
+    text-align: center; 
+    padding: 9px 0 0 0; 
+    margin: 0; 
+    display: block;
+}
+.wideContent01 div.toolTipsAnswer {position: absolute; /*left: 390px; top: 950px;*/ z-index: 100; width: 196px; min-height: 96px; }
+.wideContent01 div.top, 
+.wideContent01 div.base, 
+.wideContent01 div.center {height: 3px; width: 196px; background-repeat: no-repeat; background-position: 0 0; float: left; clear: left; }
+.wideContent01 div.center {height: auto; background-repeat: repeat-y; } 
+.wideContent01 div.top {background-image: url(/images/static/toolTips-top.png); }
+.wideContent01 div.base {background-image: url(/images/static/toolTips-base.png); background-position: left bottom; }
+.wideContent01 div.center {background-image: url(/images/static/toolTips-center.png); }
+.wideContent01 div.innerTxt {/*position: relative; top: 3px; left: 3px; */margin-left: 3px; width: 190px; min-height: 90px; background-color: #4c689f; float: left; clear: left; }
+.wideContent01 div.innerTxt p {font-size: 110%; color: #fff; padding: 8px; margin-left: 0; }
+.wideContent01 div.tipBox {width: 196px; min-height: 96px; }
+.wideContent01 div.tipBox strong {font-size: 150%; }
+.wideContent01 div.tipBox p.strong {margin: 5px 0 -10px 0; }
+.wideContent01 .motorcyclesIntroText div.tipBox {float: right; clear: left; margin-bottom: 10px; }
+* html .wideContent01 div.toolTipsAnswer * {background-image: none; }/*ie6. No png support*/
+#header .headerPops {margin: 6px 0 0 0; width: 90%; height: 27px; float: right; }
+#header .headerPops li {float: right; clear: left; list-style: none; height: 27px; }
+#header .headerPops li a {display: inline-block; }
+#headerSignIns li#signIn {background: url() no-repeat 0 0; width: 79px; height: 27px; }
+#headerSignIns li.signInOver, #headerSignIns li.signInOn {background-image: url() !important; width: 76px !important; margin-right: 3px !important; }
+#headerSignIns li.signInOn a {outline: none; }
+#headerSignIns li#signIn:hover, #headerSignIns li#signIn a:hover {outline: none; }
+#headerSignIns li#signIn a {width: 79px; height: 21px; }
+#headerSignIns li#register {background: url() no-repeat 0 0; width: 90px; height: 27px; }
+#headerSignIns li.registerOver {background-image: url() !important; }
+#headerSignIns li#register a {width: 90px; height: 21px; }
+#headerLoggedIn li#welcomeBack, #headerLoggedIn li span {height: 27px; } 
+#headerLoggedIn li#welcomeBack span.imgLabel {background: url() no-repeat 0 0; display: inline-block; width: 96px; float: left; }
+#headerLoggedIn li#welcomeBack span.name {display: inline-block; text-align: left; background: url(/images/static/header-welcome-back-shim.jpg) repeat-x 0 0; font-size: 10px; text-transform: uppercase; padding: 3px 0 0 3px; color: #607bb1/*#4c689f*/; font-weight: bold; }
+#headerLoggedIn li#welcomeBack span.endCap {display: inline-block; padding-right: 13px; background: url(/images/static/header-welcome-back-right.jpg) no-repeat top right; }
+#headerLoggedIn li#logOut {background: url() no-repeat 0 0; width: 90px; height: 27px; }
+#headerLoggedIn li#logOut a {width: 90px; height: 21px; }
+#headerLoggedIn li.logOutOver {background-image: url() !important; }
+/* ---------------------- HeaderSignIn ------------------------*/
+.headerPopForm {position: absolute; width: 236px; z-index: 999; padding: 3px 12px 12px 12px; text-align: left; overflow: hidden; }
+#header #headerSignInForm {top: 27px; right: 5px; }
+#header #headerLoggedOutForm {top: 48px; right: 6px; }
+#header .headerPopForm {background: transparent url(/images/static/white-overlay-95.png); }
+*html #header .headerPopForm {background-image: none; background-color: #fff; }/*ie6*/
+#header .headerPopForm .close a {background: transparent url(/images/static/newsletter-close.gif) right 1px no-repeat; }
+#header .headerPopForm .form .inner {background: transparent url(/images/static/header-form-blue.png) bottom left; }
+*html #header .headerPopForm .form .inner {background: transparent url(undefined.gif?header-form-bluet.gif) bottom left; }/*ie6*/
+#header .headerPops, /*...hidding .headerPops with CSS resolves slow DOM loading issue*/
+#header #headerSignInForm, 
+#header #headerLoggedOutForm {display: none; }
+#header #search {height: 18px; }
+#header .headerPopForm .close a {float:right; padding:1px 15px 0 0; width:35px; text-transform: uppercase; color:#333; margin-right: -8px; }
+#header .headerPopForm .close a:hover {color:#4d6ba0; }
+#header .headerPopForm h2 {padding:5px 0 3px 0; font-size:1.4em; font-weight:normal; color:#333; text-transform:uppercase; }
+#header .headerPopForm .form {margin:0 0 3px 0; }
+#header .headerPopForm .form form {padding: 0; margin: 0; }
+#header .headerPopForm .form .inner {padding:6px 6px 6px 12px; width:218px; overflow:hidden; }
+#header .headerPopForm .form .inner ul {margin:0; }
+#header .headerPopForm .form .inner ul li {list-style-type:none; }
+#header .headerPopForm .form .inner ul li label {float:left; height: 14px; margin-top: 1px; padding: 4px 0 0 6px; width:70px; color:#fff; font-size:0.9em;     background-color: #4c689f; }
+#header .headerPopForm .form .inner ul li label.error {
+    color: #aa0000;
+    padding: 0px 0 5px 76px;
+    width: 134px;
+}
+#header .headerPopForm .form .inner ul li input {float:left; padding:2px 3px; width:129px; color:#999; border:#d9d9d9 1px solid; }
+#header .headerPopForm .form .inner ul li.btn input {margin:3px 6px 0 0; padding:0; width:64px; height:18px; border:none; float:right; }
+/* login-sm-off */
+#header .headerPopForm p {color:#333333; font-size:0.95em; padding:0 12px 0 2px; }
+#header .headerPopForm #inlinePassword, 
+#header .headerPopForm #inlineCheckbox {display: inline-block; height: 15px; padding-top: 4px; }
+#header .headerPopForm #inlinePassword {float: left; width: 100px; }
+#header .headerPopForm #inlineCheckbox {width: 110px; margin-right: 6px; /*float: right;  re: ie*/}
+#header .headerPopForm #inlineCheckbox input {width: auto; margin-top: 0; float: right; }
+#header .headerPopForm #inlineCheckbox label {background-color: transparent; float: right; height: auto; width: auto; padding: 0; color: #333; } 
+/* ********* For Login Form *************** */
+.standardForm .rememberMe {
+    text-align: right; 
+    width: 354px;
+    margin: 5px 0;
+}
+.standardForm .rememberMe .rememberMeLabel {
+    float: right; 
+    padding-top: 4px;
+}
+.standardForm .rememberMe .rememberMeCheck {
+    float: right; 
+    padding-right: 5px;
+}
+.standardForm .rememberMe label {
+    font-size: 1.1em;
+}
+.standardForm .siForm {
+    width: 355px;
+}
+.standardForm .siForm .siForgot {
+    float: left; 
+    width: 150px;
+}
+.standardForm .siForm .siInput {
+    float: right; 
+}
+/* ********* error styles start *********** */
+.wideContent01 .standardForm label.error {background-image: none; }
+.wideContent01 .standardForm label.error {width: auto; color: #ab0245; font-weight: normal; float: left; clear: left; padding-left: 8px; }
+@media screen and (-webkit-min-device-pixel-ratio:0) {/*if chrome/safari: maintains pg layout with error labels + floating cols for overlong labels*/
+.wideContent01 .standardForm .vertical2Col .input {margin-bottom: 2px; }
+.wideContent01 .standardForm .vertical2Col .input + label.error {clear: right; }
+}
+.wideContent01 .standardForm .checkBoxes label.error {position: relative; top: -18px; left: 172px; }
+.wideContent01 .standardForm span.requiredSpan {color: #ab0245; float: left; clear: right; }
+.wideContent01 .standardForm label.requiredFollow {float: left; display: inline-block; }
+.wideContent01 .standardForm div.requiredLabel, 
+.wideContent01 .standardForm div.requiredLabel2 {background-color: #ab0245 !important; color: #fff; }
+.wideContent01 .standardForm div.requiredTxt label {background-color: #ab0245; color: #fff; padding: 2px 5px;}
+.wideContent01 .standardForm .row .input .selector.disabled span { color:#999999; }
+/* ********* error styles end *********** */
+/* Re triumph.css: removed 'form' from the selecters starting with .standardForm, as here: */
+.standardForm .row {margin-bottom: 2px;}
+.standardForm .row .label {float: left; width: 100px;}
+.standardForm .row .input {float: left; font-size: 1.1em; height: 21px; }
+.standardForm .row .input span {float: right; margin-right: 0; padding-left: 5px; }
+.standardForm .row .input select {width: 172px; height: 19px; font-weight: bold; float: left; }
+/* ends */
+.wideContent01 .hide, 
+.headerPops .hide {position: absolute; top: -3000px; left: -3000px; }
+div.emptyFooter div.inner div.list {min-height: 45px !important; }
+div.emptyFooter .inner #languageSelection {background-image: none !important; }
+.wideContent01 + #footerTop .inner #socialMediaLinks {position: relative !important; bottom: 5px !important; right: -750px !important; }
+.clearfix:after, .standardForm:after, .horizontal2Col:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix, .standardForm, .horizontal2Col {display: block; }/*display: inline-block*/
+html[xmlns] .clearfix, html[xmlns] .standardForm, html[xmlns] .horizontal2Col {display: block; } 
+* html .clearfix, * html .standardForm, * html .horizontal2Col {height: 1%; }
+#ratRow, #magazineRow { height: 20px; }
+#magazineRow input { margin-top: 0; }
+#magazineRow label { margin-top: 3px; }
+newsletterSignUp .checkBoxWide div.input {
+     margin-right: 15px;
+}
+ 
+#newsletterCheckboxSection div.row p { padding-bottom: 0; }
+#newsletterCheckboxSection  .checkBoxWide label { font-size: 0.9em; color: #333; }
+
+/* ================ END - key-forms.css ================ */

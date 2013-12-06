@@ -1,0 +1,50 @@
+﻿/* ================== START - js-enabled.css ================== 
+js-enabled.css
+revision 86
+-------------------------------------*/
+
+/* ---------------------- INTRO AREA ------------------------*/
+#introArea ul#nav
+{
+    float:left;
+    display:block;
+    margin:6px 0 0 0;
+}
+#introArea ul#nav li
+{
+    float:left;
+    padding:0 6px 0 8px;
+    list-style-type:none;
+}
+#introArea ul#nav li.first
+{
+    padding:0 6px 0 0;
+    background:none;
+}
+#introArea ul#nav li a
+{
+    color:#d9d9d9;
+}
+#introArea ul#nav li a:hover
+{
+    color:#7b879a;
+}
+#introArea ul#nav li.active a
+{
+    color:#a0b0c8;
+}
+/* ---------------------- FOOTER (TOP) ------------------------*/
+#footerTop .inner #languageSelection .flag
+{
+    cursor:pointer;
+}
+/* ---------------------- MOTORCYCLE SECTION ------------------------*/
+#motorcycleOverviewGallery .thumbs,
+#motorcycleCarouselOverviewContainer #motorcycleCarousel #prev,
+#motorcycleCarouselOverviewContainer #motorcycleCarousel #next
+{
+    display: block;
+}
+ 
+
+/* ================== END - js-enabled.css ================== */

@@ -3,6 +3,8 @@
         	<tr>
            		<td rowspan="5" id="caracteristicas"> 
                 	<h2> CARACTERISTICAS </h2>	
+                    Sigue siendo una Bonneville con su característico motor bicilíndrico en paralelo de 865 cc, inyección electrónica y suave empuje. Hemos añadido algunos toques como los escapes de estilo "peashooter", las tapas de motor cromadas, la carcasa del panel de instrumentos en color negro con cuentavueltas, el logotipo de Triumph en el asiento, la pintura en dos tonos, las ruedas de radios y los fuelles en la horquilla.
+<br><br>Conserva la apariencia, el sonido y las sensaciones imprescindibles en una moto genuina y te pone en contacto con más de 50 años de tradición, pero cuenta con todos los avances de la ingeniería moderna.
                 </td>
             	<td class="foto"><img src="img/marcas/triumph/bonnevillet100/motor100x100.jpg" alt="bonevilleT100 motor"/></td>
                 <td>
