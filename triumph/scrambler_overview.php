@@ -10,16 +10,18 @@
             </h1>
             
             <p>
-            	Nuevo modelo. Nuevas sensaciones.
-				La moto definitiva para el aficionado a los grandes viajes. 
-                Manejo preciso. El viaje no termina cuando acaba la carretera. 
-				Nuevo motor de 1215cc, con cardan, por supuesto. 
-				Una Triumph para conquistar el mundo. 
+            	En los años 60, lejos de la civilización y las carreteras asfaltadas, en el desierto, se utilizaban motos basadas en las Triumph bicilíndricas, despojadas de todo lo innecesario, con escapes altos y suspensiones y neumáticos para tierra, con la idea de competir y pasar un buen rato por terrenos accidentados. 
+            </p>
+            
+            </br>
+            
+            <p>
+            	La Scrambler está inspirada en aquellas motos. Hemos construido la Scrambler de forma que evoque ese espíritu de libertad y evasión de una época despreocupada en la que lo único importante eran una moto y un destino de viaje. 
             </p>
             
             <div class="botones">
             	<a id="ficha_tecnica" href="triumph/scrambler.pdf"> </a>
-                <a id="consulte" href="contacto/index.php?imail=ventas@hiltonmotors.com.uy&amp;asunto=Contacto para Hilton Motors Co."> </a> 
+                <a id="consulte" rel="facebox" href="contacto/index.php?imail=ventas@hiltonmotors.com.uy&amp;asunto=Contacto para Hilton Motors Co."> </a> 
             </div>
             
         </div> <!-- /rightbox -->

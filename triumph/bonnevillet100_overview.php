@@ -10,16 +10,18 @@
             </h1>
             
             <p>
-            	Nuevo modelo. Nuevas sensaciones.
-				La moto definitiva para el aficionado a los grandes viajes. 
-                Manejo preciso. El viaje no termina cuando acaba la carretera. 
-				Nuevo motor de 1215cc, con cardan, por supuesto. 
-				Una Triumph para conquistar el mundo. 
+            	Sigue siendo una Bonneville con su característico motor bicilíndrico en paralelo de 865 cc, inyección electrónica y suave empuje. Hemos añadido algunos toques como los escapes de estilo "peashooter", las tapas de motor cromadas, la carcasa del panel de instrumentos en color negro con cuentavueltas, el logotipo de Triumph en el asiento, la pintura en dos tonos, las ruedas de radios y los fuelles en la horquilla.
+            </p>
+            
+            </br>
+            
+            <p>
+            	Conserva la apariencia, el sonido y las sensaciones imprescindibles en una moto genuina y te pone en contacto con más de 50 años de tradición, pero cuenta con todos los avances de la ingeniería moderna. 
             </p>
             
             <div class="botones">
             	<a id="ficha_tecnica" href="triumph/bonneville.pdf"> </a>
-                <a id="consulte" href="contacto/index.php?imail=ventas@hiltonmotors.com.uy&amp;asunto=Contacto para Hilton Motors Co."> </a> 
+                <a id="consulte" rel="facebox" href="contacto/index.php?imail=ventas@hiltonmotors.com.uy&amp;asunto=Contacto para Hilton Motors Co."> </a> 
             </div>
             
         </div> <!-- /rightbox -->

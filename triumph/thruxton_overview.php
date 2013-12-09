@@ -11,16 +11,13 @@
             </h1>
             
             <p>
-            	Nuevo modelo. Nuevas sensaciones.
-				La moto definitiva para el aficionado a los grandes viajes. 
-                Manejo preciso. El viaje no termina cuando acaba la carretera. 
-				Nuevo motor de 1215cc, con cardan, por supuesto. 
-				Una Triumph para conquistar el mundo. 
+            	La Thruxton nace de la cultura café racer que dominó el motociclismo en los años 60.
+				En aquella época se utilizaban motores bicilíndricos ingleses, generalmente el de una Bonneville, como base de máquinas hechas por y 				para uno mismo.Utilizadas para correr de un café a otro, estaban muy modificadas con elementos tales como asiento monoplaza, manillares bajos y escapes hacia arriba. Y al igual que las café racer de aquella época, la Thruxton moderna está basada en la Bonneville, pero nuestros ingenieros se han encargado de que se conduzca como una Triumph bicilíndrica moderna. Es tan fiable como para ser utilizada en el día a día, fácil y divertida de manejar, pero evocando aquel estilo clásico de las café racer. 
             </p>
             
             <div class="botones">
             	<a id="ficha_tecnica" href="triumph/thruxton.pdf"> </a>
-                <a id="consulte" href="contacto/index.php?imail=ventas@hiltonmotors.com.uy&amp;asunto=Contacto para Hilton Motors Co."> </a> 
+                <a id="consulte" rel="facebox" href="contacto/index.php?imail=ventas@hiltonmotors.com.uy&amp;asunto=Contacto para Hilton Motors Co."> </a> 
             </div>
             
         </div> <!-- /rightbox -->

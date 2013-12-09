@@ -10,16 +10,26 @@
             </h1>
             
             <p>
-            	Nuevo modelo. Nuevas sensaciones.
-				La moto definitiva para el aficionado a los grandes viajes. 
-                Manejo preciso. El viaje no termina cuando acaba la carretera. 
-				Nuevo motor de 1215cc, con cardan, por supuesto. 
-				Una Triumph para conquistar el mundo. 
+            	Todos los elementos básicos han demostrado con creces su valía en la Tiger Explorer, como el motor tricilíndrico de 1.215 cc y su amplia entrega de fuerza, la transmisión a cardán y la gran autonomía. También cuenta con una manejabilidad única en su género y una auténtica capacidad off-road. 
             </p>
+            
+            </br>
+            
+              <p>
+            	El piloto sigue contando con las sofisticadas ayudas a la conducción, como el ABS desconectable, el control de tracción y el control de la velocidad de crucero. 
+            </p>
+            
+            </br>
+            
+              <p>
+            	Además cuenta con unas exclusivas llantas de radios para una mejorar la capacidad off-road y otros elementos como cubre-cárter, luces de niebla y defensas de manos que harán más llevadera tu aventura. 
+            </p>
+            
+            
             
             <div class="botones">
             	<a id="ficha_tecnica" href="triumph/tigerexp.pdf"> </a>
-                <a id="consulte" href="contacto/index.php?imail=ventas@hiltonmotors.com.uy&amp;asunto=Contacto para Hilton Motors Co."> </a> 
+                <a id="consulte" rel="facebox" href="contacto/index.php?imail=ventas@hiltonmotors.com.uy&amp;asunto=Contacto para Hilton Motors Co."> </a> 
             </div>
             
         </div> <!-- /rightbox -->

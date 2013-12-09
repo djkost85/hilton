@@ -9,16 +9,16 @@
             </h1>
             
             <p>
-            	Nuevo modelo. Nuevas sensaciones.
-				La moto definitiva para el aficionado a los grandes viajes. 
-                Manejo preciso. El viaje no termina cuando acaba la carretera. 
-				Nuevo motor de 1215cc, con cardan, por supuesto. 
-				Una Triumph para conquistar el mundo. 
+            	El nombre más famoso del motociclismo. Bonneville es sinónimo de libertad, carreteras despejadas, independencia y una de las motos con más estilo jamás.
+            </p>
+            </br>
+            <p>
+            La Bonnie sigue ofreciendo la apariencia, el sonido y las sensaciones imprescindibles en una moto genuina y te pone en contacto con más de 50 años de tradición, pero está construida con todos los avances que aporta la ingeniería moderna.             
             </p>
             
             <div class="botones">
             	<a id="ficha_tecnica" href="triumph/bonneville.pdf"> </a>
-                <a id="consulte" href="contacto/index.php?imail=ventas@hiltonmotors.com.uy&amp;asunto=Contacto para Hilton Motors Co."> </a> 
+                <a id="consulte" rel="facebox" href="contacto/index.php?imail=ventas@hiltonmotors.com.uy&amp;asunto=Contacto para Hilton Motors Co."> </a> 
             </div>
             
         </div> <!-- /rightbox -->
