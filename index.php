@@ -1,7 +1,9 @@
 <?php 
 include("admin/conectarse.php");
 $link=Conectarse();
-$mod = $_REQUEST['mod'];
+if(isset($_REQUEST['mod'])){
+  $mod = $_REQUEST['mod'];}
+else{$mod="";}
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -32,11 +34,11 @@ $mod = $_REQUEST['mod'];
 </script>
 <script type="text/javascript"> 
 // link for shortcut icon
-HtmlLink hlinkIcon = new HtmlLink();
-hlinkIcon.Attributes.Add("href", this.ResolveUrl("~/favicon.ico"));
-hlinkIcon.Attributes.Add("rel", "SHORTCUT ICON");
-hlinkIcon.Attributes.Add("ID", @"LinkIcon1");
-this.Header.Controls.Add(hlinkIcon);
+//HtmlLink hlinkIcon = new HtmlLink();
+//hlinkIcon.Attributes.Add("href", this.ResolveUrl("~/favicon.ico"));
+//hlinkIcon.Attributes.Add("rel", "SHORTCUT ICON");
+//hlinkIcon.Attributes.Add("ID", @"LinkIcon1");
+//this.Header.Controls.Add(hlinkIcon);
 </script>
 
 <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -83,6 +85,7 @@ document.getElementById('bannerflotante').style.display = 'none'
 <div id="contenedor">
   <div id="menuSuperiorInicio"><a href="?mod=principal">Inicio</a>
     <?php if ($mod=="") { echo ""; }?>
+    <?php if ($mod=="bmw") { echo " / Bmw"; }?>
     <?php if ($mod=="triumph") { echo " / Triumph"; }?>
     <?php if ($mod=="nissan") { echo " / Nissan"; }?>
     <?php if ($mod=="ducati") { echo " / Ducati"; }?>
@@ -128,7 +131,7 @@ document.getElementById('bannerflotante').style.display = 'none'
 		}
 	 }
   ?>
-  <div id="pieMenu"><a href="?mod=acercadenosotros">Sobre nosotros</a><img src="img/transparente.gif" alt="separador" width="30" height="10" /> |<img src="img/transparente.gif" alt="separador" width="30" height="10" /> <a href="?mod=triumph">TRIUMPH</a> <img src="img/transparente.gif" alt="separador" width="30" height="10" />|<img src="img/transparente.gif" alt="separador" width="30" height="10" /> <a href="?mod=nissan">Nissan</a><img src="img/transparente.gif" alt="separador" width="30" height="10" />|<img src="img/transparente.gif" alt="separador" width="30" height="10" /> <a href="?mod=ducati">Ducati</a><img src="img/transparente.gif" alt="separador" width="30" height="10" />|<img src="img/transparente.gif" alt="separador" width="30" height="10" /> <a href="?mod=usados">Usados seleccionados</a></div>
+  <div id="pieMenu"><a href="?mod=acercadenosotros">Sobre nosotros</a><img src="img/transparente.gif" alt="separador" width="30" height="10" /> |<img src="img/transparente.gif" alt="separador" width="30" height="10" /> <a href="?mod=triumph">Triumph</a> <img src="img/transparente.gif" alt="separador" width="30" height="10" />|<img src="img/transparente.gif" alt="separador" width="30" height="10" /> <a href="?mod=nissan">Nissan</a><img src="img/transparente.gif" alt="separador" width="30" height="10" />|<img src="img/transparente.gif" alt="separador" width="30" height="10" /> <a href="?mod=ducati">Ducati</a><img src="img/transparente.gif" alt="separador" width="30" height="10" />|<img src="img/transparente.gif" alt="separador" width="30" height="10" /> <a href="?mod=usados">Usados seleccionados</a></div>
 </div>
 <div id="pie">
   <div align="center"><a href="index.php"><img src="img/logo.png" vspace="18" border="0" /></a><br />

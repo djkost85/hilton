@@ -1,5 +1,13 @@
 <script type="text/javascript" src="slimbox/js/slimbox2.js"></script>
-   
+<script src="../facebox/facebox.js" type="text/javascript"></script>
+<script type="text/javascript"> 
+    jQuery(document).ready(function($) {
+      $('a[rel*=contacto]').facebox({
+        loadingImage : 'facebox/loading.gif',
+        closeImage   : 'facebox/closelabel.png'
+      })
+    })
+</script>   
     	<div id="left_box">
         	<img src="img/marcas/triumph/tiger800/tiger800.jpg" width="100%" />
         </div>
@@ -29,7 +37,7 @@
             
             <div class="botones">
             	<a id="ficha_tecnica" href="triumph/tiger800.pdf"> </a>
-                <a id="consulte" rel="facebox" href="contacto/index.php?imail=ventas@hiltonmotors.com.uy&asunto=Contacto para Hilton Motors Co."> </a> 
+                <a id="consulte" rel="contacto" href="contacto/index.php?imail=ventas@hiltonmotors.com.uy&asunto=Contacto para Hilton Motors Co."> </a> 
             </div>
             
         </div> <!-- /rightbox -->

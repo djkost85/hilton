@@ -22,7 +22,7 @@
             
             <tr>
                 <td class="foto">
-                	<a href="img/marcas/triumph/bonneville/chasis_lb.jpg" rel="lightbox-">
+                	<a href="img/marcas/triumph/bonneville/chasis_lb.jpg" rel="lightbox-" >
                 		<img src="img/marcas/triumph/bonneville/chasis.jpg" alt="bonneville chasis"/>
                 	</a>
                 </td>
@@ -35,7 +35,7 @@
             
             <tr>
                 <td class="foto">
-                	<a href="img/marcas/triumph/bonneville/frenos_lb.jpg" rel="lightbox-">
+                	<a href="img/marcas/triumph/bonneville/frenos_lb.jpg" rel="lightbox-" >
                     	<img src="img/marcas/triumph/bonneville/frenos.jpg" alt="bonneville frenos"/>
                     </a>
                 </td>
