@@ -14,4 +14,14 @@ $('.triumph_menu ul li a').click(function(e){
 	
 	})
 
+
+modelos = ['bonneville','bonnevillet100','scrambler','thruxton','tiger800','tigerexplorerxc'];
+
+
+url = window.location.toString();
+
+quienCargo= modelos[url[url.length-1]]+'_overview.php';
+
+	$('.triumph_content').load('triumph/'+quienCargo, function(){$('.triumph_content').slideDown('400');});
+
 }

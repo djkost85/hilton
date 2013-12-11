@@ -8,6 +8,6 @@
    
     <div class="triumph_content">
     
-    <?php include('tiger800_overview.php')?>
+    <?php include('tiger800_overview.php');?>
     
     </div> <!-- /content -->

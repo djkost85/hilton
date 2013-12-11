@@ -8,6 +8,6 @@
    
     <div class="triumph_content">
     
-    <?php include('bonnevillet100_overview.php')?>
+    <?php include('bonnevillet100_overview.php');?>
     
     </div> <!-- /content -->

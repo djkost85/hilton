@@ -8,6 +8,6 @@
    
     <div class="triumph_content">
     
-    <?php include('scrambler_overview.php')?>
+    <?php include('scrambler_overview.php'); ?>
     
     </div> <!-- /content -->

@@ -9,6 +9,6 @@
    
     <div class="triumph_content">
     
-    <?php include('thruxton_overview.php')?>
+    <?php include('thruxton_overview.php');?>
     
     </div> <!-- /content -->

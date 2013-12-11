@@ -9,6 +9,6 @@
    
     <div class="triumph_content">
     
-    <?php include('tigerexplorerxc_overview.php')?>
+    <?php include('tigerexplorerxc_overview.php'); ?>
     
     </div> <!-- /content -->
